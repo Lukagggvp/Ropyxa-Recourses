@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	 "layer0": "roprer:item/raw_tin"
+  }
+}

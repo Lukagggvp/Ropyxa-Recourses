@@ -1,5 +1,8 @@
 package net.ropyxa.roprer;
 
+import net.minecraft.world.item.CreativeModeTabs;
+import net.ropyxa.roprer.block.RerMaterialsBlocks;
+import net.ropyxa.roprer.item.RerMaterials;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -17,44 +20,43 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(RopRer.MOD_ID)
-public class RopRer
-{
-    public static final String MOD_ID = "roprer";
-    private static final Logger LOGGER = LogUtils.getLogger();
+public class RopRer {
+	 public static final String MOD_ID = "roprer";
+	 private static final Logger LOGGER = LogUtils.getLogger();
 
-    public RopRer(IEventBus modEventBus, ModContainer modContainer)
-    {
-        modEventBus.addListener(this::commonSetup);
-        NeoForge.EVENT_BUS.register(this);
+	 public RopRer(IEventBus modEventBus, ModContainer modContainer) {
+		  modEventBus.addListener(this::commonSetup);
+		  NeoForge.EVENT_BUS.register(this);
 
-        // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
+		  RerMaterials.register(modEventBus);
+		  RerMaterialsBlocks.register(modEventBus);
 
-        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-    }
+		  modEventBus.addListener(this::addCreative);
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
-    }
+		  modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+	 }
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-    }
+	 private void commonSetup(final FMLCommonSetupEvent event) {
+	 }
 
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
-    }
+	 private void addCreative(BuildCreativeModeTabContentsEvent event) {
+		  if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+				event.accept(RerMaterials.TIN_INGOT);
+				event.accept(RerMaterials.RAW_TIN);
+				event.accept((RerMaterialsBlocks.TIN_BLOCK));
+				event.accept((RerMaterialsBlocks.RAW_TIN_BLOCK));
+		  }
+	 }
 
-    @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-        }
-    }
+	 @SubscribeEvent
+	 public void onServerStarting(ServerStartingEvent event) {
+	 }
+
+	 @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	 public static class ClientModEvents {
+		  @SubscribeEvent
+		  public static void onClientSetup(FMLClientSetupEvent event) {
+		  }
+	 }
 }
