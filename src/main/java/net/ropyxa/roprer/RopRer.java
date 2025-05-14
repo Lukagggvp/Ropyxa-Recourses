@@ -1,8 +1,8 @@
 package net.ropyxa.roprer;
 
-import net.minecraft.world.item.CreativeModeTabs;
 import net.ropyxa.roprer.block.RerMaterialsBlocks;
 import net.ropyxa.roprer.item.RerMaterials;
+import net.ropyxa.roprer.misc.RerCrativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -17,7 +17,6 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 @Mod(RopRer.MOD_ID)
@@ -29,24 +28,15 @@ public class RopRer {
 		  modEventBus.addListener(this::commonSetup);
 		  NeoForge.EVENT_BUS.register(this);
 
+
+		  RerCrativeModeTabs.register(modEventBus);
 		  RerMaterials.register(modEventBus);
 		  RerMaterialsBlocks.register(modEventBus);
-
-		  modEventBus.addListener(this::addCreative);
 
 		  modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 	 }
 
 	 private void commonSetup(final FMLCommonSetupEvent event) {
-	 }
-
-	 private void addCreative(BuildCreativeModeTabContentsEvent event) {
-		  if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-				event.accept(RerMaterials.TIN_INGOT);
-				event.accept(RerMaterials.RAW_TIN);
-				event.accept((RerMaterialsBlocks.TIN_BLOCK));
-				event.accept((RerMaterialsBlocks.RAW_TIN_BLOCK));
-		  }
 	 }
 
 	 @SubscribeEvent

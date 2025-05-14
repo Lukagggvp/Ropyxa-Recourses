@@ -24,6 +24,21 @@ public class RerMaterialsBlocks {
 				() -> new Block(BlockBehaviour.Properties
 						  .ofFullCopy(Blocks.RAW_IRON_BLOCK)));
 
+	 public static final DeferredBlock<Block> TIN_ORE = registerBlock("tin_ore",
+				() -> new Block(BlockBehaviour.Properties
+						  .ofFullCopy(Blocks.IRON_ORE)));
+
+	 public static final DeferredBlock<Block> NETHERRACK_TIN_ORE = registerBlock("netherrack_tin_ore",
+				() -> new Block(BlockBehaviour.Properties
+						  .ofFullCopy(Blocks.IRON_ORE)));
+
+	 public static final DeferredBlock<Block> END_STONE_TIN_ORE = registerBlock("end_stone_tin_ore",
+				() -> new Block(BlockBehaviour.Properties
+						  .ofFullCopy(Blocks.IRON_ORE)));
+
+	 public static final DeferredBlock<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
+				() -> new Block(BlockBehaviour.Properties
+						  .ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)));
 
 
 	 private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

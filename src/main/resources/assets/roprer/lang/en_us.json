@@ -2,9 +2,12 @@
   "item.roprer.tin_ingot": "Tin Ingot",
   "item.roprer.raw_tin": "Raw Tin",
 
-
-
-
   "block.roprer.tin_block": "Tin Block",
-  "block.roprer.raw_tin_block": "Raw Tin Block"
+  "block.roprer.raw_tin_block": "Raw Tin Block",
+  "block.roprer.tin_ore": "Tin Ore",
+  "block.roprer.netherrack_tin_ore": "Netherrack Tin Ore",
+  "block.roprer.end_stone_tin_ore": "End Stone Tin Ore",
+  "block.roprer.deepslate_tin_ore": "Deepslate Tin Ore",
+
+  "creativetab.rer_materials_tab": "Ropyxa Recourses: Природные ресурсы"
 }
