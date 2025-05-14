@@ -1,9 +1,7 @@
 {
   "item.roprer.tin_ingot": "Оловянный слиток",
   "item.roprer.raw_tin": "Рудное олово",
-
-
-
+  "item.roprer.tin_nugget": "Оловянный самородок",
 
   "block.roprer.tin_block": "Оловянный блок",
   "block.roprer.raw_tin_block": "Блок рудного олова",
@@ -12,5 +10,5 @@
   "block.roprer.end_stone_tin_ore": "Оловянная руда края",
   "block.roprer.deepslate_tin_ore": "Оловянноносный глубинный сланец",
 
-  "creativetab.rer_materials_tab": "Ropyxa Recourses"
+  "creativetab.rer_materials_tab": "Ropyxa Recourses: Металлы"
 }

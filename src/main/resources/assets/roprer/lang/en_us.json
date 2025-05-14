@@ -1,6 +1,7 @@
 {
   "item.roprer.tin_ingot": "Tin Ingot",
   "item.roprer.raw_tin": "Raw Tin",
+  "item.roprer.tin_nugget": "Tin Ingot",
 
   "block.roprer.tin_block": "Tin Block",
   "block.roprer.raw_tin_block": "Raw Tin Block",
@@ -9,5 +10,5 @@
   "block.roprer.end_stone_tin_ore": "End Stone Tin Ore",
   "block.roprer.deepslate_tin_ore": "Deepslate Tin Ore",
 
-  "creativetab.rer_materials_tab": "Ropyxa Recourses: Природные ресурсы"
+  "creativetab.rer_materials_tab": "Ropyxa Recourses: Nature recourses"
 }

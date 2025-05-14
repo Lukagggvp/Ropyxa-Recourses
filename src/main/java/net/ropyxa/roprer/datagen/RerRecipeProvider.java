@@ -36,7 +36,7 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_INGOT.get(), 9)
 					 .requires(RerMaterialsBlocks.TIN_BLOCK)
 					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
-					 .save(recipeOutput);
+					 .save(recipeOutput, "roprer:tin_ingot_from_block");
 
 		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.RAW_TIN.get(), 9)
 					 .requires(RerMaterialsBlocks.RAW_TIN_BLOCK)
@@ -51,6 +51,16 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.RAW_TIN_BLOCK.get(), 1)
 					 .requires(RerMaterials.RAW_TIN, 9)
 					 .unlockedBy("has_tin", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_INGOT.get())
+					 .requires(RerMaterials.TIN_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput, "roprer:tin_ingot_from_nugger");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_NUGGET.get(), 9)
+					 .requires(RerMaterials.TIN_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
 					 .save(recipeOutput);
 
 		  oreSmelting(recipeOutput, TIN_SMELTABLES, RecipeCategory.MISC, RerMaterials.TIN_INGOT.get(), 0.2f, 200, "tin");

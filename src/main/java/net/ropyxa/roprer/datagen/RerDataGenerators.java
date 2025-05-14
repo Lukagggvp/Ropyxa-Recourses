@@ -41,5 +41,6 @@ public class RerDataGenerators {
 		  generator.addProvider(event.includeClient(), new RerItemModelProvider(packOutput, existingFileHelper));
 		  generator.addProvider(event.includeClient(), new RerBlockStateProvider(packOutput, existingFileHelper));
 
+		  generator.addProvider(event.includeServer(), new RerDatapackProvider(packOutput, lookupProvider));
 	 }
 }

@@ -28,6 +28,7 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.RAW_TIN);
 							  output.accept((RerMaterialsBlocks.TIN_BLOCK));
 							  output.accept(RerMaterials.TIN_INGOT);
+							  output.accept(RerMaterials.TIN_NUGGET);
 						 }).build());
 
 

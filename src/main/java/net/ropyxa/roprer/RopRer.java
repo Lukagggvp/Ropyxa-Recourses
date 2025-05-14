@@ -30,6 +30,8 @@ public class RopRer {
 
 
 		  RerCrativeModeTabs.register(modEventBus);
+
+
 		  RerMaterials.register(modEventBus);
 		  RerMaterialsBlocks.register(modEventBus);
 
