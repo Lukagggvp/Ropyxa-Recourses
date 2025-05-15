@@ -25,14 +25,14 @@ public class RerPlacedFeatures {
 		  var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
 		  register(context, TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.TIN_ORE_KEY),
-					 RerOrePlacement.commonOrePlacement(veinsPerChunkOverworld, HeightRangePlacement.triangle(VerticalAnchor
-								.absolute(minYoverworld), VerticalAnchor.absolute(maxYoverworld))));
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
 		  register(context, NETHERRACK_TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_TIN_ORE_KEY),
-					 RerOrePlacement.commonOrePlacement(veinsPerChunkNether, HeightRangePlacement.uniform(VerticalAnchor
-								.absolute(minYnether), VerticalAnchor.absolute(maxYnether))));
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
 		  register(context, END_STONE_TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_TIN_ORE_KEY),
-					 RerOrePlacement.commonOrePlacement(veinsPerChunkEnd, HeightRangePlacement.uniform(VerticalAnchor
-								.absolute(minYend), VerticalAnchor.absolute(maxYend))));
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
 	 }
 
 	 private static ResourceKey<PlacedFeature> registerKey(String name) {

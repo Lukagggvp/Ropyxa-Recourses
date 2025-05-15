@@ -25,7 +25,7 @@ public class RopRer {
 	 private static final Logger LOGGER = LogUtils.getLogger();
 
 	 public RopRer(IEventBus modEventBus, ModContainer modContainer) {
-		  modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+		  modContainer.registerConfig(ModConfig.Type.STARTUP, Config.SPEC);
 		  NeoForge.EVENT_BUS.register(this);
 
 		  modEventBus.addListener(this::commonSetup);
