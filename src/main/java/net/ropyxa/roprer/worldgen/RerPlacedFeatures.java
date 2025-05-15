@@ -14,6 +14,8 @@ import net.ropyxa.roprer.RopRer;
 
 import java.util.List;
 
+import static net.ropyxa.roprer.Config.*;
+
 public class RerPlacedFeatures {
 	 public static final ResourceKey<PlacedFeature> TIN_ORE_PLACED_KEY = registerKey("tin_ore_placed");
 	 public static final ResourceKey<PlacedFeature> NETHERRACK_TIN_ORE_PLACED_KEY = registerKey("netherrack_tin_ore_placed");
@@ -23,17 +25,14 @@ public class RerPlacedFeatures {
 		  var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
 		  register(context, TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.TIN_ORE_KEY),
-					 RerOrePlacement.commonOrePlacement(12, HeightRangePlacement.triangle(VerticalAnchor
-								.absolute(-64), VerticalAnchor
-								.absolute(320))));
+					 RerOrePlacement.commonOrePlacement(veinsPerChunkOverworld, HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(minYoverworld), VerticalAnchor.absolute(maxYoverworld))));
 		  register(context, NETHERRACK_TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_TIN_ORE_KEY),
-					 RerOrePlacement.commonOrePlacement(6, HeightRangePlacement.uniform(VerticalAnchor
-								.absolute(-64), VerticalAnchor
-								.absolute(80))));
+					 RerOrePlacement.commonOrePlacement(veinsPerChunkNether, HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(minYnether), VerticalAnchor.absolute(maxYnether))));
 		  register(context, END_STONE_TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_TIN_ORE_KEY),
-					 RerOrePlacement.commonOrePlacement(6, HeightRangePlacement.uniform(VerticalAnchor
-								.absolute(-64), VerticalAnchor
-								.absolute(80))));
+					 RerOrePlacement.commonOrePlacement(veinsPerChunkEnd, HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(minYend), VerticalAnchor.absolute(maxYend))));
 	 }
 
 	 private static ResourceKey<PlacedFeature> registerKey(String name) {

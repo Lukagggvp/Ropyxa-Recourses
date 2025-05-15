@@ -25,17 +25,15 @@ public class RopRer {
 	 private static final Logger LOGGER = LogUtils.getLogger();
 
 	 public RopRer(IEventBus modEventBus, ModContainer modContainer) {
-		  modEventBus.addListener(this::commonSetup);
+		  modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 		  NeoForge.EVENT_BUS.register(this);
 
+		  modEventBus.addListener(this::commonSetup);
 
 		  RerCrativeModeTabs.register(modEventBus);
 
-
 		  RerMaterials.register(modEventBus);
 		  RerMaterialsBlocks.register(modEventBus);
-
-		  modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 	 }
 
 	 private void commonSetup(final FMLCommonSetupEvent event) {
