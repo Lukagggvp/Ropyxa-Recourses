@@ -1,5 +1,6 @@
 package net.ropyxa.roprer.item;
 
+import io.netty.util.Attribute;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -17,7 +18,6 @@ public class RerMaterials {
 
 	 public static final DeferredItem<Item> TIN_NUGGET = ITEMS.register("tin_nugget",
 				() -> new Item(new Item.Properties()));
-
 
 	 public static void register(IEventBus eventBus) {
 		  ITEMS.register(eventBus);

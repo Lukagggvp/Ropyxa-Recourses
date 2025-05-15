@@ -10,17 +10,17 @@
   "block.roprer.end_stone_tin_ore": "End Stone Tin Ore",
   "block.roprer.deepslate_tin_ore": "Deepslate Tin Ore",
 
-  "creativetab.rer_materials_tab": "Ropyxa Recourses: Nature recourses",
+  "creativetab.rer_materials_tab": "Ropyxa Recourses: Metals",
 
   "tooltip.roprer.shift_down": "Press §eShift§r for more information",
   "tooltip.roprer.metal_ore": "Mined in triangle between:",
-  "tooltip.roprer.metal_ore_coordinates": "   y§e-64§r and y§e320§r",
-  "tooltip.roprer.stone": "Ore in stone can be found up to y§e±7§r",
+  "tooltip.roprer.metal_ore_coordinates": "   Y§e-64§r and Y§e320§r",
+  "tooltip.roprer.stone": "Ore in stone can be found up to Y§e±7§r",
   "tooltip.roprer.netherrack_metal_ore": "Mined between:",
-  "tooltip.roprer.netherrack_metal_ore_coordinates": "   y§e-64§r and y§e80§r",
+  "tooltip.roprer.netherrack_metal_ore_coordinates": "   Y§e-64§r and Y§e80§r",
   "tooltip.roprer.end_stone_metal_ore": "Mined between:",
-  "tooltip.roprer.end_stone_metal_ore_coordinates": "   y§e-64§r and y§e80§r",
+  "tooltip.roprer.end_stone_metal_ore_coordinates": "   Y§e-64§r and Y§e80§r",
   "tooltip.roprer.deepslate_metal_ore": "Mined in triangle between:",
-  "tooltip.roprer.deepslate_metal_ore_coordinates": "   y§e-64§r and y§e320§r",
-  "tooltip.roprer.deepslate": "Ore in deepslate can be found after y§e±7§r"
+  "tooltip.roprer.deepslate_metal_ore_coordinates": "   Y§e-64§r and Y§e320§r",
+  "tooltip.roprer.deepslate": "Ore in deepslate can be found after Y§e±7§r"
 }
