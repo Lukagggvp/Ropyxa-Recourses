@@ -2,6 +2,7 @@ package net.ropyxa.roprer.misc;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
@@ -29,6 +30,32 @@ public class RerCrativeModeTabs {
 							  output.accept((RerMaterialsBlocks.TIN_BLOCK));
 							  output.accept(RerMaterials.TIN_INGOT);
 							  output.accept(RerMaterials.TIN_NUGGET);
+						 }).build());
+
+	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
+			  () -> CreativeModeTab.builder()
+						 .withTabsBefore(ResourceLocation.fromNamespaceAndPath(RopRer.MOD_ID, "rer_materials_tab"))
+						 .icon(() -> new ItemStack(RerMaterials.TIN_GEAR.get()))
+						 .title(Component.translatable("creativetab.rer_details_tab"))
+						 .displayItems((parameters, output) -> {
+							  output.accept((RerMaterials.TIN_PLATE));
+							  output.accept((RerMaterials.TIN_LARGE_PLATE));
+							  output.accept((RerMaterials.TIN_ROD));
+							  output.accept((RerMaterials.TIN_WIRE));
+							  output.accept((RerMaterials.TIN_GEAR));
+							  output.accept((RerMaterials.TIN_DUST));
+							  output.accept((RerMaterials.TIN_TINY_DUST));
+							  output.accept((RerMaterials.TIN_RING));
+							  output.accept((RerMaterials.TIN_BOLT));
+							  output.accept((RerMaterials.TIN_DOUBLE_INGOT));
+							  output.accept((RerMaterials.TIN_CURVED_PLATE));
+							  output.accept((RerMaterials.CRUSHED_TIN_ORE));
+							  output.accept((RerMaterials.TIN_CHUNK));
+							  output.accept((RerMaterials.TIN_CLUSTER));
+							  output.accept((RerMaterials.TIN_CRYSTAL));
+							  output.accept((RerMaterials.TIN_SHARD));
+							  output.accept((RerMaterials.TIN_CLUMP));
+							  output.accept((RerMaterials.TIN_DIRTY_DUST));
 						 }).build());
 
 

@@ -25,18 +25,63 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 					 RerMaterialsBlocks.END_STONE_TIN_ORE,
 					 RerMaterialsBlocks.DEEPSLATE_TIN_ORE);
 
-		  //ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterialsBlocks.RAW_TIN_BLOCK.get())
-					 //.pattern("AAA")
-					 //.pattern("AAA")
-					 //.pattern("AAA")
-					 //.define('A', RerMaterials.RAW_TIN.get())
-					 //.unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
-					 //.save(recipeOutput);
-
-		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_INGOT.get(), 9)
-					 .requires(RerMaterialsBlocks.TIN_BLOCK)
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.TIN_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.TIN_BOLT.get())
+					 .define('B', RerMaterials.TIN_RING.get())
 					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
-					 .save(recipeOutput, "roprer:tin_ingot_from_block");
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.TIN_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.TIN_ROD.get())
+					 .define('B', RerMaterials.TIN_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.TIN_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.TIN_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.TIN_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.TIN_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_BOLT.get(), 2)
+					 .requires(RerMaterials.TIN_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.TIN_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_DUST.get())
+					 .requires(RerMaterials.TIN_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_LARGE_PLATE.get())
+					 .requires(RerMaterials.TIN_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_CLUSTER.get())
+					 .requires(RerMaterials.TIN_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
 
 		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.RAW_TIN.get(), 9)
 					 .requires(RerMaterialsBlocks.RAW_TIN_BLOCK)

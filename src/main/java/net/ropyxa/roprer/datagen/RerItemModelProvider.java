@@ -16,5 +16,23 @@ public class RerItemModelProvider extends ItemModelProvider {
 		  basicItem(RerMaterials.TIN_INGOT.get());
 		  basicItem(RerMaterials.RAW_TIN.get());
 		  basicItem(RerMaterials.TIN_NUGGET.get());
+		  basicItem(RerMaterials.TIN_PLATE.get());
+		  basicItem(RerMaterials.TIN_LARGE_PLATE.get());
+		  basicItem(RerMaterials.TIN_ROD.get());
+		  basicItem(RerMaterials.TIN_WIRE.get());
+		  basicItem(RerMaterials.TIN_GEAR.get());
+		  basicItem(RerMaterials.TIN_DUST.get());
+		  basicItem(RerMaterials.TIN_TINY_DUST.get());
+		  basicItem(RerMaterials.TIN_RING.get());
+		  basicItem(RerMaterials.TIN_BOLT.get());
+		  basicItem(RerMaterials.TIN_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.TIN_CURVED_PLATE.get());
+		  basicItem(RerMaterials.CRUSHED_TIN_ORE.get());
+		  basicItem(RerMaterials.TIN_CHUNK.get());
+		  basicItem(RerMaterials.TIN_CLUSTER.get());
+		  basicItem(RerMaterials.TIN_CRYSTAL.get());
+		  basicItem(RerMaterials.TIN_SHARD.get());
+		  basicItem(RerMaterials.TIN_CLUMP.get());
+		  basicItem(RerMaterials.TIN_DIRTY_DUST.get());
 	 }
 }
