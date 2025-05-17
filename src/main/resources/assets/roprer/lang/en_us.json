@@ -20,6 +20,8 @@
   "item.roprer.tin_shard": "Tin Shard",
   "item.roprer.tin_clump": "Tin Clump",
   "item.roprer.tin_dirty_dust": "Tin Dirty Dust",
+  "item.roprer.apatite_gem": "Apatite Gem",
+  "item.roprer.apatite_cluster_shard": "Apatite Cluster Shard",
 
   "block.roprer.tin_block": "Tin Block",
   "block.roprer.raw_tin_block": "Raw Tin Block",
@@ -27,6 +29,16 @@
   "block.roprer.netherrack_tin_ore": "Netherrack Tin Ore",
   "block.roprer.end_stone_tin_ore": "End Stone Tin Ore",
   "block.roprer.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.roprer.apatite_block": "Apatite Block",
+  "block.roprer.apatite_cluster_block": "Apatite Cluster Block",
+  "block.roprer.apatite_ore": "Apatite Ore",
+  "block.roprer.netherrack_apatite_ore": "Netherrack Apatite Ore",
+  "block.roprer.end_stone_apatite_ore": "End Stone Apatite Ore",
+  "block.roprer.deepslate_apatite_ore": "Deepslate Apatite Ore",
+
+  "tag.block.c.ores": "Ores",
+  "tag.block.c.ores.tin": "Tin Ores",
+  "tag.block.c.ores.apatite": "Apatite Ores",
 
   "creativetab.rer_materials_tab": "RR: Natural Metals",
   "creativetab.rer_details_tab": "RR: Details and other",

@@ -39,6 +39,7 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.APATITE_CLUSTER_SHARD);
 							  output.accept(RerMaterialsBlocks.APATITE_BLOCK);
 							  output.accept(RerMaterials.APATITE_GEM);
+							  output.accept(RerMaterials.APATITE_FRAGMENT);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -65,6 +66,25 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.TIN_SHARD);
 							  output.accept(RerMaterials.TIN_CLUMP);
 							  output.accept(RerMaterials.TIN_DIRTY_DUST);
+
+							  output.accept(RerMaterials.APATITE_PLATE);
+							  output.accept(RerMaterials.APATITE_LARGE_PLATE);
+							  output.accept(RerMaterials.APATITE_ROD);
+							  output.accept(RerMaterials.APATITE_WIRE);
+							  output.accept(RerMaterials.APATITE_GEAR);
+							  output.accept(RerMaterials.APATITE_DUST);
+							  output.accept(RerMaterials.APATITE_TINY_DUST);
+							  output.accept(RerMaterials.APATITE_RING);
+							  output.accept(RerMaterials.APATITE_BOLT);
+							  output.accept(RerMaterials.APATITE_DOUBLE_GEM);
+							  output.accept(RerMaterials.APATITE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_APATITE_ORE);
+							  output.accept(RerMaterials.APATITE_CHUNK);
+							  output.accept(RerMaterials.APATITE_CLUSTER);
+							  output.accept(RerMaterials.APATITE_CRYSTAL);
+							  output.accept(RerMaterials.APATITE_SHARD);
+							  output.accept(RerMaterials.APATITE_CLUMP);
+							  output.accept(RerMaterials.APATITE_DIRTY_DUST);
 						 }).build());
 
 

@@ -20,6 +20,8 @@
   "item.roprer.tin_shard": "Оловянный осколок",
   "item.roprer.tin_clump": "Оловянная глыба",
   "item.roprer.tin_dirty_dust": "Загрязнённая оловянная пыль",
+  "item.roprer.apatite_gem": "Апатитовый кристалл",
+  "item.roprer.apatite_cluster_shard": "Осколок скопления апатитов",
 
   "block.roprer.tin_block": "Оловянный блок",
   "block.roprer.raw_tin_block": "Блок рудного олова",
@@ -27,6 +29,12 @@
   "block.roprer.netherrack_tin_ore": "Оловянная руда незера",
   "block.roprer.end_stone_tin_ore": "Оловянная руда края",
   "block.roprer.deepslate_tin_ore": "Оловянноносный глубинный сланец",
+  "block.roprer.apatite_block": "Апатитовый блок",
+  "block.roprer.apatite_cluster_block": "Блок скопления апатитов",
+  "block.roprer.apatite_ore": "Апатитовая руда",
+  "block.roprer.netherrack_apatite_ore": "Апатитовая руда незера",
+  "block.roprer.end_stone_apatite_ore": "Апатитовая руда края",
+  "block.roprer.deepslate_apatite_ore": "Апатитоносный глубинный сланец",
 
   "creativetab.rer_materials_tab": "RR: Природные металлы",
   "creativetab.rer_details_tab": "RR: Детали и прочее",

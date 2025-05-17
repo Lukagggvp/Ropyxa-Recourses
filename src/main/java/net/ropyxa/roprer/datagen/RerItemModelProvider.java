@@ -37,5 +37,24 @@ public class RerItemModelProvider extends ItemModelProvider {
 
 		  basicItem(RerMaterials.APATITE_GEM.get());
 		  basicItem(RerMaterials.APATITE_CLUSTER_SHARD.get());
+		  basicItem(RerMaterials.APATITE_FRAGMENT.get());
+		  basicItem(RerMaterials.APATITE_PLATE.get());
+		  basicItem(RerMaterials.APATITE_LARGE_PLATE.get());
+		  basicItem(RerMaterials.APATITE_ROD.get());
+		  basicItem(RerMaterials.APATITE_WIRE.get());
+		  basicItem(RerMaterials.APATITE_GEAR.get());
+		  basicItem(RerMaterials.APATITE_DUST.get());
+		  basicItem(RerMaterials.APATITE_TINY_DUST.get());
+		  basicItem(RerMaterials.APATITE_RING.get());
+		  basicItem(RerMaterials.APATITE_BOLT.get());
+		  basicItem(RerMaterials.APATITE_DOUBLE_GEM.get());
+		  basicItem(RerMaterials.APATITE_CURVED_PLATE.get());
+		  basicItem(RerMaterials.CRUSHED_APATITE_ORE.get());
+		  basicItem(RerMaterials.APATITE_CHUNK.get());
+		  basicItem(RerMaterials.APATITE_CLUSTER.get());
+		  basicItem(RerMaterials.APATITE_CRYSTAL.get());
+		  basicItem(RerMaterials.APATITE_SHARD.get());
+		  basicItem(RerMaterials.APATITE_CLUMP.get());
+		  basicItem(RerMaterials.APATITE_DIRTY_DUST.get());
 	 }
 }

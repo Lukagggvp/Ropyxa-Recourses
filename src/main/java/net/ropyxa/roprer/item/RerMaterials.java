@@ -79,6 +79,63 @@ public class RerMaterials {
 	 public static final DeferredItem<Item> APATITE_CLUSTER_SHARD = ITEMS.register("apatite_cluster_shard",
 				() -> new Item(new Item.Properties()));
 
+	 public static final DeferredItem<Item> APATITE_FRAGMENT = ITEMS.register("apatite_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_PLATE = ITEMS.register("apatite_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_LARGE_PLATE = ITEMS.register("apatite_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_ROD = ITEMS.register("apatite_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_WIRE = ITEMS.register("apatite_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_GEAR = ITEMS.register("apatite_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_DUST = ITEMS.register("apatite_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_TINY_DUST = ITEMS.register("apatite_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_RING = ITEMS.register("apatite_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_BOLT = ITEMS.register("apatite_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_DOUBLE_GEM = ITEMS.register("apatite_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_CURVED_PLATE = ITEMS.register("apatite_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_APATITE_ORE = ITEMS.register("crushed_apatite_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_CHUNK = ITEMS.register("apatite_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_CLUSTER = ITEMS.register("apatite_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_CRYSTAL = ITEMS.register("apatite_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_SHARD = ITEMS.register("apatite_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_CLUMP = ITEMS.register("apatite_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_DIRTY_DUST = ITEMS.register("apatite_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
 	 public static void register(IEventBus eventBus) {
 		  ITEMS.register(eventBus);
 	 }
