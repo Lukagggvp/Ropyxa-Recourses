@@ -16,7 +16,7 @@ public class RerDataMapProvider extends DataMapProvider {
 
 	 @Override
 	 protected void gather(HolderLookup.Provider provider) {
-		  this.builder(NeoForgeDataMaps.FURNACE_FUELS)
-					 .add(RerMaterials.TIN_INGOT.getId(), new FurnaceFuel(12000), false);
+		  //this.builder(NeoForgeDataMaps.FURNACE_FUELS)
+		  //		 .add(RerMaterials.TIN_INGOT.getId(), new FurnaceFuel(12000), false);
 	 }
 }

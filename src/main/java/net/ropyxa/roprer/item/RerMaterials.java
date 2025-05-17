@@ -1,6 +1,5 @@
 package net.ropyxa.roprer.item;
 
-import io.netty.util.Attribute;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -71,6 +70,13 @@ public class RerMaterials {
 				() -> new Item(new Item.Properties()));
 
 	 public static final DeferredItem<Item> TIN_DIRTY_DUST = ITEMS.register("tin_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+
+	 public static final DeferredItem<Item> APATITE_GEM = ITEMS.register("apatite_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> APATITE_CLUSTER_SHARD = ITEMS.register("apatite_cluster_shard",
 				() -> new Item(new Item.Properties()));
 
 	 public static void register(IEventBus eventBus) {

@@ -25,6 +25,10 @@ public class RerConfiguredFeatures {
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_TIN_ORE_KEY = registerKey("netherrack_tin_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_TIN_ORE_KEY = registerKey("end_stone_tin_ore");
 
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> APATITE_ORE_KEY = registerKey("apatite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_APATITE_ORE_KEY = registerKey("netherrack_apatite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_APATITE_ORE_KEY = registerKey("end_stone_apatite_ore");
+
 	 public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 		  RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
 		  RuleTest netherrackReplaceables = new BlockMatchTest(Blocks.NETHERRACK);
@@ -38,6 +42,15 @@ public class RerConfiguredFeatures {
 		  register(context, TIN_ORE_KEY, Feature.ORE, new OreConfiguration(TinOre, 9));
 		  register(context, NETHERRACK_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_TIN_ORE.get().defaultBlockState(), 9));
 		  register(context, END_STONE_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_TIN_ORE.get().defaultBlockState(), 9));
+
+
+		  List<OreConfiguration.TargetBlockState> ApatiteOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.APATITE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_APATITE_ORE.get().defaultBlockState()));
+
+		  register(context, APATITE_ORE_KEY, Feature.ORE, new OreConfiguration(ApatiteOre, 9));
+		  register(context, NETHERRACK_APATITE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_APATITE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_APATITE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_APATITE_ORE.get().defaultBlockState(), 9));
 	 }
 
 	 public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

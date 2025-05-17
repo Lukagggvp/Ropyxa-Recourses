@@ -34,6 +34,7 @@ public class RopRer {
 
 		  RerMaterials.register(modEventBus);
 		  RerMaterialsBlocks.register(modEventBus);
+
 	 }
 
 	 private void commonSetup(final FMLCommonSetupEvent event) {

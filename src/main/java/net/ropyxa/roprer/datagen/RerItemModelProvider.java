@@ -34,5 +34,8 @@ public class RerItemModelProvider extends ItemModelProvider {
 		  basicItem(RerMaterials.TIN_SHARD.get());
 		  basicItem(RerMaterials.TIN_CLUMP.get());
 		  basicItem(RerMaterials.TIN_DIRTY_DUST.get());
+
+		  basicItem(RerMaterials.APATITE_GEM.get());
+		  basicItem(RerMaterials.APATITE_CLUSTER_SHARD.get());
 	 }
 }

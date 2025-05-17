@@ -30,7 +30,9 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 	 protected void generate() {
 		  	List<Block> SELF_DROP_BLOCKS = List.of(
 				RerMaterialsBlocks.TIN_BLOCK.get(),
-				RerMaterialsBlocks.RAW_TIN_BLOCK.get());
+				RerMaterialsBlocks.RAW_TIN_BLOCK.get(),
+				RerMaterialsBlocks.APATITE_BLOCK.get(),
+				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
 
@@ -42,9 +44,15 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 					  block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_TIN_ORE.get(), RerMaterials.RAW_TIN.get()));
 		  	add(RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(),
 					  block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(), RerMaterials.RAW_TIN.get()));
-		  	//add(RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(),
-			//		  block -> createMultipleOreDrops(
-			//					 RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(), RerMaterials.RAW_TIN.get(), 2, 8));
+
+		  	add(RerMaterialsBlocks.APATITE_ORE.get(), block -> createMultipleOreDrops(
+								 RerMaterialsBlocks.APATITE_ORE.get(), RerMaterials.APATITE_GEM.get(), 1, 2));
+		  	add(RerMaterialsBlocks.NETHERRACK_APATITE_ORE.get(), block -> createMultipleOreDrops(
+								RerMaterialsBlocks.NETHERRACK_APATITE_ORE.get(), RerMaterials.APATITE_GEM.get(), 1, 2));
+		  	add(RerMaterialsBlocks.END_STONE_APATITE_ORE.get(), block -> createMultipleOreDrops(
+								RerMaterialsBlocks.END_STONE_APATITE_ORE.get(), RerMaterials.APATITE_GEM.get(), 1, 2));
+		  	add(RerMaterialsBlocks.DEEPSLATE_APATITE_ORE.get(), block -> createMultipleOreDrops(
+								RerMaterialsBlocks.DEEPSLATE_APATITE_ORE.get(), RerMaterials.APATITE_GEM.get(), 1, 2));
 	 }
 
 	 protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

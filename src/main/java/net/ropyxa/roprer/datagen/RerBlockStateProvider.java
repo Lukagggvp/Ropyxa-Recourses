@@ -25,17 +25,24 @@ public class RerBlockStateProvider extends BlockStateProvider {
 	 protected void registerStatesAndModels() {
 		  blockWithItem(RerMaterialsBlocks.TIN_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.RAW_TIN_BLOCK);
-		  stoneOreWithItem(RerMaterialsBlocks.TIN_ORE, "stone","tin_ore");
-		  stoneOreWithItem(RerMaterialsBlocks.NETHERRACK_TIN_ORE, "netherrack","tin_ore");
-		  stoneOreWithItem(RerMaterialsBlocks.END_STONE_TIN_ORE, "end_stone","tin_ore");
-		  stoneOreWithItem(RerMaterialsBlocks.DEEPSLATE_TIN_ORE, "deepslate","tin_ore");
+		  OreWithItem(RerMaterialsBlocks.TIN_ORE, "stone","tin_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_TIN_ORE, "netherrack","tin_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_TIN_ORE, "end_stone","tin_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_TIN_ORE, "deepslate","tin_ore");
+
+		  blockWithItem(RerMaterialsBlocks.APATITE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.APATITE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.APATITE_ORE, "stone","apatite_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_APATITE_ORE, "netherrack","apatite_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_APATITE_ORE, "end_stone","apatite_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_APATITE_ORE, "deepslate","apatite_ore");
 	 }
 
 	 private void blockWithItem(DeferredBlock<?> deferredBlock) {
 		  simpleBlockWithItem(deferredBlock.get(), cubeAll(deferredBlock.get()));
 	 }
 
-	 private void stoneOreWithItem(DeferredBlock<?> block, String baseType, String textureName) {
+	 private void OreWithItem(DeferredBlock<?> block, String baseType, String textureName) {
 		  String path = block.getId().getPath();
 
 		  BlockModelBuilder baseModel = models()

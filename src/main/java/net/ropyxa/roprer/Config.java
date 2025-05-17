@@ -21,7 +21,7 @@ public class Config {
 
     public static final ModConfigSpec.IntValue VEINS_PER_CHUNK_OVERWORLD = BUILDER
             .comment("Number of veins per chunk in overworld")
-            .defineInRange("veinsPerChunkOverworld", 18, 1, 256);
+            .defineInRange("veinsPerChunkOverworld", 24, 1, 256);
 
 
     public static final ModConfigSpec.IntValue MIN_Y_NETHER = BUILDER
@@ -34,7 +34,7 @@ public class Config {
 
     public static final ModConfigSpec.IntValue VEINS_PER_CHUNK_NETHER = BUILDER
             .comment("Number of veins per chunk in overworld")
-            .defineInRange("veinsPerChunkNether", 12, 1, 256);
+            .defineInRange("veinsPerChunkNether", 18, 1, 256);
 
 
     public static final ModConfigSpec.IntValue MIN_Y_END = BUILDER
@@ -47,7 +47,7 @@ public class Config {
 
     public static final ModConfigSpec.IntValue VEINS_PER_CHUNK_END = BUILDER
             .comment("Number of veins per chunk in overworld")
-            .defineInRange("veinsPerChunkEnd", 6, 1, 256);
+            .defineInRange("veinsPerChunkEnd", 12, 1, 256);
 
     static final ModConfigSpec SPEC = BUILDER.build();
 
