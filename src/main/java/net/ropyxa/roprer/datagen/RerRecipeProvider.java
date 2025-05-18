@@ -115,6 +115,8 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
 					 .save(recipeOutput);
 
+
+
 		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.APATITE_CLUSTER_SHARD.get(), 9)
 					 .requires(RerMaterialsBlocks.APATITE_CLUSTER_BLOCK)
 					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
@@ -132,6 +134,64 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 
 		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.APATITE_GEM.get(), 9)
 					 .requires(RerMaterialsBlocks.APATITE_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.APATITE_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.APATITE_BOLT.get())
+					 .define('B', RerMaterials.APATITE_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.APATITE_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.APATITE_ROD.get())
+					 .define('B', RerMaterials.APATITE_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.APATITE_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.APATITE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.APATITE_DOUBLE_GEM.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.APATITE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.APATITE_BOLT.get(), 2)
+					 .requires(RerMaterials.APATITE_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.APATITE_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.APATITE_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.APATITE_DUST.get())
+					 .requires(RerMaterials.APATITE_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.APATITE_LARGE_PLATE.get())
+					 .requires(RerMaterials.APATITE_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.APATITE_CLUSTER.get())
+					 .requires(RerMaterials.APATITE_CHUNK, 4)
 					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
 					 .save(recipeOutput);
 

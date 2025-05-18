@@ -48,7 +48,6 @@ public class RerMaterialsBlocks {
 	 });
 
 
-
 	 public static final DeferredBlock<Block> APATITE_BLOCK = registerBlock("apatite_block",
 				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
 
