@@ -31,6 +31,16 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.TIN_INGOT);
 							  output.accept(RerMaterials.TIN_NUGGET);
 
+							  output.accept(RerMaterialsBlocks.COBALT_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_COBALT_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_COBALT_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_COBALT_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_COBALT_BLOCK);
+							  output.accept(RerMaterials.RAW_COBALT);
+							  output.accept(RerMaterialsBlocks.COBALT_BLOCK);
+							  output.accept(RerMaterials.COBALT_INGOT);
+							  output.accept(RerMaterials.COBALT_NUGGET);
+
 							  output.accept(RerMaterialsBlocks.APATITE_ORE);
 							  output.accept(RerMaterialsBlocks.NETHERRACK_APATITE_ORE);
 							  output.accept(RerMaterialsBlocks.END_STONE_APATITE_ORE);
@@ -40,6 +50,16 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.APATITE_BLOCK);
 							  output.accept(RerMaterials.APATITE_GEM);
 							  output.accept(RerMaterials.APATITE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.CINNABAR_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_CINNABAR_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_CINNABAR_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_CINNABAR_ORE);
+							  output.accept(RerMaterialsBlocks.CINNABAR_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.CINNABAR_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.CINNABAR_BLOCK);
+							  output.accept(RerMaterials.CINNABAR_GEM);
+							  output.accept(RerMaterials.CINNABAR_FRAGMENT);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -67,6 +87,25 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.TIN_CLUMP);
 							  output.accept(RerMaterials.TIN_DIRTY_DUST);
 
+							  output.accept(RerMaterials.COBALT_PLATE);
+							  output.accept(RerMaterials.COBALT_LARGE_PLATE);
+							  output.accept(RerMaterials.COBALT_ROD);
+							  output.accept(RerMaterials.COBALT_WIRE);
+							  output.accept(RerMaterials.COBALT_GEAR);
+							  output.accept(RerMaterials.COBALT_DUST);
+							  output.accept(RerMaterials.COBALT_TINY_DUST);
+							  output.accept(RerMaterials.COBALT_RING);
+							  output.accept(RerMaterials.COBALT_BOLT);
+							  output.accept(RerMaterials.COBALT_DOUBLE_INGOT);
+							  output.accept(RerMaterials.COBALT_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_COBALT_ORE);
+							  output.accept(RerMaterials.COBALT_CHUNK);
+							  output.accept(RerMaterials.COBALT_CLUSTER);
+							  output.accept(RerMaterials.COBALT_CRYSTAL);
+							  output.accept(RerMaterials.COBALT_SHARD);
+							  output.accept(RerMaterials.COBALT_CLUMP);
+							  output.accept(RerMaterials.COBALT_DIRTY_DUST);
+
 							  output.accept(RerMaterials.APATITE_PLATE);
 							  output.accept(RerMaterials.APATITE_LARGE_PLATE);
 							  output.accept(RerMaterials.APATITE_ROD);
@@ -85,6 +124,25 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.APATITE_SHARD);
 							  output.accept(RerMaterials.APATITE_CLUMP);
 							  output.accept(RerMaterials.APATITE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.CINNABAR_PLATE);
+							  output.accept(RerMaterials.CINNABAR_LARGE_PLATE);
+							  output.accept(RerMaterials.CINNABAR_ROD);
+							  output.accept(RerMaterials.CINNABAR_WIRE);
+							  output.accept(RerMaterials.CINNABAR_GEAR);
+							  output.accept(RerMaterials.CINNABAR_DUST);
+							  output.accept(RerMaterials.CINNABAR_TINY_DUST);
+							  output.accept(RerMaterials.CINNABAR_RING);
+							  output.accept(RerMaterials.CINNABAR_BOLT);
+							  output.accept(RerMaterials.CINNABAR_DOUBLE_GEM);
+							  output.accept(RerMaterials.CINNABAR_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_CINNABAR_ORE);
+							  output.accept(RerMaterials.CINNABAR_CHUNK);
+							  output.accept(RerMaterials.CINNABAR_CLUSTER);
+							  output.accept(RerMaterials.CINNABAR_CRYSTAL);
+							  output.accept(RerMaterials.CINNABAR_SHARD);
+							  output.accept(RerMaterials.CINNABAR_CLUMP);
+							  output.accept(RerMaterials.CINNABAR_DIRTY_DUST);
 						 }).build());
 
 

@@ -30,12 +30,26 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.END_STONE_TIN_ORE, "end_stone","tin_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_TIN_ORE, "deepslate","tin_ore");
 
+		  blockWithItem(RerMaterialsBlocks.COBALT_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_COBALT_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.COBALT_ORE, "stone","cobalt_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_COBALT_ORE, "netherrack","cobalt_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_COBALT_ORE, "end_stone","cobalt_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_COBALT_ORE, "deepslate","cobalt_ore");
+
 		  blockWithItem(RerMaterialsBlocks.APATITE_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.APATITE_CLUSTER_BLOCK);
 		  OreWithItem(RerMaterialsBlocks.APATITE_ORE, "stone","apatite_ore");
 		  OreWithItem(RerMaterialsBlocks.NETHERRACK_APATITE_ORE, "netherrack","apatite_ore");
 		  OreWithItem(RerMaterialsBlocks.END_STONE_APATITE_ORE, "end_stone","apatite_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_APATITE_ORE, "deepslate","apatite_ore");
+
+		  blockWithItem(RerMaterialsBlocks.CINNABAR_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.CINNABAR_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.CINNABAR_ORE, "stone","cinnabar_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_CINNABAR_ORE, "netherrack","cinnabar_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_CINNABAR_ORE, "end_stone","cinnabar_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_CINNABAR_ORE, "deepslate","cinnabar_ore");
 	 }
 
 	 private void blockWithItem(DeferredBlock<?> deferredBlock) {

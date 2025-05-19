@@ -25,9 +25,18 @@ public class RerConfiguredFeatures {
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_TIN_ORE_KEY = registerKey("netherrack_tin_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_TIN_ORE_KEY = registerKey("end_stone_tin_ore");
 
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> COBALT_ORE_KEY = registerKey("cobalt_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_COBALT_ORE_KEY = registerKey("netherrack_cobalt_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_COBALT_ORE_KEY = registerKey("end_stone_cobalt_ore");
+
+
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> APATITE_ORE_KEY = registerKey("apatite_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_APATITE_ORE_KEY = registerKey("netherrack_apatite_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_APATITE_ORE_KEY = registerKey("end_stone_apatite_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> CINNABAR_ORE_KEY = registerKey("cinnabar_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_CINNABAR_ORE_KEY = registerKey("netherrack_cinnabar_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_CINNABAR_ORE_KEY = registerKey("end_stone_cinnabar_ore");
 
 	 public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 		  RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -43,6 +52,14 @@ public class RerConfiguredFeatures {
 		  register(context, NETHERRACK_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_TIN_ORE.get().defaultBlockState(), 9));
 		  register(context, END_STONE_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_TIN_ORE.get().defaultBlockState(), 9));
 
+		  List<OreConfiguration.TargetBlockState> CobaltOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.COBALT_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_COBALT_ORE.get().defaultBlockState()));
+
+		  register(context, COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(CobaltOre, 9));
+		  register(context, NETHERRACK_COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_COBALT_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_COBALT_ORE.get().defaultBlockState(), 9));
+
 
 		  List<OreConfiguration.TargetBlockState> ApatiteOre = List.of(
 					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.APATITE_ORE.get().defaultBlockState()),
@@ -51,6 +68,14 @@ public class RerConfiguredFeatures {
 		  register(context, APATITE_ORE_KEY, Feature.ORE, new OreConfiguration(ApatiteOre, 9));
 		  register(context, NETHERRACK_APATITE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_APATITE_ORE.get().defaultBlockState(), 9));
 		  register(context, END_STONE_APATITE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_APATITE_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> CinnabarOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.CINNABAR_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_CINNABAR_ORE.get().defaultBlockState()));
+
+		  register(context, CINNABAR_ORE_KEY, Feature.ORE, new OreConfiguration(CinnabarOre, 9));
+		  register(context, NETHERRACK_CINNABAR_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_CINNABAR_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_CINNABAR_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_CINNABAR_ORE.get().defaultBlockState(), 9));
 	 }
 
 	 public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

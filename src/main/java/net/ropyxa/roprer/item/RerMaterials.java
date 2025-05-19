@@ -73,6 +73,70 @@ public class RerMaterials {
 				() -> new Item(new Item.Properties()));
 
 
+	 public static final DeferredItem<Item> COBALT_INGOT = ITEMS.register("cobalt_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RAW_COBALT = ITEMS.register("raw_cobalt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_NUGGET = ITEMS.register("cobalt_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_PLATE = ITEMS.register("cobalt_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_LARGE_PLATE = ITEMS.register("cobalt_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_ROD = ITEMS.register("cobalt_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_WIRE = ITEMS.register("cobalt_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_GEAR = ITEMS.register("cobalt_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_DUST = ITEMS.register("cobalt_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_TINY_DUST = ITEMS.register("cobalt_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_BOLT = ITEMS.register("cobalt_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_DOUBLE_INGOT = ITEMS.register("cobalt_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_CURVED_PLATE = ITEMS.register("cobalt_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_COBALT_ORE = ITEMS.register("crushed_cobalt_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_CHUNK = ITEMS.register("cobalt_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_CLUSTER = ITEMS.register("cobalt_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_CRYSTAL = ITEMS.register("cobalt_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_SHARD = ITEMS.register("cobalt_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_CLUMP = ITEMS.register("cobalt_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_DIRTY_DUST = ITEMS.register("cobalt_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> COBALT_RING = ITEMS.register("cobalt_ring",
+				() -> new Item(new Item.Properties()));
+
+
 	 public static final DeferredItem<Item> APATITE_GEM = ITEMS.register("apatite_gem",
 				() -> new Item(new Item.Properties()));
 
@@ -134,6 +198,70 @@ public class RerMaterials {
 				() -> new Item(new Item.Properties()));
 
 	 public static final DeferredItem<Item> APATITE_DIRTY_DUST = ITEMS.register("apatite_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+
+	 public static final DeferredItem<Item> CINNABAR_GEM = ITEMS.register("cinnabar_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_CLUSTER_SHARD = ITEMS.register("cinnabar_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_FRAGMENT = ITEMS.register("cinnabar_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_PLATE = ITEMS.register("cinnabar_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_LARGE_PLATE = ITEMS.register("cinnabar_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_ROD = ITEMS.register("cinnabar_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_WIRE = ITEMS.register("cinnabar_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_GEAR = ITEMS.register("cinnabar_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_DUST = ITEMS.register("cinnabar_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_TINY_DUST = ITEMS.register("cinnabar_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_BOLT = ITEMS.register("cinnabar_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_DOUBLE_GEM = ITEMS.register("cinnabar_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_CURVED_PLATE = ITEMS.register("cinnabar_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_CINNABAR_ORE = ITEMS.register("crushed_cinnabar_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_CHUNK = ITEMS.register("cinnabar_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_CLUSTER = ITEMS.register("cinnabar_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_CRYSTAL = ITEMS.register("cinnabar_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_SHARD = ITEMS.register("cinnabar_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_CLUMP = ITEMS.register("cinnabar_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_DIRTY_DUST = ITEMS.register("cinnabar_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CINNABAR_RING = ITEMS.register("cinnabar_ring",
 				() -> new Item(new Item.Properties()));
 
 	 public static void register(IEventBus eventBus) {

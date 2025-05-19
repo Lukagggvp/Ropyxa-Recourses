@@ -31,7 +31,11 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 		  	List<Block> SELF_DROP_BLOCKS = List.of(
 				RerMaterialsBlocks.TIN_BLOCK.get(),
 				RerMaterialsBlocks.RAW_TIN_BLOCK.get(),
+				RerMaterialsBlocks.COBALT_BLOCK.get(),
+				RerMaterialsBlocks.RAW_COBALT_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_BLOCK.get(),
+				RerMaterialsBlocks.CINNABAR_BLOCK.get(),
+				RerMaterialsBlocks.CINNABAR_CLUSTER_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
@@ -44,15 +48,31 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 					  block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_TIN_ORE.get(), RerMaterials.RAW_TIN.get()));
 		  	add(RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(),
 					  block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(), RerMaterials.RAW_TIN.get()));
+		   add(RerMaterialsBlocks.COBALT_ORE.get(),
+					  block -> createOreDrop(RerMaterialsBlocks.COBALT_ORE.get(), RerMaterials.RAW_COBALT.get()));
+		   add(RerMaterialsBlocks.NETHERRACK_COBALT_ORE.get(),
+					  block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_COBALT_ORE.get(), RerMaterials.RAW_COBALT.get()));
+		   add(RerMaterialsBlocks.END_STONE_COBALT_ORE.get(),
+					  block -> createOreDrop(RerMaterialsBlocks.END_STONE_COBALT_ORE.get(), RerMaterials.RAW_COBALT.get()));
+		   add(RerMaterialsBlocks.DEEPSLATE_COBALT_ORE.get(),
+				 	  block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_COBALT_ORE.get(), RerMaterials.RAW_COBALT.get()));
 
 		  	add(RerMaterialsBlocks.APATITE_ORE.get(), block -> createMultipleOreDrops(
-								 RerMaterialsBlocks.APATITE_ORE.get(), RerMaterials.APATITE_GEM.get(), 1, 2));
+						      RerMaterialsBlocks.APATITE_ORE.get(), RerMaterials.APATITE_GEM.get(), 1, 2));
 		  	add(RerMaterialsBlocks.NETHERRACK_APATITE_ORE.get(), block -> createMultipleOreDrops(
 								RerMaterialsBlocks.NETHERRACK_APATITE_ORE.get(), RerMaterials.APATITE_GEM.get(), 1, 2));
 		  	add(RerMaterialsBlocks.END_STONE_APATITE_ORE.get(), block -> createMultipleOreDrops(
 								RerMaterialsBlocks.END_STONE_APATITE_ORE.get(), RerMaterials.APATITE_GEM.get(), 1, 2));
 		  	add(RerMaterialsBlocks.DEEPSLATE_APATITE_ORE.get(), block -> createMultipleOreDrops(
 								RerMaterialsBlocks.DEEPSLATE_APATITE_ORE.get(), RerMaterials.APATITE_GEM.get(), 1, 2));
+		   add(RerMaterialsBlocks.CINNABAR_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.CINNABAR_ORE.get(), RerMaterials.CINNABAR_GEM.get(), 1, 2));
+		   add(RerMaterialsBlocks.NETHERRACK_CINNABAR_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_CINNABAR_ORE.get(), RerMaterials.CINNABAR_GEM.get(), 1, 2));
+		   add(RerMaterialsBlocks.END_STONE_CINNABAR_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_CINNABAR_ORE.get(), RerMaterials.CINNABAR_GEM.get(), 1, 2));
+		   add(RerMaterialsBlocks.DEEPSLATE_CINNABAR_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_CINNABAR_ORE.get(), RerMaterials.CINNABAR_GEM.get(), 1, 2));
 	 }
 
 	 protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
