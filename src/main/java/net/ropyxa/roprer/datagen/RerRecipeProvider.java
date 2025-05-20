@@ -115,6 +115,10 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
 					 .save(recipeOutput);
 
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.TIN_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.TIN_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_TIN))
+					 .save(recipeOutput);
 
 
 		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.APATITE_CLUSTER_SHARD.get(), 9)
@@ -195,9 +199,206 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
 					 .save(recipeOutput);
 
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.APATITE_GEM.get(), 1)
+					 .requires(RerMaterials.APATITE_FRAGMENT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.APATITE_GEM))
+					 .save(recipeOutput, "roprer:apatite_gem_from_fragment");
+
 		  oreSmelting(recipeOutput, TIN_SMELTABLES, RecipeCategory.MISC, RerMaterials.TIN_INGOT.get(), 0.2f, 200, "tin");
 		  oreBlasting(recipeOutput, TIN_SMELTABLES, RecipeCategory.MISC, RerMaterials.TIN_INGOT.get(), 0.2f, 100, "tin");
 		  oreSmelting(recipeOutput, APATITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.APATITE_GEM.get(), 0.2f, 200, "apatite");
 		  oreBlasting(recipeOutput, APATITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.APATITE_GEM.get(), 0.2f, 100, "apatite");
+
+		  List<ItemLike> CINNABAR_SMELTABLES = List.of(
+					 RerMaterials.CINNABAR_CLUSTER_SHARD,
+					 RerMaterialsBlocks.CINNABAR_ORE,
+					 RerMaterialsBlocks.NETHERRACK_CINNABAR_ORE,
+					 RerMaterialsBlocks.END_STONE_CINNABAR_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_CINNABAR_ORE);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CINNABAR_CLUSTER_SHARD.get(), 9)
+					 .requires(RerMaterialsBlocks.CINNABAR_CLUSTER_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CINNABAR_CLUSTER_BLOCK.get(), 1)
+					 .requires(RerMaterials.CINNABAR_CLUSTER_SHARD, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CINNABAR_BLOCK.get(), 1)
+					 .requires(RerMaterials.CINNABAR_GEM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CINNABAR_GEM.get(), 9)
+					 .requires(RerMaterialsBlocks.CINNABAR_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CINNABAR_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CINNABAR_BOLT.get())
+					 .define('B', RerMaterials.CINNABAR_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CINNABAR_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.CINNABAR_ROD.get())
+					 .define('B', RerMaterials.CINNABAR_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CINNABAR_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CINNABAR_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CINNABAR_DOUBLE_GEM.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CINNABAR_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CINNABAR_BOLT.get(), 2)
+					 .requires(RerMaterials.CINNABAR_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CINNABAR_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.CINNABAR_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CINNABAR_DUST.get())
+					 .requires(RerMaterials.CINNABAR_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CINNABAR_LARGE_PLATE.get())
+					 .requires(RerMaterials.CINNABAR_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CINNABAR_CLUSTER.get())
+					 .requires(RerMaterials.CINNABAR_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CINNABAR_GEM.get(), 1)
+					 .requires(RerMaterials.CINNABAR_FRAGMENT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CINNABAR_GEM))
+					 .save(recipeOutput, "roprer:cinnabar_gem_from_fragment");
+
+		  oreSmelting(recipeOutput, CINNABAR_SMELTABLES, RecipeCategory.MISC, RerMaterials.CINNABAR_GEM.get(), 0.2f, 200, "cinnabar");
+		  oreBlasting(recipeOutput, CINNABAR_SMELTABLES, RecipeCategory.MISC, RerMaterials.CINNABAR_GEM.get(), 0.2f, 100, "cinnabar");
+
+
+		  List<ItemLike> COBALT_SMELTABLES = List.of(
+					 RerMaterials.RAW_COBALT,
+					 RerMaterialsBlocks.COBALT_ORE,
+					 RerMaterialsBlocks.NETHERRACK_COBALT_ORE,
+					 RerMaterialsBlocks.END_STONE_COBALT_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_COBALT_ORE);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.COBALT_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.COBALT_BOLT.get())
+					 .define('B', RerMaterials.COBALT_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.COBALT_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.COBALT_ROD.get())
+					 .define('B', RerMaterials.COBALT_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.COBALT_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.COBALT_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.COBALT_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.COBALT_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.COBALT_BOLT.get(), 2)
+					 .requires(RerMaterials.COBALT_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.COBALT_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.COBALT_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.COBALT_DUST.get())
+					 .requires(RerMaterials.COBALT_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.COBALT_LARGE_PLATE.get())
+					 .requires(RerMaterials.COBALT_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.COBALT_CLUSTER.get())
+					 .requires(RerMaterials.COBALT_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.RAW_COBALT.get(), 9)
+					 .requires(RerMaterialsBlocks.RAW_COBALT_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.COBALT_BLOCK.get(), 1)
+					 .requires(RerMaterials.COBALT_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.RAW_COBALT_BLOCK.get(), 1)
+					 .requires(RerMaterials.RAW_COBALT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.COBALT_INGOT.get())
+					 .requires(RerMaterials.COBALT_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput, "roprer:cobalt_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.COBALT_NUGGET.get(), 9)
+					 .requires(RerMaterials.COBALT_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.COBALT_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.COBALT_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_COBALT))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, COBALT_SMELTABLES, RecipeCategory.MISC, RerMaterials.COBALT_INGOT.get(), 0.2f, 200, "cobalt");
+		  oreBlasting(recipeOutput, COBALT_SMELTABLES, RecipeCategory.MISC, RerMaterials.COBALT_INGOT.get(), 0.2f, 100, "cobalt");
 	 }
 }
