@@ -19,8 +19,17 @@ import java.util.function.Supplier;
 public class RerCrativeModeTabs {
 	public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RopRer.MOD_ID);
 
+	 public static final Supplier<CreativeModeTab> RER_VANILLA_TAB = CREATIVE_MODE_TAB.register("rer_vanilla_tab",
+				() -> CreativeModeTab.builder()
+						  .icon(() -> new ItemStack(RerMaterials.TIN_INGOT.get()))
+						  .title(Component.translatable("creativetab.rer_vanilla_tab"))
+						  .displayItems((parameters, output) -> {
+								output.accept(RerMaterialsBlocks.TIN_ORE);
+						  }).build());
+
 	public static final Supplier<CreativeModeTab> RER_MATERIALS_TAB = CREATIVE_MODE_TAB.register("rer_materials_tab",
 			  () -> CreativeModeTab.builder()
+						 .withTabsBefore(ResourceLocation.fromNamespaceAndPath(RopRer.MOD_ID, "rer_vanilla_tab"))
 						 .icon(() -> new ItemStack(RerMaterials.TIN_INGOT.get()))
 						 .title(Component.translatable("creativetab.rer_materials_tab"))
 						 .displayItems((parameters, output) -> {
@@ -191,6 +200,63 @@ public class RerCrativeModeTabs {
 								output.accept(RerMaterials.BRONZE_CLUSTER);
 								output.accept(RerMaterials.NOTHING3);
 								output.accept(RerMaterials.NOTHING4);
+
+								output.accept(RerMaterialsBlocks.CAST_IRON_BLOCK);
+								output.accept(RerMaterials.CAST_IRON_INGOT);
+								output.accept(RerMaterials.CAST_IRON_NUGGET);
+								output.accept(RerMaterials.CAST_IRON_PLATE);
+								output.accept(RerMaterials.CAST_IRON_LARGE_PLATE);
+								output.accept(RerMaterials.CAST_IRON_ROD);
+								output.accept(RerMaterials.CAST_IRON_WIRE);
+								output.accept(RerMaterials.CAST_IRON_GEAR);
+								output.accept(RerMaterials.CAST_IRON_DUST);
+								output.accept(RerMaterials.CAST_IRON_TINY_DUST);
+								output.accept(RerMaterials.CAST_IRON_RING);
+								output.accept(RerMaterials.CAST_IRON_BOLT);
+								output.accept(RerMaterials.CAST_IRON_DOUBLE_INGOT);
+								output.accept(RerMaterials.CAST_IRON_CURVED_PLATE);
+								output.accept(RerMaterials.CAST_IRON_CHUNK);
+								output.accept(RerMaterials.CAST_IRON_CLUSTER);
+								output.accept(RerMaterials.NOTHING5);
+								output.accept(RerMaterials.NOTHING6);
+
+								output.accept(RerMaterialsBlocks.SOUL_STEEL_BLOCK);
+								output.accept(RerMaterials.SOUL_STEEL_INGOT);
+								output.accept(RerMaterials.SOUL_STEEL_NUGGET);
+								output.accept(RerMaterials.SOUL_STEEL_PLATE);
+								output.accept(RerMaterials.SOUL_STEEL_LARGE_PLATE);
+								output.accept(RerMaterials.SOUL_STEEL_ROD);
+								output.accept(RerMaterials.SOUL_STEEL_WIRE);
+								output.accept(RerMaterials.SOUL_STEEL_GEAR);
+								output.accept(RerMaterials.SOUL_STEEL_DUST);
+								output.accept(RerMaterials.SOUL_STEEL_TINY_DUST);
+								output.accept(RerMaterials.SOUL_STEEL_RING);
+								output.accept(RerMaterials.SOUL_STEEL_BOLT);
+								output.accept(RerMaterials.SOUL_STEEL_DOUBLE_INGOT);
+								output.accept(RerMaterials.SOUL_STEEL_CURVED_PLATE);
+								output.accept(RerMaterials.SOUL_STEEL_CHUNK);
+								output.accept(RerMaterials.SOUL_STEEL_CLUSTER);
+								output.accept(RerMaterials.NOTHING7);
+								output.accept(RerMaterials.NOTHING8);
+
+								output.accept(RerMaterialsBlocks.STEEL_BLOCK);
+								output.accept(RerMaterials.STEEL_INGOT);
+								output.accept(RerMaterials.STEEL_NUGGET);
+								output.accept(RerMaterials.STEEL_PLATE);
+								output.accept(RerMaterials.STEEL_LARGE_PLATE);
+								output.accept(RerMaterials.STEEL_ROD);
+								output.accept(RerMaterials.STEEL_WIRE);
+								output.accept(RerMaterials.STEEL_GEAR);
+								output.accept(RerMaterials.STEEL_DUST);
+								output.accept(RerMaterials.STEEL_TINY_DUST);
+								output.accept(RerMaterials.STEEL_RING);
+								output.accept(RerMaterials.STEEL_BOLT);
+								output.accept(RerMaterials.STEEL_DOUBLE_INGOT);
+								output.accept(RerMaterials.STEEL_CURVED_PLATE);
+								output.accept(RerMaterials.STEEL_CHUNK);
+								output.accept(RerMaterials.STEEL_CLUSTER);
+								output.accept(RerMaterials.NOTHING9);
+								output.accept(RerMaterials.NOTHING10);
 						  }).build());
 
 

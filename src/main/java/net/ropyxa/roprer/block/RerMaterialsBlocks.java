@@ -131,6 +131,15 @@ public class RerMaterialsBlocks {
 	 public static final DeferredBlock<Block> BRONZE_BLOCK = registerBlock("bronze_block",
 				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
 
+	 public static final DeferredBlock<Block> CAST_IRON_BLOCK = registerBlock("cast_iron_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> SOUL_STEEL_BLOCK = registerBlock("soul_steel_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> STEEL_BLOCK = registerBlock("steel_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
 	 private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
 		  DeferredBlock<T> toReturn = BLOCKS.register(name, block);
 		  registerBlockItem(name, toReturn);

@@ -27,6 +27,36 @@ public class RerMaterials {
 	 public static final DeferredItem<Item> NOTHING6 = ITEMS.register("nothing6",
 				() -> new Item(new Item.Properties()));
 
+	 public static final DeferredItem<Item> NOTHING7 = ITEMS.register("nothing7",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING8 = ITEMS.register("nothing8",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING9 = ITEMS.register("nothing9",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING10 = ITEMS.register("nothing10",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING11 = ITEMS.register("nothing11",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING12 = ITEMS.register("nothing12",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING13 = ITEMS.register("nothing13",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING14 = ITEMS.register("nothing14",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING15 = ITEMS.register("nothing15",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING16 = ITEMS.register("nothing16",
+				() -> new Item(new Item.Properties()));
+
 	 public static final DeferredItem<Item> TIN_INGOT = ITEMS.register("tin_ingot",
 				() -> new Item(new Item.Properties()));
 
@@ -370,6 +400,141 @@ public class RerMaterials {
 				() -> new Item(new Item.Properties()));
 
 	 public static final DeferredItem<Item> BRONZE_RING = ITEMS.register("bronze_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_INGOT = ITEMS.register("cast_iron_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_NUGGET = ITEMS.register("cast_iron_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_PLATE = ITEMS.register("cast_iron_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_LARGE_PLATE = ITEMS.register("cast_iron_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_ROD = ITEMS.register("cast_iron_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_WIRE = ITEMS.register("cast_iron_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_GEAR = ITEMS.register("cast_iron_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_DUST = ITEMS.register("cast_iron_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_TINY_DUST = ITEMS.register("cast_iron_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_BOLT = ITEMS.register("cast_iron_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_DOUBLE_INGOT = ITEMS.register("cast_iron_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_CURVED_PLATE = ITEMS.register("cast_iron_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_CHUNK = ITEMS.register("cast_iron_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_CLUSTER = ITEMS.register("cast_iron_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CAST_IRON_RING = ITEMS.register("cast_iron_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_INGOT = ITEMS.register("soul_steel_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_NUGGET = ITEMS.register("soul_steel_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_PLATE = ITEMS.register("soul_steel_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_LARGE_PLATE = ITEMS.register("soul_steel_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_ROD = ITEMS.register("soul_steel_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_WIRE = ITEMS.register("soul_steel_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_GEAR = ITEMS.register("soul_steel_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_DUST = ITEMS.register("soul_steel_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_TINY_DUST = ITEMS.register("soul_steel_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_BOLT = ITEMS.register("soul_steel_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_DOUBLE_INGOT = ITEMS.register("soul_steel_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_CURVED_PLATE = ITEMS.register("soul_steel_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_CHUNK = ITEMS.register("soul_steel_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_CLUSTER = ITEMS.register("soul_steel_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SOUL_STEEL_RING = ITEMS.register("soul_steel_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_PLATE = ITEMS.register("steel_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_LARGE_PLATE = ITEMS.register("steel_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_ROD = ITEMS.register("steel_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_WIRE = ITEMS.register("steel_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_GEAR = ITEMS.register("steel_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_DUST = ITEMS.register("steel_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_TINY_DUST = ITEMS.register("steel_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_BOLT = ITEMS.register("steel_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_DOUBLE_INGOT = ITEMS.register("steel_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_CURVED_PLATE = ITEMS.register("steel_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_CHUNK = ITEMS.register("steel_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_CLUSTER = ITEMS.register("steel_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> STEEL_RING = ITEMS.register("steel_ring",
 				() -> new Item(new Item.Properties()));
 
 	 public static void register(IEventBus eventBus) {

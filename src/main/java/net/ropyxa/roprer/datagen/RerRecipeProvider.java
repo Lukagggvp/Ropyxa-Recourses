@@ -570,5 +570,256 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 
 		  oreSmelting(recipeOutput, BRONZE_SMELTABLES, RecipeCategory.MISC, RerMaterials.BRONZE_INGOT.get(), 0.2f, 200, "bronze");
 		  oreBlasting(recipeOutput, BRONZE_SMELTABLES, RecipeCategory.MISC, RerMaterials.BRONZE_INGOT.get(), 0.2f, 100, "bronze");
+
+		  List<ItemLike> CAST_IRON_SMELTABLES = List.of(
+					 RerMaterials.CAST_IRON_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CAST_IRON_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CAST_IRON_BOLT.get())
+					 .define('B', RerMaterials.CAST_IRON_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CAST_IRON_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.CAST_IRON_ROD.get())
+					 .define('B', RerMaterials.CAST_IRON_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CAST_IRON_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CAST_IRON_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CAST_IRON_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CAST_IRON_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CAST_IRON_BOLT.get(), 2)
+					 .requires(RerMaterials.CAST_IRON_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CAST_IRON_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.CAST_IRON_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CAST_IRON_DUST.get())
+					 .requires(RerMaterials.CAST_IRON_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CAST_IRON_LARGE_PLATE.get())
+					 .requires(RerMaterials.CAST_IRON_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CAST_IRON_CLUSTER.get())
+					 .requires(RerMaterials.CAST_IRON_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CAST_IRON_BLOCK.get(), 1)
+					 .requires(RerMaterials.CAST_IRON_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CAST_IRON_INGOT.get())
+					 .requires(RerMaterials.CAST_IRON_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput, "roprer:cast_iron_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CAST_IRON_NUGGET.get(), 9)
+					 .requires(RerMaterials.CAST_IRON_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CAST_IRON_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.CAST_IRON_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CAST_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, CAST_IRON_SMELTABLES, RecipeCategory.MISC, RerMaterials.CAST_IRON_INGOT.get(), 0.2f, 200, "cast_iron");
+		  oreBlasting(recipeOutput, CAST_IRON_SMELTABLES, RecipeCategory.MISC, RerMaterials.CAST_IRON_INGOT.get(), 0.2f, 100, "cast_iron");
+
+		  List<ItemLike> SOUL_STEEL_SMELTABLES = List.of(
+					 RerMaterials.SOUL_STEEL_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.SOUL_STEEL_BOLT.get())
+					 .define('B', RerMaterials.SOUL_STEEL_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.SOUL_STEEL_ROD.get())
+					 .define('B', RerMaterials.SOUL_STEEL_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.SOUL_STEEL_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.SOUL_STEEL_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_BOLT.get(), 2)
+					 .requires(RerMaterials.SOUL_STEEL_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.SOUL_STEEL_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_DUST.get())
+					 .requires(RerMaterials.SOUL_STEEL_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_LARGE_PLATE.get())
+					 .requires(RerMaterials.SOUL_STEEL_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_CLUSTER.get())
+					 .requires(RerMaterials.SOUL_STEEL_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.SOUL_STEEL_BLOCK.get(), 1)
+					 .requires(RerMaterials.SOUL_STEEL_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_INGOT.get())
+					 .requires(RerMaterials.SOUL_STEEL_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput, "roprer:soul_steel_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_NUGGET.get(), 9)
+					 .requires(RerMaterials.SOUL_STEEL_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.SOUL_STEEL_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.SOUL_STEEL_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.SOUL_STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, SOUL_STEEL_SMELTABLES, RecipeCategory.MISC, RerMaterials.SOUL_STEEL_INGOT.get(), 0.2f, 200, "soul_steel");
+		  oreBlasting(recipeOutput, SOUL_STEEL_SMELTABLES, RecipeCategory.MISC, RerMaterials.SOUL_STEEL_INGOT.get(), 0.2f, 100, "soul_steel");
+
+		  List<ItemLike> STEEL_SMELTABLES = List.of(
+					 RerMaterials.STEEL_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.STEEL_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.STEEL_BOLT.get())
+					 .define('B', RerMaterials.STEEL_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.STEEL_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.STEEL_ROD.get())
+					 .define('B', RerMaterials.STEEL_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.STEEL_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.STEEL_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.STEEL_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.STEEL_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.STEEL_BOLT.get(), 2)
+					 .requires(RerMaterials.STEEL_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.STEEL_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.STEEL_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.STEEL_DUST.get())
+					 .requires(RerMaterials.STEEL_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.STEEL_LARGE_PLATE.get())
+					 .requires(RerMaterials.STEEL_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.STEEL_CLUSTER.get())
+					 .requires(RerMaterials.STEEL_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.STEEL_BLOCK.get(), 1)
+					 .requires(RerMaterials.STEEL_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.STEEL_INGOT.get())
+					 .requires(RerMaterials.STEEL_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput, "roprer:steel_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.STEEL_NUGGET.get(), 9)
+					 .requires(RerMaterials.STEEL_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.STEEL_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.STEEL_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, STEEL_SMELTABLES, RecipeCategory.MISC, RerMaterials.STEEL_INGOT.get(), 0.2f, 200, "steel");        oreBlasting(recipeOutput, STEEL_SMELTABLES, RecipeCategory.MISC, RerMaterials.STEEL_INGOT.get(), 0.2f, 100, "steel");
 	 }
 }

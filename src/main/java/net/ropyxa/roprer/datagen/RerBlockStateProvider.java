@@ -39,6 +39,9 @@ public class RerBlockStateProvider extends BlockStateProvider {
 
 		  blockWithItem(RerMaterialsBlocks.BRASS_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.BRONZE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.CAST_IRON_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.SOUL_STEEL_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.STEEL_BLOCK);
 
 		  blockWithItem(RerMaterialsBlocks.APATITE_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.APATITE_CLUSTER_BLOCK);

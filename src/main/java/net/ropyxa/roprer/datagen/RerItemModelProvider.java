@@ -19,6 +19,17 @@ public class RerItemModelProvider extends ItemModelProvider {
 		  basicItem(RerMaterials.NOTHING4.get());
 		  basicItem(RerMaterials.NOTHING5.get());
 		  basicItem(RerMaterials.NOTHING6.get());
+		  basicItem(RerMaterials.NOTHING7.get());
+		  basicItem(RerMaterials.NOTHING8.get());
+		  basicItem(RerMaterials.NOTHING9.get());
+		  basicItem(RerMaterials.NOTHING10.get());
+		  basicItem(RerMaterials.NOTHING11.get());
+		  basicItem(RerMaterials.NOTHING12.get());
+		  basicItem(RerMaterials.NOTHING13.get());
+		  basicItem(RerMaterials.NOTHING14.get());
+		  basicItem(RerMaterials.NOTHING15.get());
+		  basicItem(RerMaterials.NOTHING16.get());
+
 		  basicItem(RerMaterials.TIN_INGOT.get());
 		  basicItem(RerMaterials.RAW_TIN.get());
 		  basicItem(RerMaterials.TIN_NUGGET.get());
@@ -138,5 +149,53 @@ public class RerItemModelProvider extends ItemModelProvider {
 		  basicItem(RerMaterials.BRONZE_CHUNK.get());
 		  basicItem(RerMaterials.BRONZE_CLUSTER.get());
 		  basicItem(RerMaterials.BRONZE_RING.get());
+
+		  basicItem(RerMaterials.CAST_IRON_INGOT.get());
+		  basicItem(RerMaterials.CAST_IRON_NUGGET.get());
+		  basicItem(RerMaterials.CAST_IRON_PLATE.get());
+		  basicItem(RerMaterials.CAST_IRON_LARGE_PLATE.get());
+		  basicItem(RerMaterials.CAST_IRON_ROD.get());
+		  basicItem(RerMaterials.CAST_IRON_WIRE.get());
+		  basicItem(RerMaterials.CAST_IRON_GEAR.get());
+		  basicItem(RerMaterials.CAST_IRON_DUST.get());
+		  basicItem(RerMaterials.CAST_IRON_TINY_DUST.get());
+		  basicItem(RerMaterials.CAST_IRON_BOLT.get());
+		  basicItem(RerMaterials.CAST_IRON_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.CAST_IRON_CURVED_PLATE.get());
+		  basicItem(RerMaterials.CAST_IRON_CHUNK.get());
+		  basicItem(RerMaterials.CAST_IRON_CLUSTER.get());
+		  basicItem(RerMaterials.CAST_IRON_RING.get());
+
+		  basicItem(RerMaterials.SOUL_STEEL_INGOT.get());
+		  basicItem(RerMaterials.SOUL_STEEL_NUGGET.get());
+		  basicItem(RerMaterials.SOUL_STEEL_PLATE.get());
+		  basicItem(RerMaterials.SOUL_STEEL_LARGE_PLATE.get());
+		  basicItem(RerMaterials.SOUL_STEEL_ROD.get());
+		  basicItem(RerMaterials.SOUL_STEEL_WIRE.get());
+		  basicItem(RerMaterials.SOUL_STEEL_GEAR.get());
+		  basicItem(RerMaterials.SOUL_STEEL_DUST.get());
+		  basicItem(RerMaterials.SOUL_STEEL_TINY_DUST.get());
+		  basicItem(RerMaterials.SOUL_STEEL_BOLT.get());
+		  basicItem(RerMaterials.SOUL_STEEL_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.SOUL_STEEL_CURVED_PLATE.get());
+		  basicItem(RerMaterials.SOUL_STEEL_CHUNK.get());
+		  basicItem(RerMaterials.SOUL_STEEL_CLUSTER.get());
+		  basicItem(RerMaterials.SOUL_STEEL_RING.get());
+
+		  basicItem(RerMaterials.STEEL_INGOT.get());
+		  basicItem(RerMaterials.STEEL_NUGGET.get());
+		  basicItem(RerMaterials.STEEL_PLATE.get());
+		  basicItem(RerMaterials.STEEL_LARGE_PLATE.get());
+		  basicItem(RerMaterials.STEEL_ROD.get());
+		  basicItem(RerMaterials.STEEL_WIRE.get());
+		  basicItem(RerMaterials.STEEL_GEAR.get());
+		  basicItem(RerMaterials.STEEL_DUST.get());
+		  basicItem(RerMaterials.STEEL_TINY_DUST.get());
+		  basicItem(RerMaterials.STEEL_BOLT.get());
+		  basicItem(RerMaterials.STEEL_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.STEEL_CURVED_PLATE.get());
+		  basicItem(RerMaterials.STEEL_CHUNK.get());
+		  basicItem(RerMaterials.STEEL_CLUSTER.get());
+		  basicItem(RerMaterials.STEEL_RING.get());
 	 }
 }
