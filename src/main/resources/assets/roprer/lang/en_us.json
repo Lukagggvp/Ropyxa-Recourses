@@ -1,4 +1,10 @@
 {
+  "item.roprer.nothing1": "Nothing",
+  "item.roprer.nothing2": "Nothing",
+  "item.roprer.nothing3": "Nothing",
+  "item.roprer.nothing4": "Nothing",
+  "item.roprer.nothing5": "Nothing",
+  "item.roprer.nothing6": "Nothing",
   "item.roprer.tin_ingot": "Tin Ingot",
   "item.roprer.raw_tin": "Raw Tin",
   "item.roprer.tin_nugget": "Tin Nugget",
@@ -55,8 +61,11 @@
   "block.roprer.end_stone_apatite_ore": "End Stone Apatite Ore",
   "block.roprer.deepslate_apatite_ore": "Deepslate Apatite Ore",
 
-  "creativetab.rer_materials_tab": "RR: Natural Metals",
-  "creativetab.rer_details_tab": "RR: Details and other",
+  "creativetab.rer_materials_tab": "RR: Metals",
+  "creativetab.rer_details_tab": "RR: Details",
+  "creativetab.rer_alloys_tab": "RR: Alloys",
+  "creativetab.rer_vanilla_tab": "RR: Vanilla details",
+  "creativetab.rer_else_tab": "RR: Other",
 
   "tooltip.roprer.shift_down": "Press §eShift§r for more information",
   "tooltip.roprer.metal_ore": "Mined in triangle between:",

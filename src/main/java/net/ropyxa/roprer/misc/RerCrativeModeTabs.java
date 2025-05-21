@@ -4,7 +4,10 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.ropyxa.roprer.RopRer;
@@ -144,6 +147,51 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.CINNABAR_CLUMP);
 							  output.accept(RerMaterials.CINNABAR_DIRTY_DUST);
 						 }).build());
+
+	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",
+				() -> CreativeModeTab.builder()
+						  .withTabsBefore(ResourceLocation.fromNamespaceAndPath(RopRer.MOD_ID, "rer_details_tab"))
+						  .icon(() -> new ItemStack(RerMaterials.BRASS_INGOT.get()))
+						  .title(Component.translatable("creativetab.rer_alloys_tab"))
+						  .displayItems((parameters, output) -> {
+								output.accept(RerMaterialsBlocks.BRASS_BLOCK);
+								output.accept(RerMaterials.BRASS_INGOT);
+								output.accept(RerMaterials.BRASS_NUGGET);
+								output.accept(RerMaterials.BRASS_PLATE);
+								output.accept(RerMaterials.BRASS_LARGE_PLATE);
+								output.accept(RerMaterials.BRASS_ROD);
+								output.accept(RerMaterials.BRASS_WIRE);
+								output.accept(RerMaterials.BRASS_GEAR);
+								output.accept(RerMaterials.BRASS_DUST);
+								output.accept(RerMaterials.BRASS_TINY_DUST);
+								output.accept(RerMaterials.BRASS_RING);
+								output.accept(RerMaterials.BRASS_BOLT);
+								output.accept(RerMaterials.BRASS_DOUBLE_INGOT);
+								output.accept(RerMaterials.BRASS_CURVED_PLATE);
+								output.accept(RerMaterials.BRASS_CHUNK);
+								output.accept(RerMaterials.BRASS_CLUSTER);
+								output.accept(RerMaterials.NOTHING1);
+								output.accept(RerMaterials.NOTHING2);
+
+								output.accept(RerMaterialsBlocks.BRONZE_BLOCK);
+								output.accept(RerMaterials.BRONZE_INGOT);
+								output.accept(RerMaterials.BRONZE_NUGGET);
+								output.accept(RerMaterials.BRONZE_PLATE);
+								output.accept(RerMaterials.BRONZE_LARGE_PLATE);
+								output.accept(RerMaterials.BRONZE_ROD);
+								output.accept(RerMaterials.BRONZE_WIRE);
+								output.accept(RerMaterials.BRONZE_GEAR);
+								output.accept(RerMaterials.BRONZE_DUST);
+								output.accept(RerMaterials.BRONZE_TINY_DUST);
+								output.accept(RerMaterials.BRONZE_RING);
+								output.accept(RerMaterials.BRONZE_BOLT);
+								output.accept(RerMaterials.BRONZE_DOUBLE_INGOT);
+								output.accept(RerMaterials.BRONZE_CURVED_PLATE);
+								output.accept(RerMaterials.BRONZE_CHUNK);
+								output.accept(RerMaterials.BRONZE_CLUSTER);
+								output.accept(RerMaterials.NOTHING3);
+								output.accept(RerMaterials.NOTHING4);
+						  }).build());
 
 
 

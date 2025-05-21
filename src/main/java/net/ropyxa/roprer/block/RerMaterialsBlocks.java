@@ -125,6 +125,12 @@ public class RerMaterialsBlocks {
 					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
 				});
 
+	 public static final DeferredBlock<Block> BRASS_BLOCK = registerBlock("brass_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> BRONZE_BLOCK = registerBlock("bronze_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
 	 private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
 		  DeferredBlock<T> toReturn = BLOCKS.register(name, block);
 		  registerBlockItem(name, toReturn);

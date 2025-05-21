@@ -1,4 +1,10 @@
 {
+  "item.roprer.nothing1": "Ничего",
+  "item.roprer.nothing2": "Ничего",
+  "item.roprer.nothing3": "Ничего",
+  "item.roprer.nothing4": "Ничего",
+  "item.roprer.nothing5": "Ничего",
+  "item.roprer.nothing6": "Ничего",
   "item.roprer.tin_ingot": "Оловянный слиток",
   "item.roprer.raw_tin": "Рудное олово",
   "item.roprer.tin_nugget": "Оловянный самородок",
@@ -20,6 +26,7 @@
   "item.roprer.tin_shard": "Оловянный осколок",
   "item.roprer.tin_clump": "Оловянная глыба",
   "item.roprer.tin_dirty_dust": "Загрязнённая оловянная пыль",
+
   "item.roprer.apatite_gem": "Апатит",
   "item.roprer.apatite_cluster_shard": "Осколок скопления апатитов",
   "item.roprer.apatite_fragment": "Апатитовый Фрагмент",
@@ -55,8 +62,11 @@
   "block.roprer.end_stone_apatite_ore": "Апатитовая руда края",
   "block.roprer.deepslate_apatite_ore": "Апатитоносный глубинный сланец",
 
-  "creativetab.rer_materials_tab": "RR: Природные металлы",
-  "creativetab.rer_details_tab": "RR: Детали и прочее",
+  "creativetab.rer_materials_tab": "RR: Металлы",
+  "creativetab.rer_details_tab": "RR: Детали",
+  "creativetab.rer_alloys_tab": "RR: Сплавы",
+  "creativetab.rer_vanilla_tab": "RR: Ванилльные детали",
+  "creativetab.rer_else_tab": "RR: Прочее",
 
   "tooltip.roprer.shift_down": "Удерживайте §eShift§r для большей информации",
   "tooltip.roprer.metal_ore": "Добывается в 'треугольнике' между:",

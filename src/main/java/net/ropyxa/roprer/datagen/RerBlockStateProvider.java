@@ -37,6 +37,9 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.END_STONE_COBALT_ORE, "end_stone","cobalt_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_COBALT_ORE, "deepslate","cobalt_ore");
 
+		  blockWithItem(RerMaterialsBlocks.BRASS_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.BRONZE_BLOCK);
+
 		  blockWithItem(RerMaterialsBlocks.APATITE_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.APATITE_CLUSTER_BLOCK);
 		  OreWithItem(RerMaterialsBlocks.APATITE_ORE, "stone","apatite_ore");

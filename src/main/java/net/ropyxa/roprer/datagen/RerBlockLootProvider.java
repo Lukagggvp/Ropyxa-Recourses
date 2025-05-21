@@ -36,6 +36,8 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.APATITE_BLOCK.get(),
 				RerMaterialsBlocks.CINNABAR_BLOCK.get(),
 				RerMaterialsBlocks.CINNABAR_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.BRASS_BLOCK.get(),
+				RerMaterialsBlocks.BRONZE_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);

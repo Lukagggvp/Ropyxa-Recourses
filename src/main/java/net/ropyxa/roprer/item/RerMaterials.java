@@ -9,6 +9,24 @@ import net.ropyxa.roprer.RopRer;
 public class RerMaterials {
 	 public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(RopRer.MOD_ID);
 
+	 public static final DeferredItem<Item> NOTHING1 = ITEMS.register("nothing1",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING2 = ITEMS.register("nothing2",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING3 = ITEMS.register("nothing3",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING4 = ITEMS.register("nothing4",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING5 = ITEMS.register("nothing5",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING6 = ITEMS.register("nothing6",
+				() -> new Item(new Item.Properties()));
+
 	 public static final DeferredItem<Item> TIN_INGOT = ITEMS.register("tin_ingot",
 				() -> new Item(new Item.Properties()));
 
@@ -262,6 +280,96 @@ public class RerMaterials {
 				() -> new Item(new Item.Properties()));
 
 	 public static final DeferredItem<Item> CINNABAR_RING = ITEMS.register("cinnabar_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_INGOT = ITEMS.register("brass_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_NUGGET = ITEMS.register("brass_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_PLATE = ITEMS.register("brass_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_LARGE_PLATE = ITEMS.register("brass_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_ROD = ITEMS.register("brass_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_WIRE = ITEMS.register("brass_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_GEAR = ITEMS.register("brass_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_DUST = ITEMS.register("brass_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_TINY_DUST = ITEMS.register("brass_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_BOLT = ITEMS.register("brass_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_DOUBLE_INGOT = ITEMS.register("brass_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_CURVED_PLATE = ITEMS.register("brass_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_CHUNK = ITEMS.register("brass_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_CLUSTER = ITEMS.register("brass_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRASS_RING = ITEMS.register("brass_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_PLATE = ITEMS.register("bronze_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_LARGE_PLATE = ITEMS.register("bronze_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_ROD = ITEMS.register("bronze_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_WIRE = ITEMS.register("bronze_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_GEAR = ITEMS.register("bronze_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_DUST = ITEMS.register("bronze_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_TINY_DUST = ITEMS.register("bronze_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_BOLT = ITEMS.register("bronze_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_DOUBLE_INGOT = ITEMS.register("bronze_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_CURVED_PLATE = ITEMS.register("bronze_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_CHUNK = ITEMS.register("bronze_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_CLUSTER = ITEMS.register("bronze_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> BRONZE_RING = ITEMS.register("bronze_ring",
 				() -> new Item(new Item.Properties()));
 
 	 public static void register(IEventBus eventBus) {

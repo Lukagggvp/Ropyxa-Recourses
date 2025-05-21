@@ -13,6 +13,12 @@ public class RerItemModelProvider extends ItemModelProvider {
 
 	 @Override
 	 protected void registerModels() {
+		  basicItem(RerMaterials.NOTHING1.get());
+		  basicItem(RerMaterials.NOTHING2.get());
+		  basicItem(RerMaterials.NOTHING3.get());
+		  basicItem(RerMaterials.NOTHING4.get());
+		  basicItem(RerMaterials.NOTHING5.get());
+		  basicItem(RerMaterials.NOTHING6.get());
 		  basicItem(RerMaterials.TIN_INGOT.get());
 		  basicItem(RerMaterials.RAW_TIN.get());
 		  basicItem(RerMaterials.TIN_NUGGET.get());
@@ -100,5 +106,37 @@ public class RerItemModelProvider extends ItemModelProvider {
 		  basicItem(RerMaterials.CINNABAR_CLUMP.get());
 		  basicItem(RerMaterials.CINNABAR_DIRTY_DUST.get());
 		  basicItem(RerMaterials.CINNABAR_RING.get());
+
+		  basicItem(RerMaterials.BRASS_INGOT.get());
+		  basicItem(RerMaterials.BRASS_NUGGET.get());
+		  basicItem(RerMaterials.BRASS_PLATE.get());
+		  basicItem(RerMaterials.BRASS_LARGE_PLATE.get());
+		  basicItem(RerMaterials.BRASS_ROD.get());
+		  basicItem(RerMaterials.BRASS_WIRE.get());
+		  basicItem(RerMaterials.BRASS_GEAR.get());
+		  basicItem(RerMaterials.BRASS_DUST.get());
+		  basicItem(RerMaterials.BRASS_TINY_DUST.get());
+		  basicItem(RerMaterials.BRASS_BOLT.get());
+		  basicItem(RerMaterials.BRASS_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.BRASS_CURVED_PLATE.get());
+		  basicItem(RerMaterials.BRASS_CHUNK.get());
+		  basicItem(RerMaterials.BRASS_CLUSTER.get());
+		  basicItem(RerMaterials.BRASS_RING.get());
+
+		  basicItem(RerMaterials.BRONZE_INGOT.get());
+		  basicItem(RerMaterials.BRONZE_NUGGET.get());
+		  basicItem(RerMaterials.BRONZE_PLATE.get());
+		  basicItem(RerMaterials.BRONZE_LARGE_PLATE.get());
+		  basicItem(RerMaterials.BRONZE_ROD.get());
+		  basicItem(RerMaterials.BRONZE_WIRE.get());
+		  basicItem(RerMaterials.BRONZE_GEAR.get());
+		  basicItem(RerMaterials.BRONZE_DUST.get());
+		  basicItem(RerMaterials.BRONZE_TINY_DUST.get());
+		  basicItem(RerMaterials.BRONZE_BOLT.get());
+		  basicItem(RerMaterials.BRONZE_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.BRONZE_CURVED_PLATE.get());
+		  basicItem(RerMaterials.BRONZE_CHUNK.get());
+		  basicItem(RerMaterials.BRONZE_CLUSTER.get());
+		  basicItem(RerMaterials.BRONZE_RING.get());
 	 }
 }
