@@ -1,0 +1,197 @@
+{
+  "children": {
+    "base": {
+      "parent": "minecraft:block/block",
+      "elements": [
+        {
+          "faces": {
+            "down": {
+              "cullface": "down",
+              "texture": "#base"
+            },
+            "east": {
+              "cullface": "east",
+              "texture": "#base"
+            },
+            "north": {
+              "cullface": "north",
+              "texture": "#base"
+            },
+            "south": {
+              "cullface": "south",
+              "texture": "#base"
+            },
+            "up": {
+              "cullface": "up",
+              "texture": "#base"
+            },
+            "west": {
+              "cullface": "west",
+              "texture": "#base"
+            }
+          },
+          "from": [
+            0,
+            0,
+            0
+          ],
+          "to": [
+            16,
+            16,
+            16
+          ]
+        }
+      ],
+      "render_type": "minecraft:solid",
+      "textures": {
+        "base": "minecraft:block/netherrack"
+      }
+    },
+    "overlay": {
+      "parent": "minecraft:block/block",
+      "elements": [
+        {
+          "faces": {
+            "down": {
+              "cullface": "down",
+              "texture": "#overlay"
+            },
+            "east": {
+              "cullface": "east",
+              "texture": "#overlay"
+            },
+            "north": {
+              "cullface": "north",
+              "texture": "#overlay"
+            },
+            "south": {
+              "cullface": "south",
+              "texture": "#overlay"
+            },
+            "up": {
+              "cullface": "up",
+              "texture": "#overlay"
+            },
+            "west": {
+              "cullface": "west",
+              "texture": "#overlay"
+            }
+          },
+          "from": [
+            0,
+            0,
+            0
+          ],
+          "to": [
+            16,
+            16,
+            16
+          ]
+        }
+      ],
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "overlay": "minecraft:block/gold_ore"
+      }
+    }
+  },
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "fixed": {
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ]
+    }
+  },
+  "item_render_order": [
+    "base",
+    "overlay"
+  ],
+  "loader": "neoforge:composite",
+  "textures": {
+    "particle": "minecraft:block/stone"
+  }
+}
