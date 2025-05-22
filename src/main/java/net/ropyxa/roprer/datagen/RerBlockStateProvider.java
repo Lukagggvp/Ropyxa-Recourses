@@ -56,6 +56,34 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.NETHERRACK_CINNABAR_ORE, "netherrack","cinnabar_ore");
 		  OreWithItem(RerMaterialsBlocks.END_STONE_CINNABAR_ORE, "end_stone","cinnabar_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_CINNABAR_ORE, "deepslate","cinnabar_ore");
+
+		  blockWithItem(RerMaterialsBlocks.ALUMINUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_ALUMINUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.ALUMINUM_ORE, "stone","aluminum_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_ALUMINUM_ORE, "netherrack","aluminum_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_ALUMINUM_ORE, "end_stone","aluminum_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_ALUMINUM_ORE, "deepslate","aluminum_ore");
+
+		  blockWithItem(RerMaterialsBlocks.AQUITE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.AQUITE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.AQUITE_ORE, "stone","aquite_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_AQUITE_ORE, "netherrack","aquite_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_AQUITE_ORE, "end_stone","aquite_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_AQUITE_ORE, "deepslate","aquite_ore");
+
+		  blockWithItem(RerMaterialsBlocks.BITUMEN_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.BITUMEN_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.BITUMEN_ORE, "stone","bitumen_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_BITUMEN_ORE, "netherrack","bitumen_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_BITUMEN_ORE, "end_stone","bitumen_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_BITUMEN_ORE, "deepslate","bitumen_ore");
+
+		  blockWithItem(RerMaterialsBlocks.ARCANE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.ARCANE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.ARCANE_ORE, "stone","arcane_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_ARCANE_ORE, "netherrack","arcane_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_ARCANE_ORE, "end_stone","arcane_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_ARCANE_ORE, "deepslate","arcane_ore");
 	 }
 
 	 private void blockWithItem(DeferredBlock<?> deferredBlock) {

@@ -25,6 +25,21 @@ public class RerPlacedFeatures {
 	 public static final ResourceKey<PlacedFeature> NETHERRACK_COBALT_ORE_PLACED_KEY = registerKey("netherrack_cobalt_ore_placed");
 	 public static final ResourceKey<PlacedFeature> END_STONE_COBALT_ORE_PLACED_KEY = registerKey("end_stone_cobalt_ore_placed");
 
+	 public static final ResourceKey<PlacedFeature> BITUMEN_ORE_PLACED_KEY = registerKey("bitumen_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_BITUMEN_ORE_PLACED_KEY = registerKey("netherrack_bitumen_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_BITUMEN_ORE_PLACED_KEY = registerKey("end_stone_bitumen_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> ARCANE_ORE_PLACED_KEY = registerKey("arcane_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_ARCANE_ORE_PLACED_KEY = registerKey("netherrack_arcane_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_ARCANE_ORE_PLACED_KEY = registerKey("end_stone_arcane_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> AQUITE_ORE_PLACED_KEY = registerKey("aquite_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_AQUITE_ORE_PLACED_KEY = registerKey("netherrack_aquite_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_AQUITE_ORE_PLACED_KEY = registerKey("end_stone_aquite_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> ALUMINUM_ORE_PLACED_KEY = registerKey("aluminum_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_ALUMINUM_ORE_PLACED_KEY = registerKey("netherrack_aluminum_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_ALUMINUM_ORE_PLACED_KEY = registerKey("end_stone_aluminum_ore_placed");
 
 	 public static final ResourceKey<PlacedFeature> APATITE_ORE_PLACED_KEY = registerKey("apatite_ore_placed");
 	 public static final ResourceKey<PlacedFeature> NETHERRACK_APATITE_ORE_PLACED_KEY = registerKey("netherrack_apatite_ore_placed");
@@ -75,6 +90,46 @@ public class RerPlacedFeatures {
 					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
 								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
 		  register(context, END_STONE_CINNABAR_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_CINNABAR_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, ALUMINUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.ALUMINUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_ALUMINUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_ALUMINUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_ALUMINUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_ALUMINUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, AQUITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.AQUITE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_AQUITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_AQUITE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_AQUITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_AQUITE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, BITUMEN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.BITUMEN_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_BITUMEN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_BITUMEN_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_BITUMEN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_BITUMEN_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, ARCANE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.ARCANE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_ARCANE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_ARCANE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_ARCANE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_ARCANE_ORE_KEY),
 					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
 								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
 	 }

@@ -29,6 +29,21 @@ public class RerConfiguredFeatures {
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_COBALT_ORE_KEY = registerKey("netherrack_cobalt_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_COBALT_ORE_KEY = registerKey("end_stone_cobalt_ore");
 
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> BITUMEN_ORE_KEY = registerKey("bitumen_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_BITUMEN_ORE_KEY = registerKey("netherrack_bitumen_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_BITUMEN_ORE_KEY = registerKey("end_stone_bitumen_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> AQUITE_ORE_KEY = registerKey("aquite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_AQUITE_ORE_KEY = registerKey("netherrack_aquite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_AQUITE_ORE_KEY = registerKey("end_stone_aquite_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> ARCANE_ORE_KEY = registerKey("arcane_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_ARCANE_ORE_KEY = registerKey("netherrack_arcane_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_ARCANE_ORE_KEY = registerKey("end_stone_arcane_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> ALUMINUM_ORE_KEY = registerKey("aluminum_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_ALUMINUM_ORE_KEY = registerKey("netherrack_aluminum_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_ALUMINUM_ORE_KEY = registerKey("end_stone_aluminum_ore");
 
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> APATITE_ORE_KEY = registerKey("apatite_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_APATITE_ORE_KEY = registerKey("netherrack_apatite_ore");
@@ -76,6 +91,38 @@ public class RerConfiguredFeatures {
 		  register(context, CINNABAR_ORE_KEY, Feature.ORE, new OreConfiguration(CinnabarOre, 9));
 		  register(context, NETHERRACK_CINNABAR_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_CINNABAR_ORE.get().defaultBlockState(), 9));
 		  register(context, END_STONE_CINNABAR_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_CINNABAR_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> AluminumOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.ALUMINUM_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_ALUMINUM_ORE.get().defaultBlockState()));
+
+		  register(context, ALUMINUM_ORE_KEY, Feature.ORE, new OreConfiguration(AluminumOre, 9));
+		  register(context, NETHERRACK_ALUMINUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_ALUMINUM_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_ALUMINUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_ALUMINUM_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> AquiteOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.AQUITE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_AQUITE_ORE.get().defaultBlockState()));
+
+		  register(context, AQUITE_ORE_KEY, Feature.ORE, new OreConfiguration(AquiteOre, 9));
+		  register(context, NETHERRACK_AQUITE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_AQUITE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_AQUITE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_AQUITE_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> BitumenOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.BITUMEN_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_BITUMEN_ORE.get().defaultBlockState()));
+
+		  register(context, BITUMEN_ORE_KEY, Feature.ORE, new OreConfiguration(BitumenOre, 9));
+		  register(context, NETHERRACK_BITUMEN_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_BITUMEN_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_BITUMEN_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_BITUMEN_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> ArcaneOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.ARCANE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_ARCANE_ORE.get().defaultBlockState()));
+
+		  register(context, ARCANE_ORE_KEY, Feature.ORE, new OreConfiguration(ArcaneOre, 9));
+		  register(context, NETHERRACK_ARCANE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_ARCANE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_ARCANE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_ARCANE_ORE.get().defaultBlockState(), 9));
 	 }
 
 	 public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

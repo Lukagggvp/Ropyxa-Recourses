@@ -820,6 +820,388 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 					 .unlockedBy("has_raw", has(RerMaterials.STEEL_INGOT))
 					 .save(recipeOutput);
 
-		  oreSmelting(recipeOutput, STEEL_SMELTABLES, RecipeCategory.MISC, RerMaterials.STEEL_INGOT.get(), 0.2f, 200, "steel");        oreBlasting(recipeOutput, STEEL_SMELTABLES, RecipeCategory.MISC, RerMaterials.STEEL_INGOT.get(), 0.2f, 100, "steel");
+		  oreSmelting(recipeOutput, STEEL_SMELTABLES, RecipeCategory.MISC, RerMaterials.STEEL_INGOT.get(), 0.2f, 200, "steel");
+		  oreBlasting(recipeOutput, STEEL_SMELTABLES, RecipeCategory.MISC, RerMaterials.STEEL_INGOT.get(), 0.2f, 100, "steel");
+
+		  List<ItemLike> ALUMINUM_SMELTABLES = List.of(
+					 RerMaterials.RAW_ALUMINUM,
+					 RerMaterialsBlocks.ALUMINUM_ORE,
+					 RerMaterialsBlocks.NETHERRACK_ALUMINUM_ORE,
+					 RerMaterialsBlocks.END_STONE_ALUMINUM_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_ALUMINUM_ORE,
+					 RerMaterials.ALUMINUM_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ALUMINUM_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ALUMINUM_BOLT.get())
+					 .define('B', RerMaterials.ALUMINUM_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ALUMINUM_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.ALUMINUM_ROD.get())
+					 .define('B', RerMaterials.ALUMINUM_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ALUMINUM_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ALUMINUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ALUMINUM_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ALUMINUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ALUMINUM_BOLT.get(), 2)
+					 .requires(RerMaterials.ALUMINUM_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ALUMINUM_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.ALUMINUM_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ALUMINUM_DUST.get())
+					 .requires(RerMaterials.ALUMINUM_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ALUMINUM_LARGE_PLATE.get())
+					 .requires(RerMaterials.ALUMINUM_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ALUMINUM_CLUSTER.get())
+					 .requires(RerMaterials.ALUMINUM_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.RAW_ALUMINUM.get(), 9)
+					 .requires(RerMaterialsBlocks.RAW_ALUMINUM_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.ALUMINUM_BLOCK.get(), 1)
+					 .requires(RerMaterials.ALUMINUM_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.RAW_ALUMINUM_BLOCK.get(), 1)
+					 .requires(RerMaterials.RAW_ALUMINUM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ALUMINUM_INGOT.get())
+					 .requires(RerMaterials.ALUMINUM_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput, "roprer:aluminum_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ALUMINUM_NUGGET.get(), 9)
+					 .requires(RerMaterials.ALUMINUM_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ALUMINUM_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.ALUMINUM_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_ALUMINUM))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, ALUMINUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.ALUMINUM_INGOT.get(), 0.2f, 200, "aluminum");
+		  oreBlasting(recipeOutput, ALUMINUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.ALUMINUM_INGOT.get(), 0.2f, 100, "aluminum");
+
+		  List<ItemLike> AQUITE_SMELTABLES = List.of(
+					 RerMaterials.AQUITE_CLUSTER_SHARD,
+					 RerMaterialsBlocks.AQUITE_ORE,
+					 RerMaterialsBlocks.NETHERRACK_AQUITE_ORE,
+					 RerMaterialsBlocks.END_STONE_AQUITE_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_AQUITE_ORE,
+					 RerMaterials.AQUITE_DUST);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.AQUITE_CLUSTER_SHARD.get(), 9)
+					 .requires(RerMaterialsBlocks.AQUITE_CLUSTER_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.AQUITE_CLUSTER_BLOCK.get(), 1)
+					 .requires(RerMaterials.AQUITE_CLUSTER_SHARD, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.AQUITE_BLOCK.get(), 1)
+					 .requires(RerMaterials.AQUITE_GEM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.AQUITE_GEM.get(), 9)
+					 .requires(RerMaterialsBlocks.AQUITE_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.AQUITE_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.AQUITE_BOLT.get())
+					 .define('B', RerMaterials.AQUITE_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.AQUITE_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.AQUITE_ROD.get())
+					 .define('B', RerMaterials.AQUITE_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.AQUITE_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.AQUITE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.AQUITE_DOUBLE_GEM.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.AQUITE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.AQUITE_BOLT.get(), 2)
+					 .requires(RerMaterials.AQUITE_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.AQUITE_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.AQUITE_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.AQUITE_DUST.get())
+					 .requires(RerMaterials.AQUITE_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.AQUITE_LARGE_PLATE.get())
+					 .requires(RerMaterials.AQUITE_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.AQUITE_CLUSTER.get())
+					 .requires(RerMaterials.AQUITE_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.AQUITE_GEM.get(), 1)
+					 .requires(RerMaterials.AQUITE_FRAGMENT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.AQUITE_GEM))
+					 .save(recipeOutput, "roprer:aquite_gem_from_fragment");
+
+		  oreSmelting(recipeOutput, AQUITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.AQUITE_GEM.get(), 0.2f, 200, "aquite");
+		  oreBlasting(recipeOutput, AQUITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.AQUITE_GEM.get(), 0.2f, 100, "aquite");
+
+		  List<ItemLike> BITUMEN_SMELTABLES = List.of(
+					 RerMaterials.BITUMEN_CLUSTER_SHARD,
+					 RerMaterialsBlocks.BITUMEN_ORE,
+					 RerMaterialsBlocks.NETHERRACK_BITUMEN_ORE,
+					 RerMaterialsBlocks.END_STONE_BITUMEN_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_BITUMEN_ORE,
+					 RerMaterials.BITUMEN_DUST);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.BITUMEN_CLUSTER_SHARD.get(), 9)
+					 .requires(RerMaterialsBlocks.BITUMEN_CLUSTER_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.BITUMEN_CLUSTER_BLOCK.get(), 1)
+					 .requires(RerMaterials.BITUMEN_CLUSTER_SHARD, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.BITUMEN_BLOCK.get(), 1)
+					 .requires(RerMaterials.BITUMEN_GEM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.BITUMEN_GEM.get(), 9)
+					 .requires(RerMaterialsBlocks.BITUMEN_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.BITUMEN_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.BITUMEN_BOLT.get())
+					 .define('B', RerMaterials.BITUMEN_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.BITUMEN_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.BITUMEN_ROD.get())
+					 .define('B', RerMaterials.BITUMEN_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.BITUMEN_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.BITUMEN_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.BITUMEN_DOUBLE_GEM.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.BITUMEN_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.BITUMEN_BOLT.get(), 2)
+					 .requires(RerMaterials.BITUMEN_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.BITUMEN_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.BITUMEN_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.BITUMEN_DUST.get())
+					 .requires(RerMaterials.BITUMEN_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.BITUMEN_LARGE_PLATE.get())
+					 .requires(RerMaterials.BITUMEN_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.BITUMEN_CLUSTER.get())
+					 .requires(RerMaterials.BITUMEN_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.BITUMEN_GEM.get(), 1)
+					 .requires(RerMaterials.BITUMEN_FRAGMENT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.BITUMEN_GEM))
+					 .save(recipeOutput, "roprer:bitumen_gem_from_fragment");
+
+		  oreSmelting(recipeOutput, BITUMEN_SMELTABLES, RecipeCategory.MISC, RerMaterials.BITUMEN_GEM.get(), 0.2f, 200, "bitumenn");
+		  oreBlasting(recipeOutput, BITUMEN_SMELTABLES, RecipeCategory.MISC, RerMaterials.BITUMEN_GEM.get(), 0.2f, 100, "bitumenn");
+
+		  List<ItemLike> ARCANE_SMELTABLES = List.of(
+					 RerMaterials.ARCANE_CLUSTER_SHARD,
+					 RerMaterialsBlocks.ARCANE_ORE,
+					 RerMaterialsBlocks.NETHERRACK_ARCANE_ORE,
+					 RerMaterialsBlocks.END_STONE_ARCANE_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_ARCANE_ORE,
+					 RerMaterials.ARCANE_DUST);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ARCANE_CLUSTER_SHARD.get(), 9)
+					 .requires(RerMaterialsBlocks.ARCANE_CLUSTER_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.ARCANE_CLUSTER_BLOCK.get(), 1)
+					 .requires(RerMaterials.ARCANE_CLUSTER_SHARD, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.ARCANE_BLOCK.get(), 1)
+					 .requires(RerMaterials.ARCANE_GEM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ARCANE_GEM.get(), 9)
+					 .requires(RerMaterialsBlocks.ARCANE_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ARCANE_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ARCANE_BOLT.get())
+					 .define('B', RerMaterials.ARCANE_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ARCANE_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.ARCANE_ROD.get())
+					 .define('B', RerMaterials.ARCANE_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ARCANE_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ARCANE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ARCANE_DOUBLE_GEM.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ARCANE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ARCANE_BOLT.get(), 2)
+					 .requires(RerMaterials.ARCANE_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ARCANE_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.ARCANE_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ARCANE_DUST.get())
+					 .requires(RerMaterials.ARCANE_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ARCANE_LARGE_PLATE.get())
+					 .requires(RerMaterials.ARCANE_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ARCANE_CLUSTER.get())
+					 .requires(RerMaterials.ARCANE_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ARCANE_GEM.get(), 1)
+					 .requires(RerMaterials.ARCANE_FRAGMENT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ARCANE_GEM))
+					 .save(recipeOutput, "roprer:arcane_gem_from_fragment");
+
+		  oreSmelting(recipeOutput, ARCANE_SMELTABLES, RecipeCategory.MISC, RerMaterials.ARCANE_GEM.get(), 0.2f, 200, "arcane");
+		  oreBlasting(recipeOutput, ARCANE_SMELTABLES, RecipeCategory.MISC, RerMaterials.ARCANE_GEM.get(), 0.2f, 100, "arcane");
 	 }
 }

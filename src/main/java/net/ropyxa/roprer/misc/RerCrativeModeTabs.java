@@ -72,6 +72,46 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.CINNABAR_BLOCK);
 							  output.accept(RerMaterials.CINNABAR_GEM);
 							  output.accept(RerMaterials.CINNABAR_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.ALUMINUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_ALUMINUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_ALUMINUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_ALUMINUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_ALUMINUM_BLOCK);
+							  output.accept(RerMaterials.RAW_ALUMINUM);
+							  output.accept(RerMaterialsBlocks.ALUMINUM_BLOCK);
+							  output.accept(RerMaterials.ALUMINUM_INGOT);
+							  output.accept(RerMaterials.ALUMINUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.AQUITE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_AQUITE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_AQUITE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_AQUITE_ORE);
+							  output.accept(RerMaterialsBlocks.AQUITE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.AQUITE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.AQUITE_BLOCK);
+							  output.accept(RerMaterials.AQUITE_GEM);
+							  output.accept(RerMaterials.AQUITE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.BITUMEN_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_BITUMEN_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_BITUMEN_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_BITUMEN_ORE);
+							  output.accept(RerMaterialsBlocks.BITUMEN_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.BITUMEN_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.BITUMEN_BLOCK);
+							  output.accept(RerMaterials.BITUMEN_GEM);
+							  output.accept(RerMaterials.BITUMEN_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.ARCANE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_ARCANE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_ARCANE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_ARCANE_ORE);
+							  output.accept(RerMaterialsBlocks.ARCANE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.ARCANE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.ARCANE_BLOCK);
+							  output.accept(RerMaterials.ARCANE_GEM);
+							  output.accept(RerMaterials.ARCANE_FRAGMENT);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -155,6 +195,82 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.CINNABAR_SHARD);
 							  output.accept(RerMaterials.CINNABAR_CLUMP);
 							  output.accept(RerMaterials.CINNABAR_DIRTY_DUST);
+
+							  output.accept(RerMaterials.ALUMINUM_PLATE);
+							  output.accept(RerMaterials.ALUMINUM_LARGE_PLATE);
+							  output.accept(RerMaterials.ALUMINUM_ROD);
+							  output.accept(RerMaterials.ALUMINUM_WIRE);
+							  output.accept(RerMaterials.ALUMINUM_GEAR);
+							  output.accept(RerMaterials.ALUMINUM_DUST);
+							  output.accept(RerMaterials.ALUMINUM_TINY_DUST);
+							  output.accept(RerMaterials.ALUMINUM_RING);
+							  output.accept(RerMaterials.ALUMINUM_BOLT);
+							  output.accept(RerMaterials.ALUMINUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.ALUMINUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_ALUMINUM_ORE);
+							  output.accept(RerMaterials.ALUMINUM_CHUNK);
+							  output.accept(RerMaterials.ALUMINUM_CLUSTER);
+							  output.accept(RerMaterials.ALUMINUM_CRYSTAL);
+							  output.accept(RerMaterials.ALUMINUM_SHARD);
+							  output.accept(RerMaterials.ALUMINUM_CLUMP);
+							  output.accept(RerMaterials.ALUMINUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.AQUITE_PLATE);
+							  output.accept(RerMaterials.AQUITE_LARGE_PLATE);
+							  output.accept(RerMaterials.AQUITE_ROD);
+							  output.accept(RerMaterials.AQUITE_WIRE);
+							  output.accept(RerMaterials.AQUITE_GEAR);
+							  output.accept(RerMaterials.AQUITE_DUST);
+							  output.accept(RerMaterials.AQUITE_TINY_DUST);
+							  output.accept(RerMaterials.AQUITE_RING);
+							  output.accept(RerMaterials.AQUITE_BOLT);
+							  output.accept(RerMaterials.AQUITE_DOUBLE_GEM);
+							  output.accept(RerMaterials.AQUITE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_AQUITE_ORE);
+							  output.accept(RerMaterials.AQUITE_CHUNK);
+							  output.accept(RerMaterials.AQUITE_CLUSTER);
+							  output.accept(RerMaterials.AQUITE_CRYSTAL);
+							  output.accept(RerMaterials.AQUITE_SHARD);
+							  output.accept(RerMaterials.AQUITE_CLUMP);
+							  output.accept(RerMaterials.AQUITE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.BITUMEN_PLATE);
+							  output.accept(RerMaterials.BITUMEN_LARGE_PLATE);
+							  output.accept(RerMaterials.BITUMEN_ROD);
+							  output.accept(RerMaterials.BITUMEN_WIRE);
+							  output.accept(RerMaterials.BITUMEN_GEAR);
+							  output.accept(RerMaterials.BITUMEN_DUST);
+							  output.accept(RerMaterials.BITUMEN_TINY_DUST);
+							  output.accept(RerMaterials.BITUMEN_RING);
+							  output.accept(RerMaterials.BITUMEN_BOLT);
+							  output.accept(RerMaterials.BITUMEN_DOUBLE_GEM);
+							  output.accept(RerMaterials.BITUMEN_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_BITUMEN_ORE);
+							  output.accept(RerMaterials.BITUMEN_CHUNK);
+							  output.accept(RerMaterials.BITUMEN_CLUSTER);
+							  output.accept(RerMaterials.BITUMEN_CRYSTAL);
+							  output.accept(RerMaterials.BITUMEN_SHARD);
+							  output.accept(RerMaterials.BITUMEN_CLUMP);
+							  output.accept(RerMaterials.BITUMEN_DIRTY_DUST);
+
+							  output.accept(RerMaterials.ARCANE_PLATE);
+							  output.accept(RerMaterials.ARCANE_LARGE_PLATE);
+							  output.accept(RerMaterials.ARCANE_ROD);
+							  output.accept(RerMaterials.ARCANE_WIRE);
+							  output.accept(RerMaterials.ARCANE_GEAR);
+							  output.accept(RerMaterials.ARCANE_DUST);
+							  output.accept(RerMaterials.ARCANE_TINY_DUST);
+							  output.accept(RerMaterials.ARCANE_RING);
+							  output.accept(RerMaterials.ARCANE_BOLT);
+							  output.accept(RerMaterials.ARCANE_DOUBLE_GEM);
+							  output.accept(RerMaterials.ARCANE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_ARCANE_ORE);
+							  output.accept(RerMaterials.ARCANE_CHUNK);
+							  output.accept(RerMaterials.ARCANE_CLUSTER);
+							  output.accept(RerMaterials.ARCANE_CRYSTAL);
+							  output.accept(RerMaterials.ARCANE_SHARD);
+							  output.accept(RerMaterials.ARCANE_CLUMP);
+							  output.accept(RerMaterials.ARCANE_DIRTY_DUST);
 						 }).build());
 
 	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",
