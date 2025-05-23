@@ -57,6 +57,18 @@ public class RerMaterials {
 	 public static final DeferredItem<Item> NOTHING16 = ITEMS.register("nothing16",
 				() -> new Item(new Item.Properties()));
 
+	 public static final DeferredItem<Item> NOTHING17 = ITEMS.register("nothing17",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING18 = ITEMS.register("nothing18",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING19 = ITEMS.register("nothing19",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> NOTHING20 = ITEMS.register("nothing20",
+				() -> new Item(new Item.Properties()));
+
 	 public static final DeferredItem<Item> TIN_INGOT = ITEMS.register("tin_ingot",
 				() -> new Item(new Item.Properties()));
 
@@ -787,6 +799,186 @@ public class RerMaterials {
 				() -> new Item(new Item.Properties()));
 
 	 public static final DeferredItem<Item> ARCANE_RING = ITEMS.register("arcane_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_INGOT = ITEMS.register("enderium_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_NUGGET = ITEMS.register("enderium_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_PLATE = ITEMS.register("enderium_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_LARGE_PLATE = ITEMS.register("enderium_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_ROD = ITEMS.register("enderium_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_WIRE = ITEMS.register("enderium_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_GEAR = ITEMS.register("enderium_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_DUST = ITEMS.register("enderium_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_TINY_DUST = ITEMS.register("enderium_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_BOLT = ITEMS.register("enderium_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_DOUBLE_INGOT = ITEMS.register("enderium_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_CURVED_PLATE = ITEMS.register("enderium_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_CHUNK = ITEMS.register("enderium_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_CLUSTER = ITEMS.register("enderium_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ENDERIUM_RING = ITEMS.register("enderium_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_NUGGET = ITEMS.register("electrum_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_PLATE = ITEMS.register("electrum_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_LARGE_PLATE = ITEMS.register("electrum_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_ROD = ITEMS.register("electrum_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_WIRE = ITEMS.register("electrum_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_GEAR = ITEMS.register("electrum_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_DUST = ITEMS.register("electrum_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_TINY_DUST = ITEMS.register("electrum_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_BOLT = ITEMS.register("electrum_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_DOUBLE_INGOT = ITEMS.register("electrum_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_CURVED_PLATE = ITEMS.register("electrum_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_CHUNK = ITEMS.register("electrum_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_CLUSTER = ITEMS.register("electrum_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> ELECTRUM_RING = ITEMS.register("electrum_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_INGOT = ITEMS.register("lumium_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_NUGGET = ITEMS.register("lumium_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_PLATE = ITEMS.register("lumium_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_LARGE_PLATE = ITEMS.register("lumium_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_ROD = ITEMS.register("lumium_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_WIRE = ITEMS.register("lumium_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_GEAR = ITEMS.register("lumium_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_DUST = ITEMS.register("lumium_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_TINY_DUST = ITEMS.register("lumium_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_BOLT = ITEMS.register("lumium_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_DOUBLE_INGOT = ITEMS.register("lumium_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_CURVED_PLATE = ITEMS.register("lumium_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_CHUNK = ITEMS.register("lumium_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_CLUSTER = ITEMS.register("lumium_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> LUMIUM_RING = ITEMS.register("lumium_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_INGOT = ITEMS.register("fiery_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_NUGGET = ITEMS.register("fiery_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_PLATE = ITEMS.register("fiery_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_LARGE_PLATE = ITEMS.register("fiery_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_ROD = ITEMS.register("fiery_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_WIRE = ITEMS.register("fiery_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_GEAR = ITEMS.register("fiery_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_DUST = ITEMS.register("fiery_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_TINY_DUST = ITEMS.register("fiery_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_BOLT = ITEMS.register("fiery_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_DOUBLE_INGOT = ITEMS.register("fiery_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_CURVED_PLATE = ITEMS.register("fiery_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_CHUNK = ITEMS.register("fiery_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_CLUSTER = ITEMS.register("fiery_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FIERY_RING = ITEMS.register("fiery_ring",
 				() -> new Item(new Item.Properties()));
 
 	 public static void register(IEventBus eventBus) {

@@ -29,6 +29,10 @@ public class RerItemModelProvider extends ItemModelProvider {
 		  basicItem(RerMaterials.NOTHING14.get());
 		  basicItem(RerMaterials.NOTHING15.get());
 		  basicItem(RerMaterials.NOTHING16.get());
+		  basicItem(RerMaterials.NOTHING17.get());
+		  basicItem(RerMaterials.NOTHING18.get());
+		  basicItem(RerMaterials.NOTHING19.get());
+		  basicItem(RerMaterials.NOTHING20.get());
 
 		  basicItem(RerMaterials.TIN_INGOT.get());
 		  basicItem(RerMaterials.RAW_TIN.get());
@@ -285,5 +289,68 @@ public class RerItemModelProvider extends ItemModelProvider {
 		  basicItem(RerMaterials.ARCANE_CLUMP.get());
 		  basicItem(RerMaterials.ARCANE_DIRTY_DUST.get());
 		  basicItem(RerMaterials.ARCANE_RING.get());
+		  basicItem(RerMaterials.ENDERIUM_INGOT.get());
+		  basicItem(RerMaterials.ENDERIUM_NUGGET.get());
+		  basicItem(RerMaterials.ENDERIUM_PLATE.get());
+		  basicItem(RerMaterials.ENDERIUM_LARGE_PLATE.get());
+		  basicItem(RerMaterials.ENDERIUM_ROD.get());
+		  basicItem(RerMaterials.ENDERIUM_WIRE.get());
+		  basicItem(RerMaterials.ENDERIUM_GEAR.get());
+		  basicItem(RerMaterials.ENDERIUM_DUST.get());
+		  basicItem(RerMaterials.ENDERIUM_TINY_DUST.get());
+		  basicItem(RerMaterials.ENDERIUM_BOLT.get());
+		  basicItem(RerMaterials.ENDERIUM_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.ENDERIUM_CURVED_PLATE.get());
+		  basicItem(RerMaterials.ENDERIUM_CHUNK.get());
+		  basicItem(RerMaterials.ENDERIUM_CLUSTER.get());
+		  basicItem(RerMaterials.ENDERIUM_RING.get());
+
+		  basicItem(RerMaterials.ELECTRUM_INGOT.get());
+		  basicItem(RerMaterials.ELECTRUM_NUGGET.get());
+		  basicItem(RerMaterials.ELECTRUM_PLATE.get());
+		  basicItem(RerMaterials.ELECTRUM_LARGE_PLATE.get());
+		  basicItem(RerMaterials.ELECTRUM_ROD.get());
+		  basicItem(RerMaterials.ELECTRUM_WIRE.get());
+		  basicItem(RerMaterials.ELECTRUM_GEAR.get());
+		  basicItem(RerMaterials.ELECTRUM_DUST.get());
+		  basicItem(RerMaterials.ELECTRUM_TINY_DUST.get());
+		  basicItem(RerMaterials.ELECTRUM_BOLT.get());
+		  basicItem(RerMaterials.ELECTRUM_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.ELECTRUM_CURVED_PLATE.get());
+		  basicItem(RerMaterials.ELECTRUM_CHUNK.get());
+		  basicItem(RerMaterials.ELECTRUM_CLUSTER.get());
+		  basicItem(RerMaterials.ELECTRUM_RING.get());
+
+		  basicItem(RerMaterials.LUMIUM_INGOT.get());
+		  basicItem(RerMaterials.LUMIUM_NUGGET.get());
+		  basicItem(RerMaterials.LUMIUM_PLATE.get());
+		  basicItem(RerMaterials.LUMIUM_LARGE_PLATE.get());
+		  basicItem(RerMaterials.LUMIUM_ROD.get());
+		  basicItem(RerMaterials.LUMIUM_WIRE.get());
+		  basicItem(RerMaterials.LUMIUM_GEAR.get());
+		  basicItem(RerMaterials.LUMIUM_DUST.get());
+		  basicItem(RerMaterials.LUMIUM_TINY_DUST.get());
+		  basicItem(RerMaterials.LUMIUM_BOLT.get());
+		  basicItem(RerMaterials.LUMIUM_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.LUMIUM_CURVED_PLATE.get());
+		  basicItem(RerMaterials.LUMIUM_CHUNK.get());
+		  basicItem(RerMaterials.LUMIUM_CLUSTER.get());
+		  basicItem(RerMaterials.LUMIUM_RING.get());
+
+		  basicItem(RerMaterials.FIERY_INGOT.get());
+		  basicItem(RerMaterials.FIERY_NUGGET.get());
+		  basicItem(RerMaterials.FIERY_PLATE.get());
+		  basicItem(RerMaterials.FIERY_LARGE_PLATE.get());
+		  basicItem(RerMaterials.FIERY_ROD.get());
+		  basicItem(RerMaterials.FIERY_WIRE.get());
+		  basicItem(RerMaterials.FIERY_GEAR.get());
+		  basicItem(RerMaterials.FIERY_DUST.get());
+		  basicItem(RerMaterials.FIERY_TINY_DUST.get());
+		  basicItem(RerMaterials.FIERY_BOLT.get());
+		  basicItem(RerMaterials.FIERY_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.FIERY_CURVED_PLATE.get());
+		  basicItem(RerMaterials.FIERY_CHUNK.get());
+		  basicItem(RerMaterials.FIERY_CLUSTER.get());
+		  basicItem(RerMaterials.FIERY_RING.get());
 	 }
 }

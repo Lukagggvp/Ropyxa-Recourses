@@ -49,6 +49,10 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.BITUMEN_CLUSTER_BLOCK.get(),
 				RerMaterialsBlocks.ARCANE_BLOCK.get(),
 				RerMaterialsBlocks.ARCANE_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.ENDERIUM_BLOCK.get(),
+				RerMaterialsBlocks.ELECTRUM_BLOCK.get(),
+				RerMaterialsBlocks.LUMIUM_BLOCK.get(),
+				RerMaterialsBlocks.FIERY_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);

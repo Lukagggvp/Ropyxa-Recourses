@@ -1203,5 +1203,341 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 
 		  oreSmelting(recipeOutput, ARCANE_SMELTABLES, RecipeCategory.MISC, RerMaterials.ARCANE_GEM.get(), 0.2f, 200, "arcane");
 		  oreBlasting(recipeOutput, ARCANE_SMELTABLES, RecipeCategory.MISC, RerMaterials.ARCANE_GEM.get(), 0.2f, 100, "arcane");
+
+		  List<ItemLike> ENDERIUM_SMELTABLES = List.of(
+					 RerMaterials.ENDERIUM_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ENDERIUM_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ENDERIUM_BOLT.get())
+					 .define('B', RerMaterials.ENDERIUM_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ENDERIUM_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.ENDERIUM_ROD.get())
+					 .define('B', RerMaterials.ENDERIUM_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ENDERIUM_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ENDERIUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ENDERIUM_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ENDERIUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ENDERIUM_BOLT.get(), 2)
+					 .requires(RerMaterials.ENDERIUM_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ENDERIUM_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.ENDERIUM_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ENDERIUM_DUST.get())
+					 .requires(RerMaterials.ENDERIUM_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ENDERIUM_LARGE_PLATE.get())
+					 .requires(RerMaterials.ENDERIUM_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ENDERIUM_CLUSTER.get())
+					 .requires(RerMaterials.ENDERIUM_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.ENDERIUM_BLOCK.get(), 1)
+					 .requires(RerMaterials.ENDERIUM_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ENDERIUM_INGOT.get())
+					 .requires(RerMaterials.ENDERIUM_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput, "roprer:enderium_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ENDERIUM_NUGGET.get(), 9)
+					 .requires(RerMaterials.ENDERIUM_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ENDERIUM_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.ENDERIUM_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.ENDERIUM_INGOT))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, ENDERIUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.ENDERIUM_INGOT.get(), 0.2f, 200, "enderium");
+		  oreBlasting(recipeOutput, ENDERIUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.ENDERIUM_INGOT.get(), 0.2f, 100, "enderium");
+
+		  List<ItemLike> ELECTRUM_SMELTABLES = List.of(
+					 RerMaterials.ELECTRUM_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ELECTRUM_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ELECTRUM_BOLT.get())
+					 .define('B', RerMaterials.ELECTRUM_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ELECTRUM_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.ELECTRUM_ROD.get())
+					 .define('B', RerMaterials.ELECTRUM_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ELECTRUM_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ELECTRUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.ELECTRUM_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.ELECTRUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ELECTRUM_BOLT.get(), 2)
+					 .requires(RerMaterials.ELECTRUM_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ELECTRUM_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.ELECTRUM_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ELECTRUM_DUST.get())
+					 .requires(RerMaterials.ELECTRUM_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ELECTRUM_LARGE_PLATE.get())
+					 .requires(RerMaterials.ELECTRUM_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ELECTRUM_CLUSTER.get())
+					 .requires(RerMaterials.ELECTRUM_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.ELECTRUM_BLOCK.get(), 1)
+					 .requires(RerMaterials.ELECTRUM_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ELECTRUM_INGOT.get())
+					 .requires(RerMaterials.ELECTRUM_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput, "roprer:electrum_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ELECTRUM_NUGGET.get(), 9)
+					 .requires(RerMaterials.ELECTRUM_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.ELECTRUM_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.ELECTRUM_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.ELECTRUM_INGOT))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, ELECTRUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.ELECTRUM_INGOT.get(), 0.2f, 200, "electrum");
+		  oreBlasting(recipeOutput, ELECTRUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.ELECTRUM_INGOT.get(), 0.2f, 100, "electrum");
+
+		  List<ItemLike> LUMIUM_SMELTABLES = List.of(
+					 RerMaterials.LUMIUM_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.LUMIUM_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.LUMIUM_BOLT.get())
+					 .define('B', RerMaterials.LUMIUM_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.LUMIUM_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.LUMIUM_ROD.get())
+					 .define('B', RerMaterials.LUMIUM_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.LUMIUM_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.LUMIUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.LUMIUM_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.LUMIUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.LUMIUM_BOLT.get(), 2)
+					 .requires(RerMaterials.LUMIUM_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.LUMIUM_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.LUMIUM_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.LUMIUM_DUST.get())
+					 .requires(RerMaterials.LUMIUM_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.LUMIUM_LARGE_PLATE.get())
+					 .requires(RerMaterials.LUMIUM_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.LUMIUM_CLUSTER.get())
+					 .requires(RerMaterials.LUMIUM_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.LUMIUM_BLOCK.get(), 1)
+					 .requires(RerMaterials.LUMIUM_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.LUMIUM_INGOT.get())
+					 .requires(RerMaterials.LUMIUM_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput, "roprer:lumium_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.LUMIUM_NUGGET.get(), 9)
+					 .requires(RerMaterials.LUMIUM_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.LUMIUM_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.LUMIUM_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.LUMIUM_INGOT))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, LUMIUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.LUMIUM_INGOT.get(), 0.2f, 200, "lumium");
+		  oreBlasting(recipeOutput, LUMIUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.LUMIUM_INGOT.get(), 0.2f, 100, "lumium");
+
+		  List<ItemLike> FIERY_SMELTABLES = List.of(
+					 RerMaterials.FIERY_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.FIERY_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.FIERY_BOLT.get())
+					 .define('B', RerMaterials.FIERY_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.FIERY_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.FIERY_ROD.get())
+					 .define('B', RerMaterials.FIERY_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.FIERY_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.FIERY_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.FIERY_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.FIERY_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.FIERY_BOLT.get(), 2)
+					 .requires(RerMaterials.FIERY_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.FIERY_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.FIERY_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.FIERY_DUST.get())
+					 .requires(RerMaterials.FIERY_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.FIERY_LARGE_PLATE.get())
+					 .requires(RerMaterials.FIERY_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.FIERY_CLUSTER.get())
+					 .requires(RerMaterials.FIERY_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.FIERY_BLOCK.get(), 1)
+					 .requires(RerMaterials.FIERY_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.FIERY_INGOT.get())
+					 .requires(RerMaterials.FIERY_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput, "roprer:fiery_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.FIERY_NUGGET.get(), 9)
+					 .requires(RerMaterials.FIERY_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.FIERY_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.FIERY_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.FIERY_INGOT))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, FIERY_SMELTABLES, RecipeCategory.MISC, RerMaterials.FIERY_INGOT.get(), 0.2f, 200, "fiery");
+		  oreBlasting(recipeOutput, FIERY_SMELTABLES, RecipeCategory.MISC, RerMaterials.FIERY_INGOT.get(), 0.2f, 100, "fiery");
 	 }
 }
