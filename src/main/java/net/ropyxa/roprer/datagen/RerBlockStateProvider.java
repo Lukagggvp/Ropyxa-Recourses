@@ -37,6 +37,34 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.END_STONE_COBALT_ORE, "end_stone","cobalt_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_COBALT_ORE, "deepslate","cobalt_ore");
 
+		  blockWithItem(RerMaterialsBlocks.IRIDIUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_IRIDIUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.IRIDIUM_ORE, "stone","iridium_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_IRIDIUM_ORE, "netherrack","iridium_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_IRIDIUM_ORE, "end_stone","iridium_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_IRIDIUM_ORE, "deepslate","iridium_ore");
+
+		  blockWithItem(RerMaterialsBlocks.LEAD_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_LEAD_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.LEAD_ORE, "stone","lead_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_LEAD_ORE, "netherrack","lead_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_LEAD_ORE, "end_stone","lead_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_LEAD_ORE, "deepslate","lead_ore");
+
+		  blockWithItem(RerMaterialsBlocks.NICKEL_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_NICKEL_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.NICKEL_ORE, "stone","nickel_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_NICKEL_ORE, "netherrack","nickel_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_NICKEL_ORE, "end_stone","nickel_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_NICKEL_ORE, "deepslate","nickel_ore");
+
+		  blockWithItem(RerMaterialsBlocks.OSMIUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_OSMIUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.OSMIUM_ORE, "stone","osmium_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_OSMIUM_ORE, "netherrack","osmium_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_OSMIUM_ORE, "end_stone","osmium_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE, "deepslate","osmium_ore");
+
 		  blockWithItem(RerMaterialsBlocks.BRASS_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.BRONZE_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.CAST_IRON_BLOCK);

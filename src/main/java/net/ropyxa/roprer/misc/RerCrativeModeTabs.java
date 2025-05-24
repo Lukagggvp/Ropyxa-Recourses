@@ -112,6 +112,46 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.ARCANE_BLOCK);
 							  output.accept(RerMaterials.ARCANE_GEM);
 							  output.accept(RerMaterials.ARCANE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.IRIDIUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_IRIDIUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_IRIDIUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_IRIDIUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_IRIDIUM_BLOCK);
+							  output.accept(RerMaterials.RAW_IRIDIUM);
+							  output.accept(RerMaterialsBlocks.IRIDIUM_BLOCK);
+							  output.accept(RerMaterials.IRIDIUM_INGOT);
+							  output.accept(RerMaterials.IRIDIUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.LEAD_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_LEAD_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_LEAD_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_LEAD_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_LEAD_BLOCK);
+							  output.accept(RerMaterials.RAW_LEAD);
+							  output.accept(RerMaterialsBlocks.LEAD_BLOCK);
+							  output.accept(RerMaterials.LEAD_INGOT);
+							  output.accept(RerMaterials.LEAD_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.NICKEL_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_NICKEL_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_NICKEL_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_NICKEL_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_NICKEL_BLOCK);
+							  output.accept(RerMaterials.RAW_NICKEL);
+							  output.accept(RerMaterialsBlocks.NICKEL_BLOCK);
+							  output.accept(RerMaterials.NICKEL_INGOT);
+							  output.accept(RerMaterials.NICKEL_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.OSMIUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_OSMIUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_OSMIUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_OSMIUM_BLOCK);
+							  output.accept(RerMaterials.RAW_OSMIUM);
+							  output.accept(RerMaterialsBlocks.OSMIUM_BLOCK);
+							  output.accept(RerMaterials.OSMIUM_INGOT);
+							  output.accept(RerMaterials.OSMIUM_NUGGET);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -271,6 +311,82 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.ARCANE_SHARD);
 							  output.accept(RerMaterials.ARCANE_CLUMP);
 							  output.accept(RerMaterials.ARCANE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.IRIDIUM_PLATE);
+							  output.accept(RerMaterials.IRIDIUM_LARGE_PLATE);
+							  output.accept(RerMaterials.IRIDIUM_ROD);
+							  output.accept(RerMaterials.IRIDIUM_WIRE);
+							  output.accept(RerMaterials.IRIDIUM_GEAR);
+							  output.accept(RerMaterials.IRIDIUM_DUST);
+							  output.accept(RerMaterials.IRIDIUM_TINY_DUST);
+							  output.accept(RerMaterials.IRIDIUM_RING);
+							  output.accept(RerMaterials.IRIDIUM_BOLT);
+							  output.accept(RerMaterials.IRIDIUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.IRIDIUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_IRIDIUM_ORE);
+							  output.accept(RerMaterials.IRIDIUM_CHUNK);
+							  output.accept(RerMaterials.IRIDIUM_CLUSTER);
+							  output.accept(RerMaterials.IRIDIUM_CRYSTAL);
+							  output.accept(RerMaterials.IRIDIUM_SHARD);
+							  output.accept(RerMaterials.IRIDIUM_CLUMP);
+							  output.accept(RerMaterials.IRIDIUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.LEAD_PLATE);
+							  output.accept(RerMaterials.LEAD_LARGE_PLATE);
+							  output.accept(RerMaterials.LEAD_ROD);
+							  output.accept(RerMaterials.LEAD_WIRE);
+							  output.accept(RerMaterials.LEAD_GEAR);
+							  output.accept(RerMaterials.LEAD_DUST);
+							  output.accept(RerMaterials.LEAD_TINY_DUST);
+							  output.accept(RerMaterials.LEAD_RING);
+							  output.accept(RerMaterials.LEAD_BOLT);
+							  output.accept(RerMaterials.LEAD_DOUBLE_INGOT);
+							  output.accept(RerMaterials.LEAD_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_LEAD_ORE);
+							  output.accept(RerMaterials.LEAD_CHUNK);
+							  output.accept(RerMaterials.LEAD_CLUSTER);
+							  output.accept(RerMaterials.LEAD_CRYSTAL);
+							  output.accept(RerMaterials.LEAD_SHARD);
+							  output.accept(RerMaterials.LEAD_CLUMP);
+							  output.accept(RerMaterials.LEAD_DIRTY_DUST);
+
+							  output.accept(RerMaterials.NICKEL_PLATE);
+							  output.accept(RerMaterials.NICKEL_LARGE_PLATE);
+							  output.accept(RerMaterials.NICKEL_ROD);
+							  output.accept(RerMaterials.NICKEL_WIRE);
+							  output.accept(RerMaterials.NICKEL_GEAR);
+							  output.accept(RerMaterials.NICKEL_DUST);
+							  output.accept(RerMaterials.NICKEL_TINY_DUST);
+							  output.accept(RerMaterials.NICKEL_RING);
+							  output.accept(RerMaterials.NICKEL_BOLT);
+							  output.accept(RerMaterials.NICKEL_DOUBLE_INGOT);
+							  output.accept(RerMaterials.NICKEL_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_NICKEL_ORE);
+							  output.accept(RerMaterials.NICKEL_CHUNK);
+							  output.accept(RerMaterials.NICKEL_CLUSTER);
+							  output.accept(RerMaterials.NICKEL_CRYSTAL);
+							  output.accept(RerMaterials.NICKEL_SHARD);
+							  output.accept(RerMaterials.NICKEL_CLUMP);
+							  output.accept(RerMaterials.NICKEL_DIRTY_DUST);
+
+							  output.accept(RerMaterials.OSMIUM_PLATE);
+							  output.accept(RerMaterials.OSMIUM_LARGE_PLATE);
+							  output.accept(RerMaterials.OSMIUM_ROD);
+							  output.accept(RerMaterials.OSMIUM_WIRE);
+							  output.accept(RerMaterials.OSMIUM_GEAR);
+							  output.accept(RerMaterials.OSMIUM_DUST);
+							  output.accept(RerMaterials.OSMIUM_TINY_DUST);
+							  output.accept(RerMaterials.OSMIUM_RING);
+							  output.accept(RerMaterials.OSMIUM_BOLT);
+							  output.accept(RerMaterials.OSMIUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.OSMIUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_OSMIUM_ORE);
+							  output.accept(RerMaterials.OSMIUM_CHUNK);
+							  output.accept(RerMaterials.OSMIUM_CLUSTER);
+							  output.accept(RerMaterials.OSMIUM_CRYSTAL);
+							  output.accept(RerMaterials.OSMIUM_SHARD);
+							  output.accept(RerMaterials.OSMIUM_CLUMP);
+							  output.accept(RerMaterials.OSMIUM_DIRTY_DUST);
 						 }).build());
 
 	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",

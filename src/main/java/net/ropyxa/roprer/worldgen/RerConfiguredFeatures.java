@@ -37,6 +37,22 @@ public class RerConfiguredFeatures {
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_AQUITE_ORE_KEY = registerKey("netherrack_aquite_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_AQUITE_ORE_KEY = registerKey("end_stone_aquite_ore");
 
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> IRIDIUM_ORE_KEY = registerKey("iridium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_IRIDIUM_ORE_KEY = registerKey("netherrack_iridium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_IRIDIUM_ORE_KEY = registerKey("end_stone_iridium_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> LEAD_ORE_KEY = registerKey("lead_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_LEAD_ORE_KEY = registerKey("netherrack_lead_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_LEAD_ORE_KEY = registerKey("end_stone_lead_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NICKEL_ORE_KEY = registerKey("nickel_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_NICKEL_ORE_KEY = registerKey("netherrack_nickel_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_NICKEL_ORE_KEY = registerKey("end_stone_nickel_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> OSMIUM_ORE_KEY = registerKey("osmium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_OSMIUM_ORE_KEY = registerKey("netherrack_osmium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_OSMIUM_ORE_KEY = registerKey("end_stone_osmium_ore");
+
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> ARCANE_ORE_KEY = registerKey("arcane_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_ARCANE_ORE_KEY = registerKey("netherrack_arcane_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_ARCANE_ORE_KEY = registerKey("end_stone_arcane_ore");
@@ -123,6 +139,38 @@ public class RerConfiguredFeatures {
 		  register(context, ARCANE_ORE_KEY, Feature.ORE, new OreConfiguration(ArcaneOre, 9));
 		  register(context, NETHERRACK_ARCANE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_ARCANE_ORE.get().defaultBlockState(), 9));
 		  register(context, END_STONE_ARCANE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_ARCANE_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> IridiumOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.IRIDIUM_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_IRIDIUM_ORE.get().defaultBlockState()));
+
+		  register(context, IRIDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(IridiumOre, 9));
+		  register(context, NETHERRACK_IRIDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_IRIDIUM_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_IRIDIUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_IRIDIUM_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> LeadOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.LEAD_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_LEAD_ORE.get().defaultBlockState()));
+
+		  register(context, LEAD_ORE_KEY, Feature.ORE, new OreConfiguration(LeadOre, 9));
+		  register(context, NETHERRACK_LEAD_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_LEAD_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_LEAD_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_LEAD_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> NickelOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.NICKEL_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_NICKEL_ORE.get().defaultBlockState()));
+
+		  register(context, NICKEL_ORE_KEY, Feature.ORE, new OreConfiguration(NickelOre, 9));
+		  register(context, NETHERRACK_NICKEL_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_NICKEL_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_NICKEL_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_NICKEL_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> OsmiumOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.OSMIUM_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE.get().defaultBlockState()));
+
+		  register(context, OSMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(OsmiumOre, 9));
+		  register(context, NETHERRACK_OSMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_OSMIUM_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_OSMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_OSMIUM_ORE.get().defaultBlockState(), 9));
 	 }
 
 	 public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

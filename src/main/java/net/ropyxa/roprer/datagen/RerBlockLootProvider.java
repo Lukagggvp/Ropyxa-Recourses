@@ -53,6 +53,14 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.ELECTRUM_BLOCK.get(),
 				RerMaterialsBlocks.LUMIUM_BLOCK.get(),
 				RerMaterialsBlocks.FIERY_BLOCK.get(),
+				RerMaterialsBlocks.IRIDIUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_IRIDIUM_BLOCK.get(),
+				RerMaterialsBlocks.LEAD_BLOCK.get(),
+				RerMaterialsBlocks.RAW_LEAD_BLOCK.get(),
+				RerMaterialsBlocks.NICKEL_BLOCK.get(),
+				RerMaterialsBlocks.RAW_NICKEL_BLOCK.get(),
+				RerMaterialsBlocks.OSMIUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_OSMIUM_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
@@ -127,6 +135,42 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 					 RerMaterialsBlocks.END_STONE_ARCANE_ORE.get(), RerMaterials.ARCANE_GEM.get(), 1, 2));
 		  add(RerMaterialsBlocks.DEEPSLATE_ARCANE_ORE.get(), block -> createMultipleOreDrops(
 					 RerMaterialsBlocks.DEEPSLATE_ARCANE_ORE.get(), RerMaterials.ARCANE_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.IRIDIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.IRIDIUM_ORE.get(), RerMaterials.RAW_IRIDIUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_IRIDIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_IRIDIUM_ORE.get(), RerMaterials.RAW_IRIDIUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_IRIDIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_IRIDIUM_ORE.get(), RerMaterials.RAW_IRIDIUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_IRIDIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_IRIDIUM_ORE.get(), RerMaterials.RAW_IRIDIUM.get()));
+
+		  add(RerMaterialsBlocks.LEAD_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.LEAD_ORE.get(), RerMaterials.RAW_LEAD.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_LEAD_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_LEAD_ORE.get(), RerMaterials.RAW_LEAD.get()));
+		  add(RerMaterialsBlocks.END_STONE_LEAD_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_LEAD_ORE.get(), RerMaterials.RAW_LEAD.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_LEAD_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_LEAD_ORE.get(), RerMaterials.RAW_LEAD.get()));
+
+		  add(RerMaterialsBlocks.NICKEL_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NICKEL_ORE.get(), RerMaterials.RAW_NICKEL.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_NICKEL_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_NICKEL_ORE.get(), RerMaterials.RAW_NICKEL.get()));
+		  add(RerMaterialsBlocks.END_STONE_NICKEL_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_NICKEL_ORE.get(), RerMaterials.RAW_NICKEL.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_NICKEL_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_NICKEL_ORE.get(), RerMaterials.RAW_NICKEL.get()));
+
+		  add(RerMaterialsBlocks.OSMIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.OSMIUM_ORE.get(), RerMaterials.RAW_OSMIUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_OSMIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_OSMIUM_ORE.get(), RerMaterials.RAW_OSMIUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_OSMIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_OSMIUM_ORE.get(), RerMaterials.RAW_OSMIUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE.get(), RerMaterials.RAW_OSMIUM.get()));
 	 }
 
 	 protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
