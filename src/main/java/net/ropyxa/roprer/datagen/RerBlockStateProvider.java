@@ -65,6 +65,34 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.END_STONE_OSMIUM_ORE, "end_stone","osmium_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE, "deepslate","osmium_ore");
 
+		  blockWithItem(RerMaterialsBlocks.CARMINITE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.CARMINITE_ORE, "stone","carminite_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE, "netherrack","carminite_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_CARMINITE_ORE, "end_stone","carminite_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE, "deepslate","carminite_ore");
+
+		  blockWithItem(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.CERTUS_QUARTZ_ORE, "stone","certus_quartz_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE, "netherrack","certus_quartz_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE, "end_stone","certus_quartz_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE, "deepslate","certus_quartz_ore");
+
+		  blockWithItem(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE, "stone","charged_certus_quartz_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE, "netherrack","charged_certus_quartz_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE, "end_stone","charged_certus_quartz_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE, "deepslate","charged_certus_quartz_ore");
+
+		  blockWithItem(RerMaterialsBlocks.CHAROITE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.CHAROITE_ORE, "stone","charoite_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE, "netherrack","charoite_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_CHAROITE_ORE, "end_stone","charoite_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE, "deepslate","charoite_ore");
+
 		  blockWithItem(RerMaterialsBlocks.BRASS_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.BRONZE_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.CAST_IRON_BLOCK);

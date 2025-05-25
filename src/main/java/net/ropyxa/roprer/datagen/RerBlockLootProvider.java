@@ -61,6 +61,14 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.RAW_NICKEL_BLOCK.get(),
 				RerMaterialsBlocks.OSMIUM_BLOCK.get(),
 				RerMaterialsBlocks.RAW_OSMIUM_BLOCK.get(),
+				RerMaterialsBlocks.CARMINITE_BLOCK.get(),
+				RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get(),
+				RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get(),
+				RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.CHAROITE_BLOCK.get(),
+				RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
@@ -171,6 +179,42 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_OSMIUM_ORE.get(), RerMaterials.RAW_OSMIUM.get()));
 		  add(RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE.get(),
 					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE.get(), RerMaterials.RAW_OSMIUM.get()));
+
+		  add(RerMaterialsBlocks.CHAROITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.CHAROITE_ORE.get(), RerMaterials.CHAROITE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get(), RerMaterials.CHAROITE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get(), RerMaterials.CHAROITE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get(), RerMaterials.CHAROITE_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get(), RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get(), RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get(), RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get(), RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get(), RerMaterials.CERTUS_QUARTZ_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get(), RerMaterials.CERTUS_QUARTZ_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get(), RerMaterials.CERTUS_QUARTZ_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get(), RerMaterials.CERTUS_QUARTZ_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.CARMINITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.CARMINITE_ORE.get(), RerMaterials.CARMINITE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get(), RerMaterials.CARMINITE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get(), RerMaterials.CARMINITE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get(), RerMaterials.CARMINITE_GEM.get(), 1, 2));
 	 }
 
 	 protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

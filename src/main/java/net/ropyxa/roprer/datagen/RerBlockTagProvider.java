@@ -1447,5 +1447,449 @@ public class RerBlockTagProvider extends BlockTagsProvider {
 					 .add(RerMaterialsBlocks.END_STONE_OSMIUM_ORE.get());
 		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
 					 .add(RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CARMINITE_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CARMINITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CARMINITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CARMINITE_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.CARMINITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CARMINITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/carminite")))
+					 .add(RerMaterialsBlocks.CARMINITE_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/cluster_carminite")))
+					 .add(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/carminite")))
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/carminite")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/carminite")))
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/carminite")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/certus_quartz")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/cluster_certus_quartz")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/certus_quartz")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/certus_quartz")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/certus_quartz")))
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/certus_quartz")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/cluster_charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CHAROITE_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CHAROITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CHAROITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CHAROITE_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.CHAROITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CHAROITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/charoite")))
+					 .add(RerMaterialsBlocks.CHAROITE_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/cluster_charoite")))
+					 .add(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charoite")))
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charoite")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charoite")))
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charoite")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get());
 	 }
 }

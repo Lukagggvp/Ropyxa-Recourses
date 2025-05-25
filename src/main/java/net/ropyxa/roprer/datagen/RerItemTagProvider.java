@@ -3250,5 +3250,809 @@ public class RerItemTagProvider extends ItemTagsProvider {
 					 .add(RerMaterialsBlocks.END_STONE_OSMIUM_ORE.get().asItem());
 		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
 					 .add(RerMaterialsBlocks.DEEPSLATE_OSMIUM_ORE.get().asItem());
+
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.CARMINITE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gems")))
+					 .add(RerMaterials.CARMINITE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gems/carminite")))
+					 .add(RerMaterials.CARMINITE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.CARMINITE_FRAGMENT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/carminite")))
+					 .add(RerMaterials.CARMINITE_FRAGMENT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.CARMINITE_CLUSTER_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/carminite")))
+					 .add(RerMaterials.CARMINITE_CLUSTER_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.CARMINITE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/carminite")))
+					 .add(RerMaterials.CARMINITE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.CARMINITE_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/carminite")))
+					 .add(RerMaterials.CARMINITE_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.CARMINITE_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/carminite")))
+					 .add(RerMaterials.CARMINITE_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.CARMINITE_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/carminite")))
+					 .add(RerMaterials.CARMINITE_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.CARMINITE_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/carminite")))
+					 .add(RerMaterials.CARMINITE_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.CARMINITE_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/carminite")))
+					 .add(RerMaterials.CARMINITE_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.CARMINITE_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/carminite")))
+					 .add(RerMaterials.CARMINITE_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.CARMINITE_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/carminite")))
+					 .add(RerMaterials.CARMINITE_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_gems")))
+					 .add(RerMaterials.CARMINITE_DOUBLE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_gems/carminite")))
+					 .add(RerMaterials.CARMINITE_DOUBLE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.CARMINITE_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/carminite")))
+					 .add(RerMaterials.CARMINITE_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_CARMINITE_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/carminite")))
+					 .add(RerMaterials.CRUSHED_CARMINITE_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.CARMINITE_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/carminite")))
+					 .add(RerMaterials.CARMINITE_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.CARMINITE_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/carminite")))
+					 .add(RerMaterials.CARMINITE_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.CARMINITE_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/carminite")))
+					 .add(RerMaterials.CARMINITE_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.CARMINITE_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/carminite")))
+					 .add(RerMaterials.CARMINITE_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.CARMINITE_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/carminite")))
+					 .add(RerMaterials.CARMINITE_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.CARMINITE_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/carminite")))
+					 .add(RerMaterials.CARMINITE_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.CARMINITE_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/carminite")))
+					 .add(RerMaterials.CARMINITE_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.CARMINITE_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/carminite")))
+					 .add(RerMaterials.CARMINITE_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.CARMINITE_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/carminite")))
+					 .add(RerMaterials.CARMINITE_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.CARMINITE_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/carminite")))
+					 .add(RerMaterials.CARMINITE_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.CARMINITE_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/carminite")))
+					 .add(RerMaterials.CARMINITE_RING.get());
+
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.CERTUS_QUARTZ_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gems")))
+					 .add(RerMaterials.CERTUS_QUARTZ_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gems/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.CERTUS_QUARTZ_FRAGMENT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_FRAGMENT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CLUSTER_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CLUSTER_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.CERTUS_QUARTZ_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.CERTUS_QUARTZ_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.CERTUS_QUARTZ_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.CERTUS_QUARTZ_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.CERTUS_QUARTZ_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.CERTUS_QUARTZ_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.CERTUS_QUARTZ_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.CERTUS_QUARTZ_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_gems")))
+					 .add(RerMaterials.CERTUS_QUARTZ_DOUBLE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_gems/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_DOUBLE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/certus_quartz")))
+					 .add(RerMaterials.CRUSHED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.CERTUS_QUARTZ_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.CERTUS_QUARTZ_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.CERTUS_QUARTZ_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.CERTUS_QUARTZ_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.CERTUS_QUARTZ_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/certus_quartz")))
+					 .add(RerMaterials.CERTUS_QUARTZ_RING.get());
+
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gems")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gems/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_FRAGMENT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_FRAGMENT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_gems")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_DOUBLE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_gems/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_DOUBLE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/charged_certus_quartz")))
+					 .add(RerMaterials.CRUSHED_CHARGED_CERTUS_QUARTZ_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/charged_certus_quartz")))
+					 .add(RerMaterials.CHARGED_CERTUS_QUARTZ_RING.get());
+
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.CHAROITE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gems")))
+					 .add(RerMaterials.CHAROITE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gems/charoite")))
+					 .add(RerMaterials.CHAROITE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.CHAROITE_FRAGMENT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/charoite")))
+					 .add(RerMaterials.CHAROITE_FRAGMENT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.CHAROITE_CLUSTER_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/charoite")))
+					 .add(RerMaterials.CHAROITE_CLUSTER_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.CHAROITE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/charoite")))
+					 .add(RerMaterials.CHAROITE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.CHAROITE_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/charoite")))
+					 .add(RerMaterials.CHAROITE_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.CHAROITE_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/charoite")))
+					 .add(RerMaterials.CHAROITE_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.CHAROITE_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/charoite")))
+					 .add(RerMaterials.CHAROITE_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.CHAROITE_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/charoite")))
+					 .add(RerMaterials.CHAROITE_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.CHAROITE_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/charoite")))
+					 .add(RerMaterials.CHAROITE_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.CHAROITE_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/charoite")))
+					 .add(RerMaterials.CHAROITE_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.CHAROITE_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/charoite")))
+					 .add(RerMaterials.CHAROITE_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_gems")))
+					 .add(RerMaterials.CHAROITE_DOUBLE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_gems/charoite")))
+					 .add(RerMaterials.CHAROITE_DOUBLE_GEM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.CHAROITE_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/charoite")))
+					 .add(RerMaterials.CHAROITE_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_CHAROITE_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/charoite")))
+					 .add(RerMaterials.CRUSHED_CHAROITE_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.CHAROITE_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/charoite")))
+					 .add(RerMaterials.CHAROITE_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.CHAROITE_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/charoite")))
+					 .add(RerMaterials.CHAROITE_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.CHAROITE_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/charoite")))
+					 .add(RerMaterials.CHAROITE_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.CHAROITE_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/charoite")))
+					 .add(RerMaterials.CHAROITE_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.CHAROITE_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/charoite")))
+					 .add(RerMaterials.CHAROITE_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.CHAROITE_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/charoite")))
+					 .add(RerMaterials.CHAROITE_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.CHAROITE_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/charoite")))
+					 .add(RerMaterials.CHAROITE_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.CHAROITE_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/charoite")))
+					 .add(RerMaterials.CHAROITE_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.CHAROITE_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/charoite")))
+					 .add(RerMaterials.CHAROITE_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.CHAROITE_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/charoite")))
+					 .add(RerMaterials.CHAROITE_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.CHAROITE_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/charoite")))
+					 .add(RerMaterials.CHAROITE_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CARMINITE_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/carminite")))
+					 .add(RerMaterialsBlocks.CARMINITE_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/cluster_carminite")))
+					 .add(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/carminite")))
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/carminite")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/carminite")))
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/carminite")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/certus_quartz")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/cluster_certus_quartz")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/certus_quartz")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/certus_quartz")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/certus_quartz")))
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/certus_quartz")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/cluster_charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charged_certus_quartz")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CHAROITE_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/charoite")))
+					 .add(RerMaterialsBlocks.CHAROITE_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/cluster_charoite")))
+					 .add(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charoite")))
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charoite")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charoite")))
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/charoite")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get().asItem());
 	 }
 }

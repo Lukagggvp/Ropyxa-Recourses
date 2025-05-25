@@ -1936,5 +1936,387 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 
 		  oreSmelting(recipeOutput, OSMIUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.OSMIUM_INGOT.get(), 0.2f, 200, "osmium");
 		  oreBlasting(recipeOutput, OSMIUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.OSMIUM_INGOT.get(), 0.2f, 100, "osmium");
+
+		  List<ItemLike> CARMINITE_SMELTABLES = List.of(
+					 RerMaterials.CARMINITE_CLUSTER_SHARD,
+					 RerMaterialsBlocks.CARMINITE_ORE,
+					 RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE,
+					 RerMaterialsBlocks.END_STONE_CARMINITE_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE,
+					 RerMaterials.CARMINITE_DUST);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CARMINITE_CLUSTER_SHARD.get(), 9)
+					 .requires(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK.get(), 1)
+					 .requires(RerMaterials.CARMINITE_CLUSTER_SHARD, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CARMINITE_BLOCK.get(), 1)
+					 .requires(RerMaterials.CARMINITE_GEM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CARMINITE_GEM.get(), 9)
+					 .requires(RerMaterialsBlocks.CARMINITE_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CARMINITE_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CARMINITE_BOLT.get())
+					 .define('B', RerMaterials.CARMINITE_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CARMINITE_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.CARMINITE_ROD.get())
+					 .define('B', RerMaterials.CARMINITE_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CARMINITE_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CARMINITE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CARMINITE_DOUBLE_GEM.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CARMINITE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CARMINITE_BOLT.get(), 2)
+					 .requires(RerMaterials.CARMINITE_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CARMINITE_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.CARMINITE_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CARMINITE_DUST.get())
+					 .requires(RerMaterials.CARMINITE_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CARMINITE_LARGE_PLATE.get())
+					 .requires(RerMaterials.CARMINITE_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CARMINITE_CLUSTER.get())
+					 .requires(RerMaterials.CARMINITE_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CARMINITE_GEM.get(), 1)
+					 .requires(RerMaterials.CARMINITE_FRAGMENT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CARMINITE_GEM))
+					 .save(recipeOutput, "roprer:carminite_gem_from_fragment");
+
+		  oreSmelting(recipeOutput, CARMINITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.CARMINITE_GEM.get(), 0.2f, 200, "carminite");
+
+		  oreBlasting(recipeOutput, CARMINITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.CARMINITE_GEM.get(), 0.2f, 100, "carminite");
+
+		  List<ItemLike> CERTUS_QUARTZ_SMELTABLES = List.of(
+					 RerMaterials.CERTUS_QUARTZ_CLUSTER_SHARD,
+					 RerMaterialsBlocks.CERTUS_QUARTZ_ORE,
+					 RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE,
+					 RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE,
+					 RerMaterials.CERTUS_QUARTZ_DUST);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_CLUSTER_SHARD.get(), 9)
+					 .requires(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK.get(), 1)
+					 .requires(RerMaterials.CERTUS_QUARTZ_CLUSTER_SHARD, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK.get(), 1)
+					 .requires(RerMaterials.CERTUS_QUARTZ_GEM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_GEM.get(), 9)
+					 .requires(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CERTUS_QUARTZ_BOLT.get())
+					 .define('B', RerMaterials.CERTUS_QUARTZ_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.CERTUS_QUARTZ_ROD.get())
+					 .define('B', RerMaterials.CERTUS_QUARTZ_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CERTUS_QUARTZ_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_DOUBLE_GEM.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CERTUS_QUARTZ_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_BOLT.get(), 2)
+					 .requires(RerMaterials.CERTUS_QUARTZ_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.CERTUS_QUARTZ_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_DUST.get())
+					 .requires(RerMaterials.CERTUS_QUARTZ_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_LARGE_PLATE.get())
+					 .requires(RerMaterials.CERTUS_QUARTZ_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_CLUSTER.get())
+					 .requires(RerMaterials.CERTUS_QUARTZ_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_GEM.get(), 1)
+					 .requires(RerMaterials.CERTUS_QUARTZ_FRAGMENT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput, "roprer:certus_quartz_gem_from_fragment");
+
+		  oreSmelting(recipeOutput, CERTUS_QUARTZ_SMELTABLES, RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_GEM.get(), 0.2f,
+					 200, "certus_quartz");
+
+		  oreBlasting(recipeOutput, CERTUS_QUARTZ_SMELTABLES, RecipeCategory.MISC, RerMaterials.CERTUS_QUARTZ_GEM.get(), 0.2f,
+					 100, "certus_quartz");
+
+		  List<ItemLike> CHARGED_CERTUS_QUARTZ_SMELTABLES = List.of(
+					 RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER_SHARD,
+					 RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE,
+					 RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE,
+					 RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE,
+					 RerMaterials.CHARGED_CERTUS_QUARTZ_DUST);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER_SHARD.get(), 9)
+					 .requires(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK.get(), 1)
+					 .requires(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER_SHARD, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK.get(), 1)
+					 .requires(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get(), 9)
+					 .requires(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CHARGED_CERTUS_QUARTZ_BOLT.get())
+					 .define('B', RerMaterials.CHARGED_CERTUS_QUARTZ_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.CHARGED_CERTUS_QUARTZ_ROD.get())
+					 .define('B', RerMaterials.CHARGED_CERTUS_QUARTZ_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_DOUBLE_GEM.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_BOLT.get(), 2)
+					 .requires(RerMaterials.CHARGED_CERTUS_QUARTZ_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.CHARGED_CERTUS_QUARTZ_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_DUST.get())
+					 .requires(RerMaterials.CHARGED_CERTUS_QUARTZ_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_LARGE_PLATE.get())
+					 .requires(RerMaterials.CHARGED_CERTUS_QUARTZ_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER.get())
+					 .requires(RerMaterials.CHARGED_CERTUS_QUARTZ_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get(), 1)
+					 .requires(RerMaterials.CHARGED_CERTUS_QUARTZ_FRAGMENT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM))
+					 .save(recipeOutput, "roprer:charged_certus_quartz_gem_from_fragment");
+
+		  oreSmelting(recipeOutput, CHARGED_CERTUS_QUARTZ_SMELTABLES, RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get(), 0.2f, 200, "charged_certus_quartz");
+
+		  oreBlasting(recipeOutput, CHARGED_CERTUS_QUARTZ_SMELTABLES, RecipeCategory.MISC, RerMaterials.CHARGED_CERTUS_QUARTZ_GEM.get(), 0.2f, 100, "charged_certus_quartz");
+
+		  List<ItemLike> CHAROITE_SMELTABLES = List.of(
+					 RerMaterials.CHAROITE_CLUSTER_SHARD,
+					 RerMaterialsBlocks.CHAROITE_ORE,
+					 RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE,
+					 RerMaterialsBlocks.END_STONE_CHAROITE_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE,
+					 RerMaterials.CHAROITE_DUST);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHAROITE_CLUSTER_SHARD.get(), 9)
+					 .requires(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK.get(), 1)
+					 .requires(RerMaterials.CHAROITE_CLUSTER_SHARD, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CHAROITE_BLOCK.get(), 1)
+					 .requires(RerMaterials.CHAROITE_GEM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHAROITE_GEM.get(), 9)
+					 .requires(RerMaterialsBlocks.CHAROITE_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CHAROITE_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CHAROITE_BOLT.get())
+					 .define('B', RerMaterials.CHAROITE_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CHAROITE_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.CHAROITE_ROD.get())
+					 .define('B', RerMaterials.CHAROITE_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CHAROITE_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CHAROITE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CHAROITE_DOUBLE_GEM.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CHAROITE_GEM.get())
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHAROITE_BOLT.get(), 2)
+					 .requires(RerMaterials.CHAROITE_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHAROITE_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.CHAROITE_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHAROITE_DUST.get())
+					 .requires(RerMaterials.CHAROITE_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHAROITE_LARGE_PLATE.get())
+					 .requires(RerMaterials.CHAROITE_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHAROITE_CLUSTER.get())
+					 .requires(RerMaterials.CHAROITE_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CHAROITE_GEM.get(), 1)
+					 .requires(RerMaterials.CHAROITE_FRAGMENT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.CHAROITE_GEM))
+					 .save(recipeOutput, "roprer:charoite_gem_from_fragment");
+
+		  oreSmelting(recipeOutput, CHAROITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.CHAROITE_GEM.get(), 0.2f, 200, "charoite");
+
+		  oreBlasting(recipeOutput, CHAROITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.CHAROITE_GEM.get(), 0.2f, 100, "charoite");
 	 }
 }

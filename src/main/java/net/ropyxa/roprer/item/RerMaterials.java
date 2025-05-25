@@ -1233,6 +1233,257 @@ public class RerMaterials {
 	 public static final DeferredItem<Item> OSMIUM_RING = ITEMS.register("osmium_ring",
 				() -> new Item(new Item.Properties()));
 
+	 public static final DeferredItem<Item> CARMINITE_GEM = ITEMS.register("carminite_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_FRAGMENT = ITEMS.register("carminite_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_CLUSTER_SHARD = ITEMS.register("carminite_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_PLATE = ITEMS.register("carminite_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_LARGE_PLATE = ITEMS.register("carminite_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_ROD = ITEMS.register("carminite_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_WIRE = ITEMS.register("carminite_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_GEAR = ITEMS.register("carminite_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_DUST = ITEMS.register("carminite_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_TINY_DUST = ITEMS.register("carminite_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_BOLT = ITEMS.register("carminite_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_DOUBLE_GEM = ITEMS.register("carminite_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_CURVED_PLATE = ITEMS.register("carminite_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_CARMINITE_ORE = ITEMS.register("crushed_carminite_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_CHUNK = ITEMS.register("carminite_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_CLUSTER = ITEMS.register("carminite_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_CRYSTAL = ITEMS.register("carminite_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_SHARD = ITEMS.register("carminite_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_CLUMP = ITEMS.register("carminite_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_DIRTY_DUST = ITEMS.register("carminite_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CARMINITE_RING = ITEMS.register("carminite_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_GEM = ITEMS.register("certus_quartz_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_FRAGMENT = ITEMS.register("certus_quartz_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_CLUSTER_SHARD = ITEMS.register("certus_quartz_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_PLATE = ITEMS.register("certus_quartz_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_LARGE_PLATE = ITEMS.register("certus_quartz_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_ROD = ITEMS.register("certus_quartz_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_WIRE = ITEMS.register("certus_quartz_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_GEAR = ITEMS.register("certus_quartz_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_DUST = ITEMS.register("certus_quartz_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_TINY_DUST = ITEMS.register("certus_quartz_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_BOLT = ITEMS.register("certus_quartz_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_DOUBLE_GEM = ITEMS.register("certus_quartz_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_CURVED_PLATE = ITEMS.register("certus_quartz_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_CERTUS_QUARTZ_ORE = ITEMS.register("crushed_certus_quartz_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_CHUNK = ITEMS.register("certus_quartz_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_CLUSTER = ITEMS.register("certus_quartz_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_CRYSTAL = ITEMS.register("certus_quartz_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_SHARD = ITEMS.register("certus_quartz_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_CLUMP = ITEMS.register("certus_quartz_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_DIRTY_DUST = ITEMS.register("certus_quartz_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CERTUS_QUARTZ_RING = ITEMS.register("certus_quartz_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_GEM = ITEMS.register("charged_certus_quartz_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_FRAGMENT = ITEMS.register("charged_certus_quartz_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_CLUSTER_SHARD = ITEMS.register("charged_certus_quartz_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_PLATE = ITEMS.register("charged_certus_quartz_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_LARGE_PLATE = ITEMS.register("charged_certus_quartz_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_ROD = ITEMS.register("charged_certus_quartz_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_WIRE = ITEMS.register("charged_certus_quartz_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_GEAR = ITEMS.register("charged_certus_quartz_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_DUST = ITEMS.register("charged_certus_quartz_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_TINY_DUST = ITEMS.register("charged_certus_quartz_tiny_dust",           () -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_BOLT = ITEMS.register("charged_certus_quartz_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_DOUBLE_GEM = ITEMS.register("charged_certus_quartz_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_CURVED_PLATE = ITEMS.register("charged_certus_quartz_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_CHARGED_CERTUS_QUARTZ_ORE = ITEMS.register("crushed_charged_certus_quartz_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_CHUNK = ITEMS.register("charged_certus_quartz_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_CLUSTER = ITEMS.register("charged_certus_quartz_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_CRYSTAL = ITEMS.register("charged_certus_quartz_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_SHARD = ITEMS.register("charged_certus_quartz_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_CLUMP = ITEMS.register("charged_certus_quartz_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_DIRTY_DUST = ITEMS.register("charged_certus_quartz_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHARGED_CERTUS_QUARTZ_RING = ITEMS.register("charged_certus_quartz_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_GEM = ITEMS.register("charoite_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_FRAGMENT = ITEMS.register("charoite_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_CLUSTER_SHARD = ITEMS.register("charoite_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_PLATE = ITEMS.register("charoite_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_LARGE_PLATE = ITEMS.register("charoite_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_ROD = ITEMS.register("charoite_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_WIRE = ITEMS.register("charoite_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_GEAR = ITEMS.register("charoite_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_DUST = ITEMS.register("charoite_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_TINY_DUST = ITEMS.register("charoite_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_BOLT = ITEMS.register("charoite_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_DOUBLE_GEM = ITEMS.register("charoite_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_CURVED_PLATE = ITEMS.register("charoite_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_CHAROITE_ORE = ITEMS.register("crushed_charoite_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_CHUNK = ITEMS.register("charoite_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_CLUSTER = ITEMS.register("charoite_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_CRYSTAL = ITEMS.register("charoite_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_SHARD = ITEMS.register("charoite_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_CLUMP = ITEMS.register("charoite_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_DIRTY_DUST = ITEMS.register("charoite_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CHAROITE_RING = ITEMS.register("charoite_ring",
+				() -> new Item(new Item.Properties()));
+
 	 public static void register(IEventBus eventBus) {
 		  ITEMS.register(eventBus);
 	 }

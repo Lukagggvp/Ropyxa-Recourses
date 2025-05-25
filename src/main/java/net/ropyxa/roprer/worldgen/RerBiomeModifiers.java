@@ -42,6 +42,22 @@ public class RerBiomeModifiers {
 	 public static final ResourceKey<BiomeModifier> NETHERRACK_LEAD_ORE_ADD = registerKey("netherrack_lead_ore_add");
 	 public static final ResourceKey<BiomeModifier> END_STONE_LEAD_ORE_ADD = registerKey("end_stone_lead_ore_add");
 
+	 public static final ResourceKey<BiomeModifier> CHAROITE_ORE_ADD = registerKey("charoite_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_CHAROITE_ORE_ADD = registerKey("netherrack_charoite_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_CHAROITE_ORE_ADD = registerKey("end_stone_charoite_ore_add");
+
+	 public static final ResourceKey<BiomeModifier> CHARGED_CERTUS_QUARTZ_ORE_ADD = registerKey("charged_certus_quartz_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE_ADD = registerKey("netherrack_charged_certus_quartz_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_CHARGED_CERTUS_QUARTZ_ORE_ADD = registerKey("end_stone_charged_certus_quartz_ore_add");
+
+	 public static final ResourceKey<BiomeModifier> CERTUS_QUARTZ_ORE_ADD = registerKey("certus_quartz_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_CERTUS_QUARTZ_ORE_ADD = registerKey("netherrack_certus_quartz_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_CERTUS_QUARTZ_ORE_ADD = registerKey("end_stone_certus_quartz_ore_add");
+
+	 public static final ResourceKey<BiomeModifier> CARMINITE_ORE_ADD = registerKey("carminite_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_CARMINITE_ORE_ADD = registerKey("netherrack_carminite_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_CARMINITE_ORE_ADD = registerKey("end_stone_carminite_ore_add");
+
 	 public static final ResourceKey<BiomeModifier> NICKEL_ORE_ADD = registerKey("nickel_ore_add");
 	 public static final ResourceKey<BiomeModifier> NETHERRACK_NICKEL_ORE_ADD = registerKey("netherrack_nickel_ore_add");
 	 public static final ResourceKey<BiomeModifier> END_STONE_NICKEL_ORE_ADD = registerKey("end_stone_nickel_ore_add");
@@ -183,6 +199,46 @@ public class RerBiomeModifiers {
 
 		  context.register(END_STONE_IRIDIUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
 					 RerPlacedFeatures.END_STONE_IRIDIUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+
+		  context.register(CARMINITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.CARMINITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_CARMINITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_CARMINITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_CARMINITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_CARMINITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+
+		  context.register(CERTUS_QUARTZ_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.CERTUS_QUARTZ_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_CERTUS_QUARTZ_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_CERTUS_QUARTZ_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_CERTUS_QUARTZ_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_CERTUS_QUARTZ_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+
+		  context.register(CHARGED_CERTUS_QUARTZ_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.CHARGED_CERTUS_QUARTZ_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_CHARGED_CERTUS_QUARTZ_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_CHARGED_CERTUS_QUARTZ_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+
+		  context.register(CHAROITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.CHAROITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_CHAROITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_CHAROITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_CHAROITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_CHAROITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
 	 }
 
 	 private static ResourceKey<BiomeModifier> registerKey(String name) {

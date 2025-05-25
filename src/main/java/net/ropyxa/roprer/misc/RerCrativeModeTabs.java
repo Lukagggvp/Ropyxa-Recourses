@@ -152,6 +152,46 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.OSMIUM_BLOCK);
 							  output.accept(RerMaterials.OSMIUM_INGOT);
 							  output.accept(RerMaterials.OSMIUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.CARMINITE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_CARMINITE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE);
+							  output.accept(RerMaterialsBlocks.CARMINITE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.CARMINITE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.CARMINITE_BLOCK);
+							  output.accept(RerMaterials.CARMINITE_GEM);
+							  output.accept(RerMaterials.CARMINITE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterialsBlocks.CERTUS_QUARTZ_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.CERTUS_QUARTZ_BLOCK);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_GEM);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_BLOCK);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_GEM);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.CHAROITE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_CHAROITE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE);
+							  output.accept(RerMaterialsBlocks.CHAROITE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.CHAROITE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.CHAROITE_BLOCK);
+							  output.accept(RerMaterials.CHAROITE_GEM);
+							  output.accept(RerMaterials.CHAROITE_FRAGMENT);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -387,6 +427,82 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.OSMIUM_SHARD);
 							  output.accept(RerMaterials.OSMIUM_CLUMP);
 							  output.accept(RerMaterials.OSMIUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.CARMINITE_PLATE);
+							  output.accept(RerMaterials.CARMINITE_LARGE_PLATE);
+							  output.accept(RerMaterials.CARMINITE_ROD);
+							  output.accept(RerMaterials.CARMINITE_WIRE);
+							  output.accept(RerMaterials.CARMINITE_GEAR);
+							  output.accept(RerMaterials.CARMINITE_DUST);
+							  output.accept(RerMaterials.CARMINITE_TINY_DUST);
+							  output.accept(RerMaterials.CARMINITE_RING);
+							  output.accept(RerMaterials.CARMINITE_BOLT);
+							  output.accept(RerMaterials.CARMINITE_DOUBLE_GEM);
+							  output.accept(RerMaterials.CARMINITE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_CARMINITE_ORE);
+							  output.accept(RerMaterials.CARMINITE_CHUNK);
+							  output.accept(RerMaterials.CARMINITE_CLUSTER);
+							  output.accept(RerMaterials.CARMINITE_CRYSTAL);
+							  output.accept(RerMaterials.CARMINITE_SHARD);
+							  output.accept(RerMaterials.CARMINITE_CLUMP);
+							  output.accept(RerMaterials.CARMINITE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.CERTUS_QUARTZ_PLATE);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_LARGE_PLATE);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_ROD);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_WIRE);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_GEAR);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_DUST);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_TINY_DUST);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_RING);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_BOLT);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_DOUBLE_GEM);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_CHUNK);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_CLUSTER);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_CRYSTAL);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_SHARD);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_CLUMP);
+							  output.accept(RerMaterials.CERTUS_QUARTZ_DIRTY_DUST);
+
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_PLATE);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_LARGE_PLATE);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_ROD);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_WIRE);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_GEAR);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_DUST);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_TINY_DUST);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_RING);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_BOLT);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_DOUBLE_GEM);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_CHARGED_CERTUS_QUARTZ_ORE);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_CHUNK);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUSTER);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_CRYSTAL);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_SHARD);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_CLUMP);
+							  output.accept(RerMaterials.CHARGED_CERTUS_QUARTZ_DIRTY_DUST);
+
+							  output.accept(RerMaterials.CHAROITE_PLATE);
+							  output.accept(RerMaterials.CHAROITE_LARGE_PLATE);
+							  output.accept(RerMaterials.CHAROITE_ROD);
+							  output.accept(RerMaterials.CHAROITE_WIRE);
+							  output.accept(RerMaterials.CHAROITE_GEAR);
+							  output.accept(RerMaterials.CHAROITE_DUST);
+							  output.accept(RerMaterials.CHAROITE_TINY_DUST);
+							  output.accept(RerMaterials.CHAROITE_RING);
+							  output.accept(RerMaterials.CHAROITE_BOLT);
+							  output.accept(RerMaterials.CHAROITE_DOUBLE_GEM);
+							  output.accept(RerMaterials.CHAROITE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_CHAROITE_ORE);
+							  output.accept(RerMaterials.CHAROITE_CHUNK);
+							  output.accept(RerMaterials.CHAROITE_CLUSTER);
+							  output.accept(RerMaterials.CHAROITE_CRYSTAL);
+							  output.accept(RerMaterials.CHAROITE_SHARD);
+							  output.accept(RerMaterials.CHAROITE_CLUMP);
+							  output.accept(RerMaterials.CHAROITE_DIRTY_DUST);
 						 }).build());
 
 	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",

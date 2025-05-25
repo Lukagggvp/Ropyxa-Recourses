@@ -45,6 +45,22 @@ public class RerConfiguredFeatures {
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_LEAD_ORE_KEY = registerKey("netherrack_lead_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_LEAD_ORE_KEY = registerKey("end_stone_lead_ore");
 
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> CARMINITE_ORE_KEY = registerKey("carminite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_CARMINITE_ORE_KEY = registerKey("netherrack_carminite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_CARMINITE_ORE_KEY = registerKey("end_stone_carminite_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> CERTUS_QUARTZ_ORE_KEY = registerKey("certus_quartz_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_CERTUS_QUARTZ_ORE_KEY = registerKey("netherrack_certus_quartz_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_CERTUS_QUARTZ_ORE_KEY = registerKey("end_stone_certus_quartz_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> CHARGED_CERTUS_QUARTZ_ORE_KEY = registerKey("charged_certus_quartz_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE_KEY = registerKey("netherrack_charged_certus_quartz_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_CHARGED_CERTUS_QUARTZ_ORE_KEY = registerKey("end_stone_charged_certus_quartz_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> CHAROITE_ORE_KEY = registerKey("charoite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_CHAROITE_ORE_KEY = registerKey("netherrack_charoite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_CHAROITE_ORE_KEY = registerKey("end_stone_charoite_ore");
+
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NICKEL_ORE_KEY = registerKey("nickel_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_NICKEL_ORE_KEY = registerKey("netherrack_nickel_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_NICKEL_ORE_KEY = registerKey("end_stone_nickel_ore");
@@ -171,6 +187,38 @@ public class RerConfiguredFeatures {
 		  register(context, OSMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(OsmiumOre, 9));
 		  register(context, NETHERRACK_OSMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_OSMIUM_ORE.get().defaultBlockState(), 9));
 		  register(context, END_STONE_OSMIUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_OSMIUM_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> CharoiteOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.CHAROITE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get().defaultBlockState()));
+
+		  register(context, CHAROITE_ORE_KEY, Feature.ORE, new OreConfiguration(CharoiteOre, 9));
+		  register(context, NETHERRACK_CHAROITE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_CHAROITE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_CHAROITE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> Charged_certus_quartzOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.CHARGED_CERTUS_QUARTZ_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_CHARGED_CERTUS_QUARTZ_ORE.get().defaultBlockState()));
+
+		  register(context, CHARGED_CERTUS_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(Charged_certus_quartzOre, 9));
+		  register(context, NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_CHARGED_CERTUS_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_CHARGED_CERTUS_QUARTZ_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> Certus_quartzOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.CERTUS_QUARTZ_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_CERTUS_QUARTZ_ORE.get().defaultBlockState()));
+
+		  register(context, CERTUS_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(Certus_quartzOre, 9));
+		  register(context, NETHERRACK_CERTUS_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_CERTUS_QUARTZ_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_CERTUS_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_CERTUS_QUARTZ_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> CarminiteOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.CARMINITE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get().defaultBlockState()));
+
+		  register(context, CARMINITE_ORE_KEY, Feature.ORE, new OreConfiguration(CarminiteOre, 9));
+		  register(context, NETHERRACK_CARMINITE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_CARMINITE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get().defaultBlockState(), 9));
 	 }
 
 	 public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -41,6 +41,22 @@ public class RerPlacedFeatures {
 	 public static final ResourceKey<PlacedFeature> NETHERRACK_ALUMINUM_ORE_PLACED_KEY = registerKey("netherrack_aluminum_ore_placed");
 	 public static final ResourceKey<PlacedFeature> END_STONE_ALUMINUM_ORE_PLACED_KEY = registerKey("end_stone_aluminum_ore_placed");
 
+	 public static final ResourceKey<PlacedFeature> CARMINITE_ORE_PLACED_KEY = registerKey("carminite_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_CARMINITE_ORE_PLACED_KEY = registerKey("netherrack_carminite_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_CARMINITE_ORE_PLACED_KEY = registerKey("end_stone_carminite_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> CERTUS_QUARTZ_ORE_PLACED_KEY = registerKey("certus_quartz_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_CERTUS_QUARTZ_ORE_PLACED_KEY = registerKey("netherrack_certus_quartz_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_CERTUS_QUARTZ_ORE_PLACED_KEY = registerKey("end_stone_certus_quartz_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> CHARGED_CERTUS_QUARTZ_ORE_PLACED_KEY = registerKey("charged_certus_quartz_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE_PLACED_KEY = registerKey("netherrack_charged_certus_quartz_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_CHARGED_CERTUS_QUARTZ_ORE_PLACED_KEY = registerKey("end_stone_charged_certus_quartz_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> CHAROITE_ORE_PLACED_KEY = registerKey("charoite_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_CHAROITE_ORE_PLACED_KEY = registerKey("netherrack_charoite_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_CHAROITE_ORE_PLACED_KEY = registerKey("end_stone_charoite_ore_placed");
+
 	 public static final ResourceKey<PlacedFeature> IRIDIUM_ORE_PLACED_KEY = registerKey("iridium_ore_placed");
 	 public static final ResourceKey<PlacedFeature> NETHERRACK_IRIDIUM_ORE_PLACED_KEY = registerKey("netherrack_iridium_ore_placed");
 	 public static final ResourceKey<PlacedFeature> END_STONE_IRIDIUM_ORE_PLACED_KEY = registerKey("end_stone_iridium_ore_placed");
@@ -186,6 +202,46 @@ public class RerPlacedFeatures {
 					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
 								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
 		  register(context, END_STONE_IRIDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_IRIDIUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, CHAROITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.CHAROITE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_CHAROITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_CHAROITE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_CHAROITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_CHAROITE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, CHARGED_CERTUS_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.CHARGED_CERTUS_QUARTZ_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_CHARGED_CERTUS_QUARTZ_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_CHARGED_CERTUS_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_CHARGED_CERTUS_QUARTZ_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, CERTUS_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.CERTUS_QUARTZ_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_CERTUS_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_CERTUS_QUARTZ_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_CERTUS_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_CERTUS_QUARTZ_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, CARMINITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.CARMINITE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_CARMINITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_CARMINITE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_CARMINITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_CARMINITE_ORE_KEY),
 					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
 								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
 	 }
