@@ -1,4 +1,4 @@
-![Mod Logo]()
+![Mod Logo](icon.png)
 
 Ropyxa Recourses (RR)
 =======
