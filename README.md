@@ -1,25 +1,29 @@
-
-Installation information
+Ropyxa Recourses (RR)
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+A mod that adds a wide selection of base materials you've probably seen in other mods — but here, everything is brought together in one cohesive system.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+Inspired by *Emendatus Enigmatica* (version 1.16.5). In later versions, the developers dropped the unified resource system, so I decided to fully recreate and port it to **NeoForge**.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+=======
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+## 📦 What's in the mod?
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+- Metal ingots, alloys, and crystals  
+- Associated items: rods, nuggets, plates, blocks, and more  
+- Ores for every non-alloy resource type — available in stone, netherrack, end stone, and deepslate variants  
+
+=======
+
+## 💧 What about fluids?
+
+**No fluids included.**  
+Due to the complexity of the new fluid API (seriously, it's 10x harder), I chose not to port them.
+
+=======
+
+## 📜 Currently available materials:
+
+*(insert your list here)*
+
+=======
