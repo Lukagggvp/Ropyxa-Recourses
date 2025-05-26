@@ -464,6 +464,42 @@ public class RerMaterialsBlocks {
 	 public static final DeferredBlock<Block> FIERY_BLOCK = registerBlock("fiery_block",
 				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
 
+	 public static final DeferredBlock<Block> SIGNALUM_BLOCK = registerBlock("signalum_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> INVAR_BLOCK = registerBlock("invar_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> GRAPHITE_BLOCK = registerBlock("graphite_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> CONSTANTAN_BLOCK = registerBlock("constantan_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> REFINED_OBSIDIAN_BLOCK = registerBlock("refined_obsidian_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> REFINED_GLOWSTONE_BLOCK = registerBlock("refined_glowstone_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> ORICHALCUM_BLOCK = registerBlock("orichalcum_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> ROSE_GOLD_BLOCK = registerBlock("rose_gold_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> KNIGHTMETAL_BLOCK = registerBlock("knightmetal_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> SKY_BLOCK = registerBlock("sky_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> IRONWOOD_BLOCK = registerBlock("ironwood_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> TAINED_GOLD_BLOCK = registerBlock("tained_gold_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
 	 private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
 		  DeferredBlock<T> toReturn = BLOCKS.register(name, block);
 		  registerBlockItem(name, toReturn);

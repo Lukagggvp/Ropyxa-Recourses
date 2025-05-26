@@ -102,6 +102,18 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  blockWithItem(RerMaterialsBlocks.ELECTRUM_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.LUMIUM_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.FIERY_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.SIGNALUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.INVAR_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.GRAPHITE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.CONSTANTAN_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.REFINED_OBSIDIAN_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.REFINED_GLOWSTONE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.ORICHALCUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.ROSE_GOLD_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.KNIGHTMETAL_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.SKY_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.IRONWOOD_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.TAINED_GOLD_BLOCK);
 
 		  blockWithItem(RerMaterialsBlocks.APATITE_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.APATITE_CLUSTER_BLOCK);

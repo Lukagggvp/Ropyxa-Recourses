@@ -1891,5 +1891,257 @@ public class RerBlockTagProvider extends BlockTagsProvider {
 					 .add(RerMaterialsBlocks.END_STONE_CHAROITE_ORE.get());
 		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
 					 .add(RerMaterialsBlocks.DEEPSLATE_CHAROITE_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.SIGNALUM_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.SIGNALUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.SIGNALUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.SIGNALUM_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.SIGNALUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.SIGNALUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/signalum")))
+					 .add(RerMaterialsBlocks.SIGNALUM_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.INVAR_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.INVAR_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.INVAR_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.INVAR_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.INVAR_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.INVAR_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/invar")))
+					 .add(RerMaterialsBlocks.INVAR_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.GRAPHITE_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.GRAPHITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.GRAPHITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.GRAPHITE_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.GRAPHITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.GRAPHITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/graphite")))
+					 .add(RerMaterialsBlocks.GRAPHITE_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.CONSTANTAN_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.CONSTANTAN_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.CONSTANTAN_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.CONSTANTAN_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.CONSTANTAN_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CONSTANTAN_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/constantan")))
+					 .add(RerMaterialsBlocks.CONSTANTAN_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.REFINED_OBSIDIAN_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.REFINED_OBSIDIAN_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.REFINED_OBSIDIAN_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.REFINED_OBSIDIAN_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.REFINED_OBSIDIAN_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.REFINED_OBSIDIAN_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/refined_obsidian")))
+					 .add(RerMaterialsBlocks.REFINED_OBSIDIAN_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.REFINED_GLOWSTONE_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.REFINED_GLOWSTONE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.REFINED_GLOWSTONE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.REFINED_GLOWSTONE_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.REFINED_GLOWSTONE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.REFINED_GLOWSTONE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/refined_glowstone")))
+					 .add(RerMaterialsBlocks.REFINED_GLOWSTONE_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.ORICHALCUM_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.ORICHALCUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.ORICHALCUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.ORICHALCUM_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.ORICHALCUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.ORICHALCUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/orichalcum")))
+					 .add(RerMaterialsBlocks.ORICHALCUM_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.ROSE_GOLD_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.ROSE_GOLD_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.ROSE_GOLD_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.ROSE_GOLD_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.ROSE_GOLD_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.ROSE_GOLD_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/rose_gold")))
+					 .add(RerMaterialsBlocks.ROSE_GOLD_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.KNIGHTMETAL_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.KNIGHTMETAL_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.KNIGHTMETAL_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.KNIGHTMETAL_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.KNIGHTMETAL_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.KNIGHTMETAL_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/knightmetal")))
+					 .add(RerMaterialsBlocks.KNIGHTMETAL_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.SKY_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.SKY_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.SKY_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.SKY_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.SKY_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.SKY_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/sky")))
+					 .add(RerMaterialsBlocks.SKY_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.IRONWOOD_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.IRONWOOD_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.IRONWOOD_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.IRONWOOD_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.IRONWOOD_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.IRONWOOD_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/ironwood")))
+					 .add(RerMaterialsBlocks.IRONWOOD_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.TAINED_GOLD_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.TAINED_GOLD_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.TAINED_GOLD_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.TAINED_GOLD_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.TAINED_GOLD_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.TAINED_GOLD_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/tained_gold")))
+					 .add(RerMaterialsBlocks.TAINED_GOLD_BLOCK.get());
 	 }
 }
