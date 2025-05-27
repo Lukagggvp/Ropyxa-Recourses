@@ -437,6 +437,136 @@ public class RerMaterialsBlocks {
 					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
 				});
 
+	 public static final DeferredBlock<Block> UTHERIUM_BLOCK = registerBlock("utherium_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> RAW_UTHERIUM_BLOCK = registerBlock("raw_utherium_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+
+	 public static final DeferredBlock<Block> UTHERIUM_ORE = registerBlock("utherium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.stone")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> NETHERRACK_UTHERIUM_ORE = registerBlock("netherrack_utherium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> END_STONE_UTHERIUM_ORE = registerBlock("end_stone_utherium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag); }
+				});
+
+	 public static final DeferredBlock<Block> DEEPSLATE_UTHERIUM_ORE = registerBlock("deepslate_utherium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> THALLASIUM_BLOCK = registerBlock("thallasium_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> RAW_THALLASIUM_BLOCK = registerBlock("raw_thallasium_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+
+	 public static final DeferredBlock<Block> THALLASIUM_ORE = registerBlock("thallasium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.stone")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> NETHERRACK_THALLASIUM_ORE = registerBlock("netherrack_thallasium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> END_STONE_THALLASIUM_ORE = registerBlock("end_stone_thallasium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag); }
+				});
+
+	 public static final DeferredBlock<Block> DEEPSLATE_THALLASIUM_ORE = registerBlock("deepslate_thallasium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> NEBU_BLOCK = registerBlock("nebu_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> RAW_NEBU_BLOCK = registerBlock("raw_nebu_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+
+	 public static final DeferredBlock<Block> NEBU_ORE = registerBlock("nebu_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.stone")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> NETHERRACK_NEBU_ORE = registerBlock("netherrack_nebu_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> END_STONE_NEBU_ORE = registerBlock("end_stone_nebu_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag); }
+				});
+
+	 public static final DeferredBlock<Block> DEEPSLATE_NEBU_ORE = registerBlock("deepslate_nebu_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> REGALIUM_BLOCK = registerBlock("regalium_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> RAW_REGALIUM_BLOCK = registerBlock("raw_regalium_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+
+	 public static final DeferredBlock<Block> REGALIUM_ORE = registerBlock("regalium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.stone")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> NETHERRACK_REGALIUM_ORE = registerBlock("netherrack_regalium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> END_STONE_REGALIUM_ORE = registerBlock("end_stone_regalium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag); }
+				});
+
+	 public static final DeferredBlock<Block> DEEPSLATE_REGALIUM_ORE = registerBlock("deepslate_regalium_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> FROSTSTEEL_BLOCK = registerBlock("froststeel_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
+	 public static final DeferredBlock<Block> RAW_FROSTSTEEL_BLOCK = registerBlock("raw_froststeel_block",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+
+	 public static final DeferredBlock<Block> FROSTSTEEL_ORE = registerBlock("froststeel_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.stone")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> NETHERRACK_FROSTSTEEL_ORE = registerBlock("netherrack_froststeel_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.netherrack_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
+	 public static final DeferredBlock<Block> END_STONE_FROSTSTEEL_ORE = registerBlock("end_stone_froststeel_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.end_stone_metal_ore_coordinates")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag); }
+				});
+
+	 public static final DeferredBlock<Block> DEEPSLATE_FROSTSTEEL_ORE = registerBlock("deepslate_froststeel_ore",
+				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)) {
+					 @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) { if(Screen.hasShiftDown()) {tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate_metal_ore_coordinates")); tooltipComponents.add(Component.translatable("tooltip.roprer.deepslate")); } else {tooltipComponents.add(Component.translatable("tooltip.roprer.shift_down")); } super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);}
+				});
+
 	 public static final DeferredBlock<Block> BRASS_BLOCK = registerBlock("brass_block",
 				() -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
 

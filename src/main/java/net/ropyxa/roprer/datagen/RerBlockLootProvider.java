@@ -82,6 +82,16 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.IRONWOOD_BLOCK.get(),
 				RerMaterialsBlocks.TAINED_GOLD_BLOCK.get(),
 				RerMaterialsBlocks.INFUSED_IRON_BLOCK.get(),
+				RerMaterialsBlocks.UTHERIUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_UTHERIUM_BLOCK.get(),
+				RerMaterialsBlocks.THALLASIUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_THALLASIUM_BLOCK.get(),
+				RerMaterialsBlocks.NEBU_BLOCK.get(),
+				RerMaterialsBlocks.RAW_NEBU_BLOCK.get(),
+				RerMaterialsBlocks.REGALIUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_REGALIUM_BLOCK.get(),
+				RerMaterialsBlocks.FROSTSTEEL_BLOCK.get(),
+				RerMaterialsBlocks.RAW_FROSTSTEEL_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
@@ -129,6 +139,51 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_ALUMINUM_ORE.get(), RerMaterials.RAW_ALUMINUM.get()));
 		  add(RerMaterialsBlocks.DEEPSLATE_ALUMINUM_ORE.get(),
 					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_ALUMINUM_ORE.get(), RerMaterials.RAW_ALUMINUM.get()));
+
+		  add(RerMaterialsBlocks.FROSTSTEEL_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.FROSTSTEEL_ORE.get(), RerMaterials.RAW_FROSTSTEEL.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_FROSTSTEEL_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_FROSTSTEEL_ORE.get(), RerMaterials.RAW_FROSTSTEEL.get()));
+		  add(RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE.get(), RerMaterials.RAW_FROSTSTEEL.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE.get(), RerMaterials.RAW_FROSTSTEEL.get()));
+
+		  add(RerMaterialsBlocks.REGALIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.REGALIUM_ORE.get(), RerMaterials.RAW_REGALIUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_REGALIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_REGALIUM_ORE.get(), RerMaterials.RAW_REGALIUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_REGALIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_REGALIUM_ORE.get(), RerMaterials.RAW_REGALIUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_REGALIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_REGALIUM_ORE.get(), RerMaterials.RAW_REGALIUM.get()));
+
+		  add(RerMaterialsBlocks.NEBU_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NEBU_ORE.get(), RerMaterials.RAW_NEBU.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_NEBU_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_NEBU_ORE.get(), RerMaterials.RAW_NEBU.get()));
+		  add(RerMaterialsBlocks.END_STONE_NEBU_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_NEBU_ORE.get(), RerMaterials.RAW_NEBU.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_NEBU_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_NEBU_ORE.get(), RerMaterials.RAW_NEBU.get()));
+
+		  add(RerMaterialsBlocks.THALLASIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.THALLASIUM_ORE.get(), RerMaterials.RAW_THALLASIUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_THALLASIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_THALLASIUM_ORE.get(), RerMaterials.RAW_THALLASIUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_THALLASIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_THALLASIUM_ORE.get(), RerMaterials.RAW_THALLASIUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_THALLASIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_THALLASIUM_ORE.get(), RerMaterials.RAW_THALLASIUM.get()));
+
+		  add(RerMaterialsBlocks.UTHERIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.UTHERIUM_ORE.get(), RerMaterials.RAW_UTHERIUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_UTHERIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_UTHERIUM_ORE.get(), RerMaterials.RAW_UTHERIUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_UTHERIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_UTHERIUM_ORE.get(), RerMaterials.RAW_UTHERIUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_UTHERIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_UTHERIUM_ORE.get(), RerMaterials.RAW_UTHERIUM.get()));
 
 		  add(RerMaterialsBlocks.AQUITE_ORE.get(), block -> createMultipleOreDrops(
 					 RerMaterialsBlocks.AQUITE_ORE.get(), RerMaterials.AQUITE_GEM.get(), 1, 2));

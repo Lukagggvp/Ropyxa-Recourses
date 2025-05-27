@@ -81,6 +81,26 @@ public class RerPlacedFeatures {
 	 public static final ResourceKey<PlacedFeature> NETHERRACK_CINNABAR_ORE_PLACED_KEY = registerKey("netherrack_cinnabar_ore_placed");
 	 public static final ResourceKey<PlacedFeature> END_STONE_CINNABAR_ORE_PLACED_KEY = registerKey("end_stone_cinnabar_ore_placed");
 
+	 public static final ResourceKey<PlacedFeature> UTHERIUM_ORE_PLACED_KEY = registerKey("utherium_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_UTHERIUM_ORE_PLACED_KEY = registerKey("netherrack_utherium_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_UTHERIUM_ORE_PLACED_KEY = registerKey("end_stone_utherium_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> THALLASIUM_ORE_PLACED_KEY = registerKey("thallasium_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_THALLASIUM_ORE_PLACED_KEY = registerKey("netherrack_thallasium_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_THALLASIUM_ORE_PLACED_KEY = registerKey("end_stone_thallasium_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> NEBU_ORE_PLACED_KEY = registerKey("nebu_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_NEBU_ORE_PLACED_KEY = registerKey("netherrack_nebu_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_NEBU_ORE_PLACED_KEY = registerKey("end_stone_nebu_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> REGALIUM_ORE_PLACED_KEY = registerKey("regalium_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_REGALIUM_ORE_PLACED_KEY = registerKey("netherrack_regalium_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_REGALIUM_ORE_PLACED_KEY = registerKey("end_stone_regalium_ore_placed");
+
+	 public static final ResourceKey<PlacedFeature> FROSTSTEEL_ORE_PLACED_KEY = registerKey("froststeel_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_FROSTSTEEL_ORE_PLACED_KEY = registerKey("netherrack_froststeel_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_FROSTSTEEL_ORE_PLACED_KEY = registerKey("end_stone_froststeel_ore_placed");
+
 	 public static void bootstrap(BootstrapContext<PlacedFeature> context) {
 		  var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
@@ -242,6 +262,56 @@ public class RerPlacedFeatures {
 					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
 								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
 		  register(context, END_STONE_CARMINITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_CARMINITE_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, FROSTSTEEL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.FROSTSTEEL_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_FROSTSTEEL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_FROSTSTEEL_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_FROSTSTEEL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_FROSTSTEEL_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, REGALIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.REGALIUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_REGALIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_REGALIUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_REGALIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_REGALIUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, NEBU_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NEBU_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_NEBU_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_NEBU_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_NEBU_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_NEBU_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, THALLASIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.THALLASIUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_THALLASIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_THALLASIUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_THALLASIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_THALLASIUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
+
+		  register(context, UTHERIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.UTHERIUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_UTHERIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_UTHERIUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_UTHERIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_UTHERIUM_ORE_KEY),
 					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
 								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
 	 }

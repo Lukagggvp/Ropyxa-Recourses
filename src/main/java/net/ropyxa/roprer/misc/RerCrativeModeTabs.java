@@ -192,6 +192,56 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.CHAROITE_BLOCK);
 							  output.accept(RerMaterials.CHAROITE_GEM);
 							  output.accept(RerMaterials.CHAROITE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.UTHERIUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_UTHERIUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_UTHERIUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_UTHERIUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_UTHERIUM_BLOCK);
+							  output.accept(RerMaterials.RAW_UTHERIUM);
+							  output.accept(RerMaterialsBlocks.UTHERIUM_BLOCK);
+							  output.accept(RerMaterials.UTHERIUM_INGOT);
+							  output.accept(RerMaterials.UTHERIUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.THALLASIUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_THALLASIUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_THALLASIUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_THALLASIUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_THALLASIUM_BLOCK);
+							  output.accept(RerMaterials.RAW_THALLASIUM);
+							  output.accept(RerMaterialsBlocks.THALLASIUM_BLOCK);
+							  output.accept(RerMaterials.THALLASIUM_INGOT);
+							  output.accept(RerMaterials.THALLASIUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.NEBU_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_NEBU_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_NEBU_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_NEBU_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_NEBU_BLOCK);
+							  output.accept(RerMaterials.RAW_NEBU);
+							  output.accept(RerMaterialsBlocks.NEBU_BLOCK);
+							  output.accept(RerMaterials.NEBU_INGOT);
+							  output.accept(RerMaterials.NEBU_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.REGALIUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_REGALIUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_REGALIUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_REGALIUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_REGALIUM_BLOCK);
+							  output.accept(RerMaterials.RAW_REGALIUM);
+							  output.accept(RerMaterialsBlocks.REGALIUM_BLOCK);
+							  output.accept(RerMaterials.REGALIUM_INGOT);
+							  output.accept(RerMaterials.REGALIUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.FROSTSTEEL_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_FROSTSTEEL_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_FROSTSTEEL_BLOCK);
+							  output.accept(RerMaterials.RAW_FROSTSTEEL);
+							  output.accept(RerMaterialsBlocks.FROSTSTEEL_BLOCK);
+							  output.accept(RerMaterials.FROSTSTEEL_INGOT);
+							  output.accept(RerMaterials.FROSTSTEEL_NUGGET);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -503,6 +553,101 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.CHAROITE_SHARD);
 							  output.accept(RerMaterials.CHAROITE_CLUMP);
 							  output.accept(RerMaterials.CHAROITE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.UTHERIUM_PLATE);
+							  output.accept(RerMaterials.UTHERIUM_LARGE_PLATE);
+							  output.accept(RerMaterials.UTHERIUM_ROD);
+							  output.accept(RerMaterials.UTHERIUM_WIRE);
+							  output.accept(RerMaterials.UTHERIUM_GEAR);
+							  output.accept(RerMaterials.UTHERIUM_DUST);
+							  output.accept(RerMaterials.UTHERIUM_TINY_DUST);
+							  output.accept(RerMaterials.UTHERIUM_RING);
+							  output.accept(RerMaterials.UTHERIUM_BOLT);
+							  output.accept(RerMaterials.UTHERIUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.UTHERIUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_UTHERIUM_ORE);
+							  output.accept(RerMaterials.UTHERIUM_CHUNK);
+							  output.accept(RerMaterials.UTHERIUM_CLUSTER);
+							  output.accept(RerMaterials.UTHERIUM_CRYSTAL);
+							  output.accept(RerMaterials.UTHERIUM_SHARD);
+							  output.accept(RerMaterials.UTHERIUM_CLUMP);
+							  output.accept(RerMaterials.UTHERIUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.THALLASIUM_PLATE);
+							  output.accept(RerMaterials.THALLASIUM_LARGE_PLATE);
+							  output.accept(RerMaterials.THALLASIUM_ROD);
+							  output.accept(RerMaterials.THALLASIUM_WIRE);
+							  output.accept(RerMaterials.THALLASIUM_GEAR);
+							  output.accept(RerMaterials.THALLASIUM_DUST);
+							  output.accept(RerMaterials.THALLASIUM_TINY_DUST);
+							  output.accept(RerMaterials.THALLASIUM_RING);
+							  output.accept(RerMaterials.THALLASIUM_BOLT);
+							  output.accept(RerMaterials.THALLASIUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.THALLASIUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_THALLASIUM_ORE);
+							  output.accept(RerMaterials.THALLASIUM_CHUNK);
+							  output.accept(RerMaterials.THALLASIUM_CLUSTER);
+							  output.accept(RerMaterials.THALLASIUM_CRYSTAL);
+							  output.accept(RerMaterials.THALLASIUM_SHARD);
+							  output.accept(RerMaterials.THALLASIUM_CLUMP);
+							  output.accept(RerMaterials.THALLASIUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.NEBU_PLATE);
+							  output.accept(RerMaterials.NEBU_LARGE_PLATE);
+							  output.accept(RerMaterials.NEBU_ROD);
+							  output.accept(RerMaterials.NEBU_WIRE);
+							  output.accept(RerMaterials.NEBU_GEAR);
+							  output.accept(RerMaterials.NEBU_DUST);
+							  output.accept(RerMaterials.NEBU_TINY_DUST);
+							  output.accept(RerMaterials.NEBU_RING);
+							  output.accept(RerMaterials.NEBU_BOLT);
+							  output.accept(RerMaterials.NEBU_DOUBLE_INGOT);
+							  output.accept(RerMaterials.NEBU_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_NEBU_ORE);
+							  output.accept(RerMaterials.NEBU_CHUNK);
+							  output.accept(RerMaterials.NEBU_CLUSTER);
+							  output.accept(RerMaterials.NEBU_CRYSTAL);
+							  output.accept(RerMaterials.NEBU_SHARD);
+							  output.accept(RerMaterials.NEBU_CLUMP);
+							  output.accept(RerMaterials.NEBU_DIRTY_DUST);
+
+							  output.accept(RerMaterials.REGALIUM_PLATE);
+							  output.accept(RerMaterials.REGALIUM_LARGE_PLATE);
+							  output.accept(RerMaterials.REGALIUM_ROD);
+							  output.accept(RerMaterials.REGALIUM_WIRE);
+							  output.accept(RerMaterials.REGALIUM_GEAR);
+							  output.accept(RerMaterials.REGALIUM_DUST);
+							  output.accept(RerMaterials.REGALIUM_TINY_DUST);
+							  output.accept(RerMaterials.REGALIUM_RING);
+							  output.accept(RerMaterials.REGALIUM_BOLT);
+							  output.accept(RerMaterials.REGALIUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.REGALIUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_REGALIUM_ORE);
+							  output.accept(RerMaterials.REGALIUM_CHUNK);
+							  output.accept(RerMaterials.REGALIUM_CLUSTER);
+							  output.accept(RerMaterials.REGALIUM_CRYSTAL);
+							  output.accept(RerMaterials.REGALIUM_SHARD);
+							  output.accept(RerMaterials.REGALIUM_CLUMP);
+							  output.accept(RerMaterials.REGALIUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.FROSTSTEEL_PLATE);
+							  output.accept(RerMaterials.FROSTSTEEL_LARGE_PLATE);
+							  output.accept(RerMaterials.FROSTSTEEL_ROD);
+							  output.accept(RerMaterials.FROSTSTEEL_WIRE);
+							  output.accept(RerMaterials.FROSTSTEEL_GEAR);
+							  output.accept(RerMaterials.FROSTSTEEL_DUST);
+							  output.accept(RerMaterials.FROSTSTEEL_TINY_DUST);
+							  output.accept(RerMaterials.FROSTSTEEL_RING);
+							  output.accept(RerMaterials.FROSTSTEEL_BOLT);
+							  output.accept(RerMaterials.FROSTSTEEL_DOUBLE_INGOT);
+							  output.accept(RerMaterials.FROSTSTEEL_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_FROSTSTEEL_ORE);
+							  output.accept(RerMaterials.FROSTSTEEL_CHUNK);
+							  output.accept(RerMaterials.FROSTSTEEL_CLUSTER);
+							  output.accept(RerMaterials.FROSTSTEEL_CRYSTAL);
+							  output.accept(RerMaterials.FROSTSTEEL_SHARD);
+							  output.accept(RerMaterials.FROSTSTEEL_CLUMP);
+							  output.accept(RerMaterials.FROSTSTEEL_DIRTY_DUST);
 						 }).build());
 
 	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",

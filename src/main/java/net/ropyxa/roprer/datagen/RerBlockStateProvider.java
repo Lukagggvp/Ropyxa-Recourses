@@ -123,6 +123,41 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.END_STONE_APATITE_ORE, "end_stone","apatite_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_APATITE_ORE, "deepslate","apatite_ore");
 
+		  blockWithItem(RerMaterialsBlocks.UTHERIUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_UTHERIUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.UTHERIUM_ORE, "stone","utherium_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_UTHERIUM_ORE, "netherrack","utherium_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_UTHERIUM_ORE, "end_stone","utherium_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_UTHERIUM_ORE, "deepslate","utherium_ore");
+
+		  blockWithItem(RerMaterialsBlocks.THALLASIUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_THALLASIUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.THALLASIUM_ORE, "stone","thallasium_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_THALLASIUM_ORE, "netherrack","thallasium_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_THALLASIUM_ORE, "end_stone","thallasium_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_THALLASIUM_ORE, "deepslate","thallasium_ore");
+
+		  blockWithItem(RerMaterialsBlocks.NEBU_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_NEBU_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.NEBU_ORE, "stone","nebu_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_NEBU_ORE, "netherrack","nebu_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_NEBU_ORE, "end_stone","nebu_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_NEBU_ORE, "deepslate","nebu_ore");
+
+		  blockWithItem(RerMaterialsBlocks.REGALIUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_REGALIUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.REGALIUM_ORE, "stone","regalium_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_REGALIUM_ORE, "netherrack","regalium_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_REGALIUM_ORE, "end_stone","regalium_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_REGALIUM_ORE, "deepslate","regalium_ore");
+
+		  blockWithItem(RerMaterialsBlocks.FROSTSTEEL_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_FROSTSTEEL_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.FROSTSTEEL_ORE, "stone","froststeel_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_FROSTSTEEL_ORE, "netherrack","froststeel_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE, "end_stone","froststeel_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE, "deepslate","froststeel_ore");
+
 		  blockWithItem(RerMaterialsBlocks.CINNABAR_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.CINNABAR_CLUSTER_BLOCK);
 		  OreWithItem(RerMaterialsBlocks.CINNABAR_ORE, "stone","cinnabar_ore");

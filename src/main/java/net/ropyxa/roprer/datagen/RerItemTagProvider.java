@@ -5341,5 +5341,1010 @@ public class RerItemTagProvider extends ItemTagsProvider {
 
 		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/infused_iron")))
 					 .add(RerMaterialsBlocks.INFUSED_IRON_BLOCK.get().asItem());
+
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.UTHERIUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots")))
+					 .add(RerMaterials.UTHERIUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots/utherium")))
+					 .add(RerMaterials.UTHERIUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.UTHERIUM_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/utherium")))
+					 .add(RerMaterials.UTHERIUM_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.RAW_UTHERIUM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/utherium")))
+					 .add(RerMaterials.RAW_UTHERIUM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.UTHERIUM_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/utherium")))
+					 .add(RerMaterials.UTHERIUM_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.UTHERIUM_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/utherium")))
+					 .add(RerMaterials.UTHERIUM_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.UTHERIUM_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/utherium")))
+					 .add(RerMaterials.UTHERIUM_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.UTHERIUM_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/utherium")))
+					 .add(RerMaterials.UTHERIUM_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.UTHERIUM_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/utherium")))
+					 .add(RerMaterials.UTHERIUM_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.UTHERIUM_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/utherium")))
+					 .add(RerMaterials.UTHERIUM_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.UTHERIUM_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/utherium")))
+					 .add(RerMaterials.UTHERIUM_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.UTHERIUM_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/utherium")))
+					 .add(RerMaterials.UTHERIUM_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots")))
+					 .add(RerMaterials.UTHERIUM_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots/utherium")))
+					 .add(RerMaterials.UTHERIUM_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.UTHERIUM_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/utherium")))
+					 .add(RerMaterials.UTHERIUM_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_UTHERIUM_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/utherium")))
+					 .add(RerMaterials.CRUSHED_UTHERIUM_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.UTHERIUM_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/utherium")))
+					 .add(RerMaterials.UTHERIUM_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.UTHERIUM_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/utherium")))
+					 .add(RerMaterials.UTHERIUM_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.UTHERIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/utherium")))
+					 .add(RerMaterials.UTHERIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.UTHERIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/utherium")))
+					 .add(RerMaterials.UTHERIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.UTHERIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/utherium")))
+					 .add(RerMaterials.UTHERIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.UTHERIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/utherium")))
+					 .add(RerMaterials.UTHERIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.UTHERIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/utherium")))
+					 .add(RerMaterials.UTHERIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.UTHERIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/utherium")))
+					 .add(RerMaterials.UTHERIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.UTHERIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/utherium")))
+					 .add(RerMaterials.UTHERIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.UTHERIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/utherium")))
+					 .add(RerMaterials.UTHERIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.UTHERIUM_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/utherium")))
+					 .add(RerMaterials.UTHERIUM_RING.get());
+
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.THALLASIUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots")))
+					 .add(RerMaterials.THALLASIUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots/thallasium")))
+					 .add(RerMaterials.THALLASIUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.THALLASIUM_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/thallasium")))
+					 .add(RerMaterials.THALLASIUM_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.RAW_THALLASIUM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/thallasium")))
+					 .add(RerMaterials.RAW_THALLASIUM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.THALLASIUM_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/thallasium")))
+					 .add(RerMaterials.THALLASIUM_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.THALLASIUM_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/thallasium")))
+					 .add(RerMaterials.THALLASIUM_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.THALLASIUM_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/thallasium")))
+					 .add(RerMaterials.THALLASIUM_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.THALLASIUM_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/thallasium")))
+					 .add(RerMaterials.THALLASIUM_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.THALLASIUM_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/thallasium")))
+					 .add(RerMaterials.THALLASIUM_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.THALLASIUM_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/thallasium")))
+					 .add(RerMaterials.THALLASIUM_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.THALLASIUM_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/thallasium")))
+					 .add(RerMaterials.THALLASIUM_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.THALLASIUM_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/thallasium")))
+					 .add(RerMaterials.THALLASIUM_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots")))
+					 .add(RerMaterials.THALLASIUM_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots/thallasium")))
+					 .add(RerMaterials.THALLASIUM_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.THALLASIUM_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/thallasium")))
+					 .add(RerMaterials.THALLASIUM_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_THALLASIUM_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/thallasium")))
+					 .add(RerMaterials.CRUSHED_THALLASIUM_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.THALLASIUM_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/thallasium")))
+					 .add(RerMaterials.THALLASIUM_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.THALLASIUM_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/thallasium")))
+					 .add(RerMaterials.THALLASIUM_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.THALLASIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/thallasium")))
+					 .add(RerMaterials.THALLASIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.THALLASIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/thallasium")))
+					 .add(RerMaterials.THALLASIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.THALLASIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/thallasium")))
+					 .add(RerMaterials.THALLASIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.THALLASIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/thallasium")))
+					 .add(RerMaterials.THALLASIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.THALLASIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/thallasium")))
+					 .add(RerMaterials.THALLASIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.THALLASIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/thallasium")))
+					 .add(RerMaterials.THALLASIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.THALLASIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/thallasium")))
+					 .add(RerMaterials.THALLASIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.THALLASIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/thallasium")))
+					 .add(RerMaterials.THALLASIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.THALLASIUM_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/thallasium")))
+					 .add(RerMaterials.THALLASIUM_RING.get());
+
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.NEBU_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots")))
+					 .add(RerMaterials.NEBU_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots/nebu")))
+					 .add(RerMaterials.NEBU_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.NEBU_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/nebu")))
+					 .add(RerMaterials.NEBU_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.RAW_NEBU.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/nebu")))
+					 .add(RerMaterials.RAW_NEBU.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.NEBU_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/nebu")))
+					 .add(RerMaterials.NEBU_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.NEBU_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/nebu")))
+					 .add(RerMaterials.NEBU_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.NEBU_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/nebu")))
+					 .add(RerMaterials.NEBU_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.NEBU_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/nebu")))
+					 .add(RerMaterials.NEBU_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.NEBU_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/nebu")))
+					 .add(RerMaterials.NEBU_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.NEBU_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/nebu")))
+					 .add(RerMaterials.NEBU_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.NEBU_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/nebu")))
+					 .add(RerMaterials.NEBU_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.NEBU_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/nebu")))
+					 .add(RerMaterials.NEBU_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots")))
+					 .add(RerMaterials.NEBU_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots/nebu")))
+					 .add(RerMaterials.NEBU_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.NEBU_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/nebu")))
+					 .add(RerMaterials.NEBU_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_NEBU_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/nebu")))
+					 .add(RerMaterials.CRUSHED_NEBU_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.NEBU_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/nebu")))
+					 .add(RerMaterials.NEBU_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.NEBU_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/nebu")))
+					 .add(RerMaterials.NEBU_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.NEBU_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/nebu")))
+					 .add(RerMaterials.NEBU_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.NEBU_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/nebu")))
+					 .add(RerMaterials.NEBU_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.NEBU_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/nebu")))
+					 .add(RerMaterials.NEBU_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.NEBU_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/nebu")))
+					 .add(RerMaterials.NEBU_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.NEBU_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/nebu")))
+					 .add(RerMaterials.NEBU_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.NEBU_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/nebu")))
+					 .add(RerMaterials.NEBU_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.NEBU_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/nebu")))
+					 .add(RerMaterials.NEBU_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.NEBU_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/nebu")))
+					 .add(RerMaterials.NEBU_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.NEBU_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/nebu")))
+					 .add(RerMaterials.NEBU_RING.get());
+
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.REGALIUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots")))
+					 .add(RerMaterials.REGALIUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots/regalium")))
+					 .add(RerMaterials.REGALIUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.REGALIUM_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/regalium")))
+					 .add(RerMaterials.REGALIUM_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.RAW_REGALIUM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/regalium")))
+					 .add(RerMaterials.RAW_REGALIUM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.REGALIUM_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/regalium")))
+					 .add(RerMaterials.REGALIUM_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.REGALIUM_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/regalium")))
+					 .add(RerMaterials.REGALIUM_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.REGALIUM_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/regalium")))
+					 .add(RerMaterials.REGALIUM_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.REGALIUM_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/regalium")))
+					 .add(RerMaterials.REGALIUM_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.REGALIUM_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/regalium")))
+					 .add(RerMaterials.REGALIUM_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.REGALIUM_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/regalium")))
+					 .add(RerMaterials.REGALIUM_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.REGALIUM_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/regalium")))
+					 .add(RerMaterials.REGALIUM_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.REGALIUM_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/regalium")))
+					 .add(RerMaterials.REGALIUM_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots")))
+					 .add(RerMaterials.REGALIUM_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots/regalium")))
+					 .add(RerMaterials.REGALIUM_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.REGALIUM_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/regalium")))
+					 .add(RerMaterials.REGALIUM_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_REGALIUM_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/regalium")))
+					 .add(RerMaterials.CRUSHED_REGALIUM_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.REGALIUM_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/regalium")))
+					 .add(RerMaterials.REGALIUM_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.REGALIUM_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/regalium")))
+					 .add(RerMaterials.REGALIUM_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.REGALIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/regalium")))
+					 .add(RerMaterials.REGALIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.REGALIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/regalium")))
+					 .add(RerMaterials.REGALIUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.REGALIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/regalium")))
+					 .add(RerMaterials.REGALIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.REGALIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/regalium")))
+					 .add(RerMaterials.REGALIUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.REGALIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/regalium")))
+					 .add(RerMaterials.REGALIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.REGALIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/regalium")))
+					 .add(RerMaterials.REGALIUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.REGALIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/regalium")))
+					 .add(RerMaterials.REGALIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.REGALIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/regalium")))
+					 .add(RerMaterials.REGALIUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.REGALIUM_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/regalium")))
+					 .add(RerMaterials.REGALIUM_RING.get());
+
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.FROSTSTEEL_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots")))
+					 .add(RerMaterials.FROSTSTEEL_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.FROSTSTEEL_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.RAW_FROSTSTEEL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/froststeel")))
+					 .add(RerMaterials.RAW_FROSTSTEEL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.FROSTSTEEL_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.FROSTSTEEL_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.FROSTSTEEL_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.FROSTSTEEL_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.FROSTSTEEL_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.FROSTSTEEL_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.FROSTSTEEL_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.FROSTSTEEL_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots")))
+					 .add(RerMaterials.FROSTSTEEL_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.FROSTSTEEL_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_FROSTSTEEL_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/froststeel")))
+					 .add(RerMaterials.CRUSHED_FROSTSTEEL_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.FROSTSTEEL_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.FROSTSTEEL_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.FROSTSTEEL_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.FROSTSTEEL_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.FROSTSTEEL_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.FROSTSTEEL_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.FROSTSTEEL_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.FROSTSTEEL_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.FROSTSTEEL_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.FROSTSTEEL_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.FROSTSTEEL_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/froststeel")))
+					 .add(RerMaterials.FROSTSTEEL_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.UTHERIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/utherium")))
+					 .add(RerMaterialsBlocks.UTHERIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_UTHERIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_utherium")))
+					 .add(RerMaterialsBlocks.RAW_UTHERIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_UTHERIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/utherium")))
+					 .add(RerMaterialsBlocks.UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/utherium")))
+					 .add(RerMaterialsBlocks.NETHERRACK_UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/utherium")))
+					 .add(RerMaterialsBlocks.END_STONE_UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/utherium")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_UTHERIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_UTHERIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_UTHERIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_UTHERIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.THALLASIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/thallasium")))
+					 .add(RerMaterialsBlocks.THALLASIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_THALLASIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_thallasium")))
+					 .add(RerMaterialsBlocks.RAW_THALLASIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_THALLASIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/thallasium")))
+					 .add(RerMaterialsBlocks.THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/thallasium")))
+					 .add(RerMaterialsBlocks.NETHERRACK_THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/thallasium")))
+					 .add(RerMaterialsBlocks.END_STONE_THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/thallasium")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_THALLASIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_THALLASIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_THALLASIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_THALLASIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.NEBU_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/nebu")))
+					 .add(RerMaterialsBlocks.NEBU_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_NEBU_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_nebu")))
+					 .add(RerMaterialsBlocks.RAW_NEBU_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_NEBU_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/nebu")))
+					 .add(RerMaterialsBlocks.NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/nebu")))
+					 .add(RerMaterialsBlocks.NETHERRACK_NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/nebu")))
+					 .add(RerMaterialsBlocks.END_STONE_NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/nebu")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_NEBU_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_NEBU_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_NEBU_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_NEBU_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.REGALIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/regalium")))
+					 .add(RerMaterialsBlocks.REGALIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_REGALIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_regalium")))
+					 .add(RerMaterialsBlocks.RAW_REGALIUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_REGALIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/regalium")))
+					 .add(RerMaterialsBlocks.REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/regalium")))
+					 .add(RerMaterialsBlocks.NETHERRACK_REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/regalium")))
+					 .add(RerMaterialsBlocks.END_STONE_REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/regalium")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_REGALIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_REGALIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_REGALIUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_REGALIUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.FROSTSTEEL_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/froststeel")))
+					 .add(RerMaterialsBlocks.FROSTSTEEL_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_FROSTSTEEL_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_froststeel")))
+					 .add(RerMaterialsBlocks.RAW_FROSTSTEEL_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/froststeel")))
+					 .add(RerMaterialsBlocks.FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/froststeel")))
+					 .add(RerMaterialsBlocks.NETHERRACK_FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/froststeel")))
+					 .add(RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/froststeel")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE.get().asItem());
 	 }
 }

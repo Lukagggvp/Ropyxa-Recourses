@@ -85,6 +85,26 @@ public class RerConfiguredFeatures {
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_CINNABAR_ORE_KEY = registerKey("netherrack_cinnabar_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_CINNABAR_ORE_KEY = registerKey("end_stone_cinnabar_ore");
 
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> UTHERIUM_ORE_KEY = registerKey("utherium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_UTHERIUM_ORE_KEY = registerKey("netherrack_utherium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_UTHERIUM_ORE_KEY = registerKey("end_stone_utherium_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> THALLASIUM_ORE_KEY = registerKey("thallasium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_THALLASIUM_ORE_KEY = registerKey("netherrack_thallasium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_THALLASIUM_ORE_KEY = registerKey("end_stone_thallasium_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NEBU_ORE_KEY = registerKey("nebu_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_NEBU_ORE_KEY = registerKey("netherrack_nebu_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_NEBU_ORE_KEY = registerKey("end_stone_nebu_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> REGALIUM_ORE_KEY = registerKey("regalium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_REGALIUM_ORE_KEY = registerKey("netherrack_regalium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_REGALIUM_ORE_KEY = registerKey("end_stone_regalium_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> FROSTSTEEL_ORE_KEY = registerKey("froststeel_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_FROSTSTEEL_ORE_KEY = registerKey("netherrack_froststeel_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_FROSTSTEEL_ORE_KEY = registerKey("end_stone_froststeel_ore");
+
 	 public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 		  RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
 		  RuleTest netherrackReplaceables = new BlockMatchTest(Blocks.NETHERRACK);
@@ -219,6 +239,46 @@ public class RerConfiguredFeatures {
 		  register(context, CARMINITE_ORE_KEY, Feature.ORE, new OreConfiguration(CarminiteOre, 9));
 		  register(context, NETHERRACK_CARMINITE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_CARMINITE_ORE.get().defaultBlockState(), 9));
 		  register(context, END_STONE_CARMINITE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> FroststeelOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.FROSTSTEEL_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE.get().defaultBlockState()));
+
+		  register(context, FROSTSTEEL_ORE_KEY, Feature.ORE, new OreConfiguration(FroststeelOre, 9));
+		  register(context, NETHERRACK_FROSTSTEEL_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_FROSTSTEEL_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_FROSTSTEEL_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> RegaliumOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.REGALIUM_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_REGALIUM_ORE.get().defaultBlockState()));
+
+		  register(context, REGALIUM_ORE_KEY, Feature.ORE, new OreConfiguration(RegaliumOre, 9));
+		  register(context, NETHERRACK_REGALIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_REGALIUM_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_REGALIUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_REGALIUM_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> NebuOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.NEBU_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_NEBU_ORE.get().defaultBlockState()));
+
+		  register(context, NEBU_ORE_KEY, Feature.ORE, new OreConfiguration(NebuOre, 9));
+		  register(context, NETHERRACK_NEBU_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_NEBU_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_NEBU_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_NEBU_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> ThallasiumOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.THALLASIUM_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_THALLASIUM_ORE.get().defaultBlockState()));
+
+		  register(context, THALLASIUM_ORE_KEY, Feature.ORE, new OreConfiguration(ThallasiumOre, 9));
+		  register(context, NETHERRACK_THALLASIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_THALLASIUM_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_THALLASIUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_THALLASIUM_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> UtheriumOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.UTHERIUM_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_UTHERIUM_ORE.get().defaultBlockState()));
+
+		  register(context, UTHERIUM_ORE_KEY, Feature.ORE, new OreConfiguration(UtheriumOre, 9));
+		  register(context, NETHERRACK_UTHERIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_UTHERIUM_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_UTHERIUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_UTHERIUM_ORE.get().defaultBlockState(), 9));
 	 }
 
 	 public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
