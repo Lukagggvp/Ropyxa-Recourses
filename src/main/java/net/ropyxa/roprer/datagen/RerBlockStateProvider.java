@@ -114,6 +114,7 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  blockWithItem(RerMaterialsBlocks.SKY_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.IRONWOOD_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.TAINED_GOLD_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.INFUSED_IRON_BLOCK);
 
 		  blockWithItem(RerMaterialsBlocks.APATITE_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.APATITE_CLUSTER_BLOCK);

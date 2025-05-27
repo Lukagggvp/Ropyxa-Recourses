@@ -753,6 +753,22 @@ public class RerItemModelProvider extends ItemModelProvider {
 		  basicItem(RerMaterials.KNIGHTMETAL_CLUSTER.get());
 		  basicItem(RerMaterials.KNIGHTMETAL_RING.get());
 
+		  basicItem(RerMaterials.INFUSED_IRON_INGOT.get());
+		  basicItem(RerMaterials.INFUSED_IRON_NUGGET.get());
+		  basicItem(RerMaterials.INFUSED_IRON_PLATE.get());
+		  basicItem(RerMaterials.INFUSED_IRON_LARGE_PLATE.get());
+		  basicItem(RerMaterials.INFUSED_IRON_ROD.get());
+		  basicItem(RerMaterials.INFUSED_IRON_WIRE.get());
+		  basicItem(RerMaterials.INFUSED_IRON_GEAR.get());
+		  basicItem(RerMaterials.INFUSED_IRON_DUST.get());
+		  basicItem(RerMaterials.INFUSED_IRON_TINY_DUST.get());
+		  basicItem(RerMaterials.INFUSED_IRON_BOLT.get());
+		  basicItem(RerMaterials.INFUSED_IRON_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.INFUSED_IRON_CURVED_PLATE.get());
+		  basicItem(RerMaterials.INFUSED_IRON_CHUNK.get());
+		  basicItem(RerMaterials.INFUSED_IRON_CLUSTER.get());
+		  basicItem(RerMaterials.INFUSED_IRON_RING.get());
+
 		  basicItem(RerMaterials.SKY_INGOT.get());
 		  basicItem(RerMaterials.SKY_NUGGET.get());
 		  basicItem(RerMaterials.SKY_PLATE.get());

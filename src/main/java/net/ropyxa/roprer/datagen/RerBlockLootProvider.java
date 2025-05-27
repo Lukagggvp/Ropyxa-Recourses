@@ -77,10 +77,11 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.REFINED_GLOWSTONE_BLOCK.get(),
 				RerMaterialsBlocks.ORICHALCUM_BLOCK.get(),
 				RerMaterialsBlocks.ROSE_GOLD_BLOCK.get(),
-					  RerMaterialsBlocks.KNIGHTMETAL_BLOCK.get(),
-					  RerMaterialsBlocks.SKY_BLOCK.get(),
-					  RerMaterialsBlocks.IRONWOOD_BLOCK.get(),
-					  RerMaterialsBlocks.TAINED_GOLD_BLOCK.get(),
+				RerMaterialsBlocks.KNIGHTMETAL_BLOCK.get(),
+				RerMaterialsBlocks.SKY_BLOCK.get(),
+				RerMaterialsBlocks.IRONWOOD_BLOCK.get(),
+				RerMaterialsBlocks.TAINED_GOLD_BLOCK.get(),
+				RerMaterialsBlocks.INFUSED_IRON_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);

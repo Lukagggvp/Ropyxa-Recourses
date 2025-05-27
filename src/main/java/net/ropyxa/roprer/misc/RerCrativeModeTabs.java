@@ -908,6 +908,25 @@ public class RerCrativeModeTabs {
 								output.accept(RerMaterials.TAINED_GOLD_CLUSTER);
 								output.accept(RerMaterials.NOTHING41);
 								output.accept(RerMaterials.NOTHING42);
+
+								output.accept(RerMaterialsBlocks.INFUSED_IRON_BLOCK);
+								output.accept(RerMaterials.INFUSED_IRON_INGOT);
+								output.accept(RerMaterials.INFUSED_IRON_NUGGET);
+								output.accept(RerMaterials.INFUSED_IRON_PLATE);
+								output.accept(RerMaterials.INFUSED_IRON_LARGE_PLATE);
+								output.accept(RerMaterials.INFUSED_IRON_ROD);
+								output.accept(RerMaterials.INFUSED_IRON_WIRE);
+								output.accept(RerMaterials.INFUSED_IRON_GEAR);
+								output.accept(RerMaterials.INFUSED_IRON_DUST);
+								output.accept(RerMaterials.INFUSED_IRON_TINY_DUST);
+								output.accept(RerMaterials.INFUSED_IRON_RING);
+								output.accept(RerMaterials.INFUSED_IRON_BOLT);
+								output.accept(RerMaterials.INFUSED_IRON_DOUBLE_INGOT);
+								output.accept(RerMaterials.INFUSED_IRON_CURVED_PLATE);
+								output.accept(RerMaterials.INFUSED_IRON_CHUNK);
+								output.accept(RerMaterials.INFUSED_IRON_CLUSTER);
+								output.accept(RerMaterials.NOTHING43);
+								output.accept(RerMaterials.NOTHING44);
 						  }).build());
 
 

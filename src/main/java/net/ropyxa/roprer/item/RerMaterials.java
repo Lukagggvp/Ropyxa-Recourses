@@ -2264,6 +2264,51 @@ public class RerMaterials {
 	 public static final DeferredItem<Item> TAINED_GOLD_RING = ITEMS.register("tained_gold_ring",
 				() -> new Item(new Item.Properties()));
 
+	 public static final DeferredItem<Item> INFUSED_IRON_INGOT = ITEMS.register("infused_iron_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_NUGGET = ITEMS.register("infused_iron_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_PLATE = ITEMS.register("infused_iron_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_LARGE_PLATE = ITEMS.register("infused_iron_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_ROD = ITEMS.register("infused_iron_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_WIRE = ITEMS.register("infused_iron_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_GEAR = ITEMS.register("infused_iron_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_DUST = ITEMS.register("infused_iron_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_TINY_DUST = ITEMS.register("infused_iron_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_BOLT = ITEMS.register("infused_iron_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_DOUBLE_INGOT = ITEMS.register("infused_iron_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_CURVED_PLATE = ITEMS.register("infused_iron_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_CHUNK = ITEMS.register("infused_iron_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_CLUSTER = ITEMS.register("infused_iron_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> INFUSED_IRON_RING = ITEMS.register("infused_iron_ring",
+				() -> new Item(new Item.Properties()));
+
 	 public static void register(IEventBus eventBus) {
 		  ITEMS.register(eventBus);
 	 }

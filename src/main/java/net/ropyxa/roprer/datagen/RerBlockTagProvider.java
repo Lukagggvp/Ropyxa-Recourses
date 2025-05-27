@@ -2143,5 +2143,26 @@ public class RerBlockTagProvider extends BlockTagsProvider {
 
 		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/tained_gold")))
 					 .add(RerMaterialsBlocks.TAINED_GOLD_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.INFUSED_IRON_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.INFUSED_IRON_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.INFUSED_IRON_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.INFUSED_IRON_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.INFUSED_IRON_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.INFUSED_IRON_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/infused_iron")))
+					 .add(RerMaterialsBlocks.INFUSED_IRON_BLOCK.get());
 	 }
 }

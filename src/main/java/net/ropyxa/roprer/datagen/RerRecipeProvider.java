@@ -3324,5 +3324,89 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 
 		  oreSmelting(recipeOutput, TAINED_GOLD_SMELTABLES, RecipeCategory.MISC, RerMaterials.TAINED_GOLD_INGOT.get(), 0.2f, 200, "tained_gold");
 		  oreBlasting(recipeOutput, TAINED_GOLD_SMELTABLES, RecipeCategory.MISC, RerMaterials.TAINED_GOLD_INGOT.get(), 0.2f, 100, "tained_gold");
+
+		  List<ItemLike> INFUSED_IRON_SMELTABLES = List.of(
+					 RerMaterials.INFUSED_IRON_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.INFUSED_IRON_BOLT.get())
+					 .define('B', RerMaterials.INFUSED_IRON_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.INFUSED_IRON_ROD.get())
+					 .define('B', RerMaterials.INFUSED_IRON_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.INFUSED_IRON_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.INFUSED_IRON_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_BOLT.get(), 2)
+					 .requires(RerMaterials.INFUSED_IRON_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.INFUSED_IRON_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_DUST.get())
+					 .requires(RerMaterials.INFUSED_IRON_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_LARGE_PLATE.get())
+					 .requires(RerMaterials.INFUSED_IRON_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_CLUSTER.get())
+					 .requires(RerMaterials.INFUSED_IRON_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.INFUSED_IRON_BLOCK.get(), 1)
+					 .requires(RerMaterials.INFUSED_IRON_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_INGOT.get())
+					 .requires(RerMaterials.INFUSED_IRON_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput, "roprer:infused_iron_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_NUGGET.get(), 9)
+					 .requires(RerMaterials.INFUSED_IRON_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.INFUSED_IRON_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.INFUSED_IRON_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.INFUSED_IRON_INGOT))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, INFUSED_IRON_SMELTABLES, RecipeCategory.MISC, RerMaterials.INFUSED_IRON_INGOT.get(), 0.2f, 200, "infused_iron");
+		  oreBlasting(recipeOutput, INFUSED_IRON_SMELTABLES, RecipeCategory.MISC, RerMaterials.INFUSED_IRON_INGOT.get(), 0.2f, 100, "infused_iron");
 	 }
 }
