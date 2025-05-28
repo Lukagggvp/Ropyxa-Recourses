@@ -98,9 +98,74 @@ public class RerBiomeModifiers {
 	 public static final ResourceKey<BiomeModifier> NETHERRACK_FROSTSTEEL_ORE_ADD = registerKey("netherrack_froststeel_ore_add");
 	 public static final ResourceKey<BiomeModifier> END_STONE_FROSTSTEEL_ORE_ADD = registerKey("end_stone_froststeel_ore_add");
 
+	 public static final ResourceKey<BiomeModifier> FALSITE_ORE_ADD = registerKey("falsite_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_FALSITE_ORE_ADD = registerKey("netherrack_falsite_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_FALSITE_ORE_ADD = registerKey("end_stone_falsite_ore_add");
+
+	 public static final ResourceKey<BiomeModifier> HORIZONITE_ORE_ADD = registerKey("horizonite_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_HORIZONITE_ORE_ADD = registerKey("netherrack_horizonite_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_HORIZONITE_ORE_ADD = registerKey("end_stone_horizonite_ore_add");
+
+	 public static final ResourceKey<BiomeModifier> IESNIUM_ORE_ADD = registerKey("iesnium_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_IESNIUM_ORE_ADD = registerKey("netherrack_iesnium_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_IESNIUM_ORE_ADD = registerKey("end_stone_iesnium_ore_add");
+
+	 public static final ResourceKey<BiomeModifier> TUNGSTEN_ORE_ADD = registerKey("tungsten_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_TUNGSTEN_ORE_ADD = registerKey("netherrack_tungsten_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_TUNGSTEN_ORE_ADD = registerKey("end_stone_tungsten_ore_add");
+
+	 public static final ResourceKey<BiomeModifier> VENTIUM_ORE_ADD = registerKey("ventium_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_VENTIUM_ORE_ADD = registerKey("netherrack_ventium_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_VENTIUM_ORE_ADD = registerKey("end_stone_ventium_ore_add");
+
 	 public static void bootstrap(BootstrapContext<BiomeModifier> context) {
 		  var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
 		  var biomes = context.lookup(Registries.BIOME);
+
+		  context.register(FALSITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.FALSITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_FALSITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_FALSITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_FALSITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_FALSITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(HORIZONITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.HORIZONITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_HORIZONITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_HORIZONITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_HORIZONITE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_HORIZONITE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(IESNIUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.IESNIUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_IESNIUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_IESNIUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_IESNIUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_IESNIUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(TUNGSTEN_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.TUNGSTEN_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_TUNGSTEN_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_TUNGSTEN_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_TUNGSTEN_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_TUNGSTEN_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(VENTIUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.VENTIUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_VENTIUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_VENTIUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_VENTIUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_VENTIUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
 
 		  context.register(TIN_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
 					 RerPlacedFeatures.TIN_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));

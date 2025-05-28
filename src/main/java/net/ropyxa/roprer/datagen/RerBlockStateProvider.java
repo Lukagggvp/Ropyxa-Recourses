@@ -144,6 +144,41 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.END_STONE_NEBU_ORE, "end_stone","nebu_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_NEBU_ORE, "deepslate","nebu_ore");
 
+		  blockWithItem(RerMaterialsBlocks.FALSITE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_FALSITE_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.FALSITE_ORE, "stone","falsite_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE, "netherrack","falsite_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_FALSITE_ORE, "end_stone","falsite_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE, "deepslate","falsite_ore");
+
+		  blockWithItem(RerMaterialsBlocks.HORIZONITE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_HORIZONITE_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.HORIZONITE_ORE, "stone","horizonite_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE, "netherrack","horizonite_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE, "end_stone","horizonite_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE, "deepslate","horizonite_ore");
+
+		  blockWithItem(RerMaterialsBlocks.IESNIUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_IESNIUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.IESNIUM_ORE, "stone","iesnium_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE, "netherrack","iesnium_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_IESNIUM_ORE, "end_stone","iesnium_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE, "deepslate","iesnium_ore");
+
+		  blockWithItem(RerMaterialsBlocks.TUNGSTEN_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.TUNGSTEN_ORE, "stone","tungsten_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE, "netherrack","tungsten_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE, "end_stone","tungsten_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE, "deepslate","tungsten_ore");
+
+		  blockWithItem(RerMaterialsBlocks.VENTIUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_VENTIUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.VENTIUM_ORE, "stone","ventium_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE, "netherrack","ventium_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_VENTIUM_ORE, "end_stone","ventium_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE, "deepslate","ventium_ore");
+
 		  blockWithItem(RerMaterialsBlocks.REGALIUM_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.RAW_REGALIUM_BLOCK);
 		  OreWithItem(RerMaterialsBlocks.REGALIUM_ORE, "stone","regalium_ore");

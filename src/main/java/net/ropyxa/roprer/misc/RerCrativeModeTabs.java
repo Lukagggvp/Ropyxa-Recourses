@@ -242,6 +242,56 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.FROSTSTEEL_BLOCK);
 							  output.accept(RerMaterials.FROSTSTEEL_INGOT);
 							  output.accept(RerMaterials.FROSTSTEEL_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.FALSITE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_FALSITE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_FALSITE_BLOCK);
+							  output.accept(RerMaterials.RAW_FALSITE);
+							  output.accept(RerMaterialsBlocks.FALSITE_BLOCK);
+							  output.accept(RerMaterials.FALSITE_INGOT);
+							  output.accept(RerMaterials.FALSITE_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.HORIZONITE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_HORIZONITE_BLOCK);
+							  output.accept(RerMaterials.RAW_HORIZONITE);
+							  output.accept(RerMaterialsBlocks.HORIZONITE_BLOCK);
+							  output.accept(RerMaterials.HORIZONITE_INGOT);
+							  output.accept(RerMaterials.HORIZONITE_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.IESNIUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_IESNIUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_IESNIUM_BLOCK);
+							  output.accept(RerMaterials.RAW_IESNIUM);
+							  output.accept(RerMaterialsBlocks.IESNIUM_BLOCK);
+							  output.accept(RerMaterials.IESNIUM_INGOT);
+							  output.accept(RerMaterials.IESNIUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.TUNGSTEN_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK);
+							  output.accept(RerMaterials.RAW_TUNGSTEN);
+							  output.accept(RerMaterialsBlocks.TUNGSTEN_BLOCK);
+							  output.accept(RerMaterials.TUNGSTEN_INGOT);
+							  output.accept(RerMaterials.TUNGSTEN_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.VENTIUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_VENTIUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_VENTIUM_BLOCK);
+							  output.accept(RerMaterials.RAW_VENTIUM);
+							  output.accept(RerMaterialsBlocks.VENTIUM_BLOCK);
+							  output.accept(RerMaterials.VENTIUM_INGOT);
+							  output.accept(RerMaterials.VENTIUM_NUGGET);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -648,6 +698,101 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.FROSTSTEEL_SHARD);
 							  output.accept(RerMaterials.FROSTSTEEL_CLUMP);
 							  output.accept(RerMaterials.FROSTSTEEL_DIRTY_DUST);
+
+							  output.accept(RerMaterials.FALSITE_PLATE);
+							  output.accept(RerMaterials.FALSITE_LARGE_PLATE);
+							  output.accept(RerMaterials.FALSITE_ROD);
+							  output.accept(RerMaterials.FALSITE_WIRE);
+							  output.accept(RerMaterials.FALSITE_GEAR);
+							  output.accept(RerMaterials.FALSITE_DUST);
+							  output.accept(RerMaterials.FALSITE_TINY_DUST);
+							  output.accept(RerMaterials.FALSITE_RING);
+							  output.accept(RerMaterials.FALSITE_BOLT);
+							  output.accept(RerMaterials.FALSITE_DOUBLE_INGOT);
+							  output.accept(RerMaterials.FALSITE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_FALSITE_ORE);
+							  output.accept(RerMaterials.FALSITE_CHUNK);
+							  output.accept(RerMaterials.FALSITE_CLUSTER);
+							  output.accept(RerMaterials.FALSITE_CRYSTAL);
+							  output.accept(RerMaterials.FALSITE_SHARD);
+							  output.accept(RerMaterials.FALSITE_CLUMP);
+							  output.accept(RerMaterials.FALSITE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.HORIZONITE_PLATE);
+							  output.accept(RerMaterials.HORIZONITE_LARGE_PLATE);
+							  output.accept(RerMaterials.HORIZONITE_ROD);
+							  output.accept(RerMaterials.HORIZONITE_WIRE);
+							  output.accept(RerMaterials.HORIZONITE_GEAR);
+							  output.accept(RerMaterials.HORIZONITE_DUST);
+							  output.accept(RerMaterials.HORIZONITE_TINY_DUST);
+							  output.accept(RerMaterials.HORIZONITE_RING);
+							  output.accept(RerMaterials.HORIZONITE_BOLT);
+							  output.accept(RerMaterials.HORIZONITE_DOUBLE_INGOT);
+							  output.accept(RerMaterials.HORIZONITE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_HORIZONITE_ORE);
+							  output.accept(RerMaterials.HORIZONITE_CHUNK);
+							  output.accept(RerMaterials.HORIZONITE_CLUSTER);
+							  output.accept(RerMaterials.HORIZONITE_CRYSTAL);
+							  output.accept(RerMaterials.HORIZONITE_SHARD);
+							  output.accept(RerMaterials.HORIZONITE_CLUMP);
+							  output.accept(RerMaterials.HORIZONITE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.IESNIUM_PLATE);
+							  output.accept(RerMaterials.IESNIUM_LARGE_PLATE);
+							  output.accept(RerMaterials.IESNIUM_ROD);
+							  output.accept(RerMaterials.IESNIUM_WIRE);
+							  output.accept(RerMaterials.IESNIUM_GEAR);
+							  output.accept(RerMaterials.IESNIUM_DUST);
+							  output.accept(RerMaterials.IESNIUM_TINY_DUST);
+							  output.accept(RerMaterials.IESNIUM_RING);
+							  output.accept(RerMaterials.IESNIUM_BOLT);
+							  output.accept(RerMaterials.IESNIUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.IESNIUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_IESNIUM_ORE);
+							  output.accept(RerMaterials.IESNIUM_CHUNK);
+							  output.accept(RerMaterials.IESNIUM_CLUSTER);
+							  output.accept(RerMaterials.IESNIUM_CRYSTAL);
+							  output.accept(RerMaterials.IESNIUM_SHARD);
+							  output.accept(RerMaterials.IESNIUM_CLUMP);
+							  output.accept(RerMaterials.IESNIUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.TUNGSTEN_PLATE);
+							  output.accept(RerMaterials.TUNGSTEN_LARGE_PLATE);
+							  output.accept(RerMaterials.TUNGSTEN_ROD);
+							  output.accept(RerMaterials.TUNGSTEN_WIRE);
+							  output.accept(RerMaterials.TUNGSTEN_GEAR);
+							  output.accept(RerMaterials.TUNGSTEN_DUST);
+							  output.accept(RerMaterials.TUNGSTEN_TINY_DUST);
+							  output.accept(RerMaterials.TUNGSTEN_RING);
+							  output.accept(RerMaterials.TUNGSTEN_BOLT);
+							  output.accept(RerMaterials.TUNGSTEN_DOUBLE_INGOT);
+							  output.accept(RerMaterials.TUNGSTEN_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_TUNGSTEN_ORE);
+							  output.accept(RerMaterials.TUNGSTEN_CHUNK);
+							  output.accept(RerMaterials.TUNGSTEN_CLUSTER);
+							  output.accept(RerMaterials.TUNGSTEN_CRYSTAL);
+							  output.accept(RerMaterials.TUNGSTEN_SHARD);
+							  output.accept(RerMaterials.TUNGSTEN_CLUMP);
+							  output.accept(RerMaterials.TUNGSTEN_DIRTY_DUST);
+
+							  output.accept(RerMaterials.VENTIUM_PLATE);
+							  output.accept(RerMaterials.VENTIUM_LARGE_PLATE);
+							  output.accept(RerMaterials.VENTIUM_ROD);
+							  output.accept(RerMaterials.VENTIUM_WIRE);
+							  output.accept(RerMaterials.VENTIUM_GEAR);
+							  output.accept(RerMaterials.VENTIUM_DUST);
+							  output.accept(RerMaterials.VENTIUM_TINY_DUST);
+							  output.accept(RerMaterials.VENTIUM_RING);
+							  output.accept(RerMaterials.VENTIUM_BOLT);
+							  output.accept(RerMaterials.VENTIUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.VENTIUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_VENTIUM_ORE);
+							  output.accept(RerMaterials.VENTIUM_CHUNK);
+							  output.accept(RerMaterials.VENTIUM_CLUSTER);
+							  output.accept(RerMaterials.VENTIUM_CRYSTAL);
+							  output.accept(RerMaterials.VENTIUM_SHARD);
+							  output.accept(RerMaterials.VENTIUM_CLUMP);
+							  output.accept(RerMaterials.VENTIUM_DIRTY_DUST);
 						 }).build());
 
 	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",

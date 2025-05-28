@@ -19,8 +19,13 @@ public class RerBlockTagProvider extends BlockTagsProvider {
 		  super(output, lookupProvider, RopRer.MOD_ID, existingFileHelper);
 	 }
 
+	 private void some(HolderLookup.Provider provider) {
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE).add(RerMaterialsBlocks.TIN_BLOCK.get());
+	 }
+
 	 @Override
 	 protected void addTags(HolderLookup.Provider provider) {
+		  some(provider);
 		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
 					 .add(RerMaterialsBlocks.TIN_BLOCK.get())
 					 .add(RerMaterialsBlocks.RAW_TIN_BLOCK.get())
@@ -2719,5 +2724,560 @@ public class RerBlockTagProvider extends BlockTagsProvider {
 					 .add(RerMaterialsBlocks.END_STONE_FROSTSTEEL_ORE.get());
 		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
 					 .add(RerMaterialsBlocks.DEEPSLATE_FROSTSTEEL_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.FALSITE_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.FALSITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.FALSITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.FALSITE_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.FALSITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.FALSITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/falsite")))
+					 .add(RerMaterialsBlocks.FALSITE_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.RAW_FALSITE_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.RAW_FALSITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.RAW_FALSITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.RAW_FALSITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_FALSITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_falsite")))
+					 .add(RerMaterialsBlocks.RAW_FALSITE_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.FALSITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.FALSITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.FALSITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.FALSITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/falsite")))
+					 .add(RerMaterialsBlocks.FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/falsite")))
+					 .add(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/falsite")))
+					 .add(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/falsite")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/horizonite")))
+					 .add(RerMaterialsBlocks.HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.RAW_HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.RAW_HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.RAW_HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.RAW_HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_horizonite")))
+					 .add(RerMaterialsBlocks.RAW_HORIZONITE_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.HORIZONITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.HORIZONITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.HORIZONITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.HORIZONITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/horizonite")))
+					 .add(RerMaterialsBlocks.HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/horizonite")))
+					 .add(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/horizonite")))
+					 .add(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/horizonite")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/iesnium")))
+					 .add(RerMaterialsBlocks.IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.RAW_IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.RAW_IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.RAW_IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.RAW_IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_iesnium")))
+					 .add(RerMaterialsBlocks.RAW_IESNIUM_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.IESNIUM_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.IESNIUM_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.IESNIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.IESNIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/iesnium")))
+					 .add(RerMaterialsBlocks.IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/iesnium")))
+					 .add(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/iesnium")))
+					 .add(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/iesnium")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/tungsten")))
+					 .add(RerMaterialsBlocks.TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_tungsten")))
+					 .add(RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.TUNGSTEN_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.TUNGSTEN_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.TUNGSTEN_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.TUNGSTEN_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/tungsten")))
+					 .add(RerMaterialsBlocks.TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/tungsten")))
+					 .add(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/tungsten")))
+					 .add(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/tungsten")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.BEACON_BASE_BLOCKS)
+					 .add(RerMaterialsBlocks.VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/ventium")))
+					 .add(RerMaterialsBlocks.VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.RAW_VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.RAW_VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.RAW_VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.RAW_VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_ventium")))
+					 .add(RerMaterialsBlocks.RAW_VENTIUM_BLOCK.get());
+
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.VENTIUM_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get());
+		  tag(BlockTags.MINEABLE_WITH_PICKAXE)
+					 .add(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get());
+
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.VENTIUM_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get());
+		  tag(BlockTags.NEEDS_STONE_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.VENTIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get());
+
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.VENTIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get());
+		  tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+					 .add(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/ventium")))
+					 .add(RerMaterialsBlocks.VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/ventium")))
+					 .add(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/ventium")))
+					 .add(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/ventium")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get());
+
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get());
+		  tag(BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get());
 	 }
 }

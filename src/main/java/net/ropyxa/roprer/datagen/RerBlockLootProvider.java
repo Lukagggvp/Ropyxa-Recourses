@@ -92,6 +92,16 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.RAW_REGALIUM_BLOCK.get(),
 				RerMaterialsBlocks.FROSTSTEEL_BLOCK.get(),
 				RerMaterialsBlocks.RAW_FROSTSTEEL_BLOCK.get(),
+				RerMaterialsBlocks.FALSITE_BLOCK.get(),
+				RerMaterialsBlocks.RAW_FALSITE_BLOCK.get(),
+				RerMaterialsBlocks.HORIZONITE_BLOCK.get(),
+				RerMaterialsBlocks.RAW_HORIZONITE_BLOCK.get(),
+				RerMaterialsBlocks.IESNIUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_IESNIUM_BLOCK.get(),
+				RerMaterialsBlocks.TUNGSTEN_BLOCK.get(),
+				RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK.get(),
+				RerMaterialsBlocks.VENTIUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_VENTIUM_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
@@ -104,6 +114,7 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 					  block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_TIN_ORE.get(), RerMaterials.RAW_TIN.get()));
 		  	add(RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(),
 					  block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(), RerMaterials.RAW_TIN.get()));
+
 		   add(RerMaterialsBlocks.COBALT_ORE.get(),
 					  block -> createOreDrop(RerMaterialsBlocks.COBALT_ORE.get(), RerMaterials.RAW_COBALT.get()));
 		   add(RerMaterialsBlocks.NETHERRACK_COBALT_ORE.get(),
@@ -283,6 +294,51 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 					 RerMaterialsBlocks.END_STONE_CARMINITE_ORE.get(), RerMaterials.CARMINITE_GEM.get(), 1, 2));
 		  add(RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get(), block -> createMultipleOreDrops(
 					 RerMaterialsBlocks.DEEPSLATE_CARMINITE_ORE.get(), RerMaterials.CARMINITE_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.VENTIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.VENTIUM_ORE.get(), RerMaterials.RAW_VENTIUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get(), RerMaterials.RAW_VENTIUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get(), RerMaterials.RAW_VENTIUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_VENTIUM_ORE.get(), RerMaterials.RAW_VENTIUM.get()));
+
+		  add(RerMaterialsBlocks.TUNGSTEN_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.TUNGSTEN_ORE.get(), RerMaterials.RAW_TUNGSTEN.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_TUNGSTEN_ORE.get(), RerMaterials.RAW_TUNGSTEN.get()));
+		  add(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_TUNGSTEN_ORE.get(), RerMaterials.RAW_TUNGSTEN.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_TUNGSTEN_ORE.get(), RerMaterials.RAW_TUNGSTEN.get()));
+
+		  add(RerMaterialsBlocks.IESNIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.IESNIUM_ORE.get(), RerMaterials.RAW_IESNIUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_IESNIUM_ORE.get(), RerMaterials.RAW_IESNIUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_IESNIUM_ORE.get(), RerMaterials.RAW_IESNIUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE.get(), RerMaterials.RAW_IESNIUM.get()));
+
+		  add(RerMaterialsBlocks.HORIZONITE_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.HORIZONITE_ORE.get(), RerMaterials.RAW_HORIZONITE.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_HORIZONITE_ORE.get(), RerMaterials.RAW_HORIZONITE.get()));
+		  add(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_HORIZONITE_ORE.get(), RerMaterials.RAW_HORIZONITE.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_HORIZONITE_ORE.get(), RerMaterials.RAW_HORIZONITE.get()));
+
+		  add(RerMaterialsBlocks.FALSITE_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.FALSITE_ORE.get(), RerMaterials.RAW_FALSITE.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_FALSITE_ORE.get(), RerMaterials.RAW_FALSITE.get()));
+		  add(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_FALSITE_ORE.get(), RerMaterials.RAW_FALSITE.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_FALSITE_ORE.get(), RerMaterials.RAW_FALSITE.get()));
 	 }
 
 	 protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
