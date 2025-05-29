@@ -165,6 +165,41 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.END_STONE_IESNIUM_ORE, "end_stone","iesnium_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_IESNIUM_ORE, "deepslate","iesnium_ore");
 
+		  blockWithItem(RerMaterialsBlocks.PLATINUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_PLATINUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.PLATINUM_ORE, "stone","platinum_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_PLATINUM_ORE, "netherrack","platinum_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_PLATINUM_ORE, "end_stone","platinum_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_PLATINUM_ORE, "deepslate","platinum_ore");
+
+		  blockWithItem(RerMaterialsBlocks.URANIUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_URANIUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.URANIUM_ORE, "stone","uranium_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_URANIUM_ORE, "netherrack","uranium_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_URANIUM_ORE, "end_stone","uranium_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_URANIUM_ORE, "deepslate","uranium_ore");
+
+		  blockWithItem(RerMaterialsBlocks.SILVER_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_SILVER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.SILVER_ORE, "stone","silver_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_SILVER_ORE, "netherrack","silver_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_SILVER_ORE, "end_stone","silver_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_SILVER_ORE, "deepslate","silver_ore");
+
+		  blockWithItem(RerMaterialsBlocks.TITANIUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_TITANIUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.TITANIUM_ORE, "stone","titanium_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_TITANIUM_ORE, "netherrack","titanium_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_TITANIUM_ORE, "end_stone","titanium_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_TITANIUM_ORE, "deepslate","titanium_ore");
+
+		  blockWithItem(RerMaterialsBlocks.ZINC_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_ZINC_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.ZINC_ORE, "stone","zinc_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_ZINC_ORE, "netherrack","zinc_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_ZINC_ORE, "end_stone","zinc_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_ZINC_ORE, "deepslate","zinc_ore");
+
 		  blockWithItem(RerMaterialsBlocks.TUNGSTEN_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK);
 		  OreWithItem(RerMaterialsBlocks.TUNGSTEN_ORE, "stone","tungsten_ore");

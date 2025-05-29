@@ -102,6 +102,16 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.RAW_TUNGSTEN_BLOCK.get(),
 				RerMaterialsBlocks.VENTIUM_BLOCK.get(),
 				RerMaterialsBlocks.RAW_VENTIUM_BLOCK.get(),
+				RerMaterialsBlocks.PLATINUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_PLATINUM_BLOCK.get(),
+				RerMaterialsBlocks.URANIUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_URANIUM_BLOCK.get(),
+				RerMaterialsBlocks.SILVER_BLOCK.get(),
+				RerMaterialsBlocks.RAW_SILVER_BLOCK.get(),
+				RerMaterialsBlocks.TITANIUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_TITANIUM_BLOCK.get(),
+				RerMaterialsBlocks.ZINC_BLOCK.get(),
+				RerMaterialsBlocks.RAW_ZINC_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
@@ -114,6 +124,51 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 					  block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_TIN_ORE.get(), RerMaterials.RAW_TIN.get()));
 		  	add(RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(),
 					  block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_TIN_ORE.get(), RerMaterials.RAW_TIN.get()));
+
+		  add(RerMaterialsBlocks.ZINC_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.ZINC_ORE.get(), RerMaterials.RAW_ZINC.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_ZINC_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_ZINC_ORE.get(), RerMaterials.RAW_ZINC.get()));
+		  add(RerMaterialsBlocks.END_STONE_ZINC_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_ZINC_ORE.get(), RerMaterials.RAW_ZINC.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_ZINC_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_ZINC_ORE.get(), RerMaterials.RAW_ZINC.get()));
+
+		  add(RerMaterialsBlocks.TITANIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.TITANIUM_ORE.get(), RerMaterials.RAW_TITANIUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_TITANIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_TITANIUM_ORE.get(), RerMaterials.RAW_TITANIUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_TITANIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_TITANIUM_ORE.get(), RerMaterials.RAW_TITANIUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_TITANIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_TITANIUM_ORE.get(), RerMaterials.RAW_TITANIUM.get()));
+
+		  add(RerMaterialsBlocks.SILVER_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.SILVER_ORE.get(), RerMaterials.RAW_SILVER.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_SILVER_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_SILVER_ORE.get(), RerMaterials.RAW_SILVER.get()));
+		  add(RerMaterialsBlocks.END_STONE_SILVER_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_SILVER_ORE.get(), RerMaterials.RAW_SILVER.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_SILVER_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_SILVER_ORE.get(), RerMaterials.RAW_SILVER.get()));
+
+		  add(RerMaterialsBlocks.URANIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.URANIUM_ORE.get(), RerMaterials.RAW_URANIUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_URANIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_URANIUM_ORE.get(), RerMaterials.RAW_URANIUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_URANIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_URANIUM_ORE.get(), RerMaterials.RAW_URANIUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_URANIUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_URANIUM_ORE.get(), RerMaterials.RAW_URANIUM.get()));
+
+		  add(RerMaterialsBlocks.PLATINUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.PLATINUM_ORE.get(), RerMaterials.RAW_PLATINUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_PLATINUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_PLATINUM_ORE.get(), RerMaterials.RAW_PLATINUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_PLATINUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_PLATINUM_ORE.get(), RerMaterials.RAW_PLATINUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_PLATINUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_PLATINUM_ORE.get(), RerMaterials.RAW_PLATINUM.get()));
 
 		   add(RerMaterialsBlocks.COBALT_ORE.get(),
 					  block -> createOreDrop(RerMaterialsBlocks.COBALT_ORE.get(), RerMaterials.RAW_COBALT.get()));

@@ -125,6 +125,26 @@ public class RerConfiguredFeatures {
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_FALSITE_ORE_KEY = registerKey("netherrack_falsite_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_FALSITE_ORE_KEY = registerKey("end_stone_falsite_ore");
 
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> PLATINUM_ORE_KEY = registerKey("platinum_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_PLATINUM_ORE_KEY = registerKey("netherrack_platinum_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_PLATINUM_ORE_KEY = registerKey("end_stone_platinum_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> URANIUM_ORE_KEY = registerKey("uranium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_URANIUM_ORE_KEY = registerKey("netherrack_uranium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_URANIUM_ORE_KEY = registerKey("end_stone_uranium_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> SILVER_ORE_KEY = registerKey("silver_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_SILVER_ORE_KEY = registerKey("netherrack_silver_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_SILVER_ORE_KEY = registerKey("end_stone_silver_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> TITANIUM_ORE_KEY = registerKey("titanium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_TITANIUM_ORE_KEY = registerKey("netherrack_titanium_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_TITANIUM_ORE_KEY = registerKey("end_stone_titanium_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> ZINC_ORE_KEY = registerKey("zinc_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_ZINC_ORE_KEY = registerKey("netherrack_zinc_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_ZINC_ORE_KEY = registerKey("end_stone_zinc_ore");
+
 	 public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 		  RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
 		  RuleTest netherrackReplaceables = new BlockMatchTest(Blocks.NETHERRACK);
@@ -339,6 +359,46 @@ public class RerConfiguredFeatures {
 		  register(context, VENTIUM_ORE_KEY, Feature.ORE, new OreConfiguration(VentiumOre, 9));
 		  register(context, NETHERRACK_VENTIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_VENTIUM_ORE.get().defaultBlockState(), 9));
 		  register(context, END_STONE_VENTIUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_VENTIUM_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> ZincOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.ZINC_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_ZINC_ORE.get().defaultBlockState()));
+
+		  register(context, ZINC_ORE_KEY, Feature.ORE, new OreConfiguration(ZincOre, 9));
+		  register(context, NETHERRACK_ZINC_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_ZINC_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_ZINC_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_ZINC_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> TitaniumOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.TITANIUM_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_TITANIUM_ORE.get().defaultBlockState()));
+
+		  register(context, TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(TitaniumOre, 9));
+		  register(context, NETHERRACK_TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_TITANIUM_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_TITANIUM_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> SilverOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.SILVER_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_SILVER_ORE.get().defaultBlockState()));
+
+		  register(context, SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(SilverOre, 9));
+		  register(context, NETHERRACK_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_SILVER_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_SILVER_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> UraniumOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.URANIUM_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_URANIUM_ORE.get().defaultBlockState()));
+
+		  register(context, URANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(UraniumOre, 9));
+		  register(context, NETHERRACK_URANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_URANIUM_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_URANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_URANIUM_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> PlatinumOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.PLATINUM_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_PLATINUM_ORE.get().defaultBlockState()));
+
+		  register(context, PLATINUM_ORE_KEY, Feature.ORE, new OreConfiguration(PlatinumOre, 9));
+		  register(context, NETHERRACK_PLATINUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_PLATINUM_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_PLATINUM_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_PLATINUM_ORE.get().defaultBlockState(), 9));
 	 }
 
 	 public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

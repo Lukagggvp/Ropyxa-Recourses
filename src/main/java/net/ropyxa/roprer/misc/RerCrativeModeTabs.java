@@ -292,6 +292,56 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.VENTIUM_BLOCK);
 							  output.accept(RerMaterials.VENTIUM_INGOT);
 							  output.accept(RerMaterials.VENTIUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.PLATINUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_PLATINUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_PLATINUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_PLATINUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_PLATINUM_BLOCK);
+							  output.accept(RerMaterials.RAW_PLATINUM);
+							  output.accept(RerMaterialsBlocks.PLATINUM_BLOCK);
+							  output.accept(RerMaterials.PLATINUM_INGOT);
+							  output.accept(RerMaterials.PLATINUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.URANIUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_URANIUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_URANIUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_URANIUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_URANIUM_BLOCK);
+							  output.accept(RerMaterials.RAW_URANIUM);
+							  output.accept(RerMaterialsBlocks.URANIUM_BLOCK);
+							  output.accept(RerMaterials.URANIUM_INGOT);
+							  output.accept(RerMaterials.URANIUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.SILVER_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_SILVER_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_SILVER_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_SILVER_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_SILVER_BLOCK);
+							  output.accept(RerMaterials.RAW_SILVER);
+							  output.accept(RerMaterialsBlocks.SILVER_BLOCK);
+							  output.accept(RerMaterials.SILVER_INGOT);
+							  output.accept(RerMaterials.SILVER_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.TITANIUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_TITANIUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_TITANIUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_TITANIUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_TITANIUM_BLOCK);
+							  output.accept(RerMaterials.RAW_TITANIUM);
+							  output.accept(RerMaterialsBlocks.TITANIUM_BLOCK);
+							  output.accept(RerMaterials.TITANIUM_INGOT);
+							  output.accept(RerMaterials.TITANIUM_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.ZINC_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_ZINC_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_ZINC_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_ZINC_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_ZINC_BLOCK);
+							  output.accept(RerMaterials.RAW_ZINC);
+							  output.accept(RerMaterialsBlocks.ZINC_BLOCK);
+							  output.accept(RerMaterials.ZINC_INGOT);
+							  output.accept(RerMaterials.ZINC_NUGGET);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -793,6 +843,101 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.VENTIUM_SHARD);
 							  output.accept(RerMaterials.VENTIUM_CLUMP);
 							  output.accept(RerMaterials.VENTIUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.PLATINUM_PLATE);
+							  output.accept(RerMaterials.PLATINUM_LARGE_PLATE);
+							  output.accept(RerMaterials.PLATINUM_ROD);
+							  output.accept(RerMaterials.PLATINUM_WIRE);
+							  output.accept(RerMaterials.PLATINUM_GEAR);
+							  output.accept(RerMaterials.PLATINUM_DUST);
+							  output.accept(RerMaterials.PLATINUM_TINY_DUST);
+							  output.accept(RerMaterials.PLATINUM_RING);
+							  output.accept(RerMaterials.PLATINUM_BOLT);
+							  output.accept(RerMaterials.PLATINUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.PLATINUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_PLATINUM_ORE);
+							  output.accept(RerMaterials.PLATINUM_CHUNK);
+							  output.accept(RerMaterials.PLATINUM_CLUSTER);
+							  output.accept(RerMaterials.PLATINUM_CRYSTAL);
+							  output.accept(RerMaterials.PLATINUM_SHARD);
+							  output.accept(RerMaterials.PLATINUM_CLUMP);
+							  output.accept(RerMaterials.PLATINUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.URANIUM_PLATE);
+							  output.accept(RerMaterials.URANIUM_LARGE_PLATE);
+							  output.accept(RerMaterials.URANIUM_ROD);
+							  output.accept(RerMaterials.URANIUM_WIRE);
+							  output.accept(RerMaterials.URANIUM_GEAR);
+							  output.accept(RerMaterials.URANIUM_DUST);
+							  output.accept(RerMaterials.URANIUM_TINY_DUST);
+							  output.accept(RerMaterials.URANIUM_RING);
+							  output.accept(RerMaterials.URANIUM_BOLT);
+							  output.accept(RerMaterials.URANIUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.URANIUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_URANIUM_ORE);
+							  output.accept(RerMaterials.URANIUM_CHUNK);
+							  output.accept(RerMaterials.URANIUM_CLUSTER);
+							  output.accept(RerMaterials.URANIUM_CRYSTAL);
+							  output.accept(RerMaterials.URANIUM_SHARD);
+							  output.accept(RerMaterials.URANIUM_CLUMP);
+							  output.accept(RerMaterials.URANIUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.SILVER_PLATE);
+							  output.accept(RerMaterials.SILVER_LARGE_PLATE);
+							  output.accept(RerMaterials.SILVER_ROD);
+							  output.accept(RerMaterials.SILVER_WIRE);
+							  output.accept(RerMaterials.SILVER_GEAR);
+							  output.accept(RerMaterials.SILVER_DUST);
+							  output.accept(RerMaterials.SILVER_TINY_DUST);
+							  output.accept(RerMaterials.SILVER_RING);
+							  output.accept(RerMaterials.SILVER_BOLT);
+							  output.accept(RerMaterials.SILVER_DOUBLE_INGOT);
+							  output.accept(RerMaterials.SILVER_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_SILVER_ORE);
+							  output.accept(RerMaterials.SILVER_CHUNK);
+							  output.accept(RerMaterials.SILVER_CLUSTER);
+							  output.accept(RerMaterials.SILVER_CRYSTAL);
+							  output.accept(RerMaterials.SILVER_SHARD);
+							  output.accept(RerMaterials.SILVER_CLUMP);
+							  output.accept(RerMaterials.SILVER_DIRTY_DUST);
+
+							  output.accept(RerMaterials.TITANIUM_PLATE);
+							  output.accept(RerMaterials.TITANIUM_LARGE_PLATE);
+							  output.accept(RerMaterials.TITANIUM_ROD);
+							  output.accept(RerMaterials.TITANIUM_WIRE);
+							  output.accept(RerMaterials.TITANIUM_GEAR);
+							  output.accept(RerMaterials.TITANIUM_DUST);
+							  output.accept(RerMaterials.TITANIUM_TINY_DUST);
+							  output.accept(RerMaterials.TITANIUM_RING);
+							  output.accept(RerMaterials.TITANIUM_BOLT);
+							  output.accept(RerMaterials.TITANIUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.TITANIUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_TITANIUM_ORE);
+							  output.accept(RerMaterials.TITANIUM_CHUNK);
+							  output.accept(RerMaterials.TITANIUM_CLUSTER);
+							  output.accept(RerMaterials.TITANIUM_CRYSTAL);
+							  output.accept(RerMaterials.TITANIUM_SHARD);
+							  output.accept(RerMaterials.TITANIUM_CLUMP);
+							  output.accept(RerMaterials.TITANIUM_DIRTY_DUST);
+
+							  output.accept(RerMaterials.ZINC_PLATE);
+							  output.accept(RerMaterials.ZINC_LARGE_PLATE);
+							  output.accept(RerMaterials.ZINC_ROD);
+							  output.accept(RerMaterials.ZINC_WIRE);
+							  output.accept(RerMaterials.ZINC_GEAR);
+							  output.accept(RerMaterials.ZINC_DUST);
+							  output.accept(RerMaterials.ZINC_TINY_DUST);
+							  output.accept(RerMaterials.ZINC_RING);
+							  output.accept(RerMaterials.ZINC_BOLT);
+							  output.accept(RerMaterials.ZINC_DOUBLE_INGOT);
+							  output.accept(RerMaterials.ZINC_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_ZINC_ORE);
+							  output.accept(RerMaterials.ZINC_CHUNK);
+							  output.accept(RerMaterials.ZINC_CLUSTER);
+							  output.accept(RerMaterials.ZINC_CRYSTAL);
+							  output.accept(RerMaterials.ZINC_SHARD);
+							  output.accept(RerMaterials.ZINC_CLUMP);
+							  output.accept(RerMaterials.ZINC_DIRTY_DUST);
 						 }).build());
 
 	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",
