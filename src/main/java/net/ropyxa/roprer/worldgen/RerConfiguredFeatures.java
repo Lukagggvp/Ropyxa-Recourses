@@ -145,11 +145,71 @@ public class RerConfiguredFeatures {
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_ZINC_ORE_KEY = registerKey("netherrack_zinc_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_ZINC_ORE_KEY = registerKey("end_stone_zinc_ore");
 
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> SAPPHIRE_ORE_KEY = registerKey("sapphire_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_SAPPHIRE_ORE_KEY = registerKey("netherrack_sapphire_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_SAPPHIRE_ORE_KEY = registerKey("end_stone_sapphire_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> DIMENSIONAL_ORE_KEY = registerKey("dimensional_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_DIMENSIONAL_ORE_KEY = registerKey("netherrack_dimensional_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_DIMENSIONAL_ORE_KEY = registerKey("end_stone_dimensional_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> MOONSTONE_ORE_KEY = registerKey("moonstone_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_MOONSTONE_ORE_KEY = registerKey("netherrack_moonstone_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_MOONSTONE_ORE_KEY = registerKey("end_stone_moonstone_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> PERIDOT_ORE_KEY = registerKey("peridot_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_PERIDOT_ORE_KEY = registerKey("netherrack_peridot_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_PERIDOT_ORE_KEY = registerKey("end_stone_peridot_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> PYROPE_ORE_KEY = registerKey("pyrope_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_PYROPE_ORE_KEY = registerKey("netherrack_pyrope_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_PYROPE_ORE_KEY = registerKey("end_stone_pyrope_ore");
+
 	 public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 		  RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
 		  RuleTest netherrackReplaceables = new BlockMatchTest(Blocks.NETHERRACK);
 		  RuleTest end_stoneReplaceables = new BlockMatchTest(Blocks.END_STONE);
 		  RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+
+		  List<OreConfiguration.TargetBlockState> SapphireOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.SAPPHIRE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_SAPPHIRE_ORE.get().defaultBlockState()));
+
+		  register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(SapphireOre, 9));
+		  register(context, NETHERRACK_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_SAPPHIRE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_SAPPHIRE_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> DimensionalOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.DIMENSIONAL_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_DIMENSIONAL_ORE.get().defaultBlockState()));
+
+		  register(context, DIMENSIONAL_ORE_KEY, Feature.ORE, new OreConfiguration(DimensionalOre, 9));
+		  register(context, NETHERRACK_DIMENSIONAL_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_DIMENSIONAL_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_DIMENSIONAL_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_DIMENSIONAL_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> MoonstoneOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.MOONSTONE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_MOONSTONE_ORE.get().defaultBlockState()));
+
+		  register(context, MOONSTONE_ORE_KEY, Feature.ORE, new OreConfiguration(MoonstoneOre, 9));
+		  register(context, NETHERRACK_MOONSTONE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_MOONSTONE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_MOONSTONE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_MOONSTONE_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> PeridotOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.PERIDOT_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_PERIDOT_ORE.get().defaultBlockState()));
+
+		  register(context, PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(PeridotOre, 9));
+		  register(context, NETHERRACK_PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_PERIDOT_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_PERIDOT_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> PyropeOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.PYROPE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_PYROPE_ORE.get().defaultBlockState()));
+
+		  register(context, PYROPE_ORE_KEY, Feature.ORE, new OreConfiguration(PyropeOre, 9));
+		  register(context, NETHERRACK_PYROPE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_PYROPE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_PYROPE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_PYROPE_ORE.get().defaultBlockState(), 9));
 
 		  List<OreConfiguration.TargetBlockState> TinOre = List.of(
 					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.TIN_ORE.get().defaultBlockState()),

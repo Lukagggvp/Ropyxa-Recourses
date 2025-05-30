@@ -342,6 +342,56 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.ZINC_BLOCK);
 							  output.accept(RerMaterials.ZINC_INGOT);
 							  output.accept(RerMaterials.ZINC_NUGGET);
+
+							  output.accept(RerMaterialsBlocks.SAPPHIRE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_SAPPHIRE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_SAPPHIRE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_SAPPHIRE_ORE);
+							  output.accept(RerMaterialsBlocks.SAPPHIRE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.SAPPHIRE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.SAPPHIRE_BLOCK);
+							  output.accept(RerMaterials.SAPPHIRE_GEM);
+							  output.accept(RerMaterials.SAPPHIRE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.DIMENSIONAL_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_DIMENSIONAL_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_DIMENSIONAL_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_DIMENSIONAL_ORE);
+							  output.accept(RerMaterialsBlocks.DIMENSIONAL_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.DIMENSIONAL_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.DIMENSIONAL_BLOCK);
+							  output.accept(RerMaterials.DIMENSIONAL_GEM);
+							  output.accept(RerMaterials.DIMENSIONAL_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.MOONSTONE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_MOONSTONE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_MOONSTONE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_MOONSTONE_ORE);
+							  output.accept(RerMaterialsBlocks.MOONSTONE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.MOONSTONE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.MOONSTONE_BLOCK);
+							  output.accept(RerMaterials.MOONSTONE_GEM);
+							  output.accept(RerMaterials.MOONSTONE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.PERIDOT_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_PERIDOT_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_PERIDOT_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_PERIDOT_ORE);
+							  output.accept(RerMaterialsBlocks.PERIDOT_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.PERIDOT_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.PERIDOT_BLOCK);
+							  output.accept(RerMaterials.PERIDOT_GEM);
+							  output.accept(RerMaterials.PERIDOT_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.PYROPE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_PYROPE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_PYROPE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_PYROPE_ORE);
+							  output.accept(RerMaterialsBlocks.PYROPE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.PYROPE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.PYROPE_BLOCK);
+							  output.accept(RerMaterials.PYROPE_GEM);
+							  output.accept(RerMaterials.PYROPE_FRAGMENT);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -938,6 +988,101 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.ZINC_SHARD);
 							  output.accept(RerMaterials.ZINC_CLUMP);
 							  output.accept(RerMaterials.ZINC_DIRTY_DUST);
+
+							  output.accept(RerMaterials.SAPPHIRE_PLATE);
+							  output.accept(RerMaterials.SAPPHIRE_LARGE_PLATE);
+							  output.accept(RerMaterials.SAPPHIRE_ROD);
+							  output.accept(RerMaterials.SAPPHIRE_WIRE);
+							  output.accept(RerMaterials.SAPPHIRE_GEAR);
+							  output.accept(RerMaterials.SAPPHIRE_DUST);
+							  output.accept(RerMaterials.SAPPHIRE_TINY_DUST);
+							  output.accept(RerMaterials.SAPPHIRE_RING);
+							  output.accept(RerMaterials.SAPPHIRE_BOLT);
+							  output.accept(RerMaterials.SAPPHIRE_DOUBLE_GEM);
+							  output.accept(RerMaterials.SAPPHIRE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_SAPPHIRE_ORE);
+							  output.accept(RerMaterials.SAPPHIRE_CHUNK);
+							  output.accept(RerMaterials.SAPPHIRE_CLUSTER);
+							  output.accept(RerMaterials.SAPPHIRE_CRYSTAL);
+							  output.accept(RerMaterials.SAPPHIRE_SHARD);
+							  output.accept(RerMaterials.SAPPHIRE_CLUMP);
+							  output.accept(RerMaterials.SAPPHIRE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.DIMENSIONAL_PLATE);
+							  output.accept(RerMaterials.DIMENSIONAL_LARGE_PLATE);
+							  output.accept(RerMaterials.DIMENSIONAL_ROD);
+							  output.accept(RerMaterials.DIMENSIONAL_WIRE);
+							  output.accept(RerMaterials.DIMENSIONAL_GEAR);
+							  output.accept(RerMaterials.DIMENSIONAL_DUST);
+							  output.accept(RerMaterials.DIMENSIONAL_TINY_DUST);
+							  output.accept(RerMaterials.DIMENSIONAL_RING);
+							  output.accept(RerMaterials.DIMENSIONAL_BOLT);
+							  output.accept(RerMaterials.DIMENSIONAL_DOUBLE_GEM);
+							  output.accept(RerMaterials.DIMENSIONAL_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_DIMENSIONAL_ORE);
+							  output.accept(RerMaterials.DIMENSIONAL_CHUNK);
+							  output.accept(RerMaterials.DIMENSIONAL_CLUSTER);
+							  output.accept(RerMaterials.DIMENSIONAL_CRYSTAL);
+							  output.accept(RerMaterials.DIMENSIONAL_SHARD);
+							  output.accept(RerMaterials.DIMENSIONAL_CLUMP);
+							  output.accept(RerMaterials.DIMENSIONAL_DIRTY_DUST);
+
+							  output.accept(RerMaterials.MOONSTONE_PLATE);
+							  output.accept(RerMaterials.MOONSTONE_LARGE_PLATE);
+							  output.accept(RerMaterials.MOONSTONE_ROD);
+							  output.accept(RerMaterials.MOONSTONE_WIRE);
+							  output.accept(RerMaterials.MOONSTONE_GEAR);
+							  output.accept(RerMaterials.MOONSTONE_DUST);
+							  output.accept(RerMaterials.MOONSTONE_TINY_DUST);
+							  output.accept(RerMaterials.MOONSTONE_RING);
+							  output.accept(RerMaterials.MOONSTONE_BOLT);
+							  output.accept(RerMaterials.MOONSTONE_DOUBLE_GEM);
+							  output.accept(RerMaterials.MOONSTONE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_MOONSTONE_ORE);
+							  output.accept(RerMaterials.MOONSTONE_CHUNK);
+							  output.accept(RerMaterials.MOONSTONE_CLUSTER);
+							  output.accept(RerMaterials.MOONSTONE_CRYSTAL);
+							  output.accept(RerMaterials.MOONSTONE_SHARD);
+							  output.accept(RerMaterials.MOONSTONE_CLUMP);
+							  output.accept(RerMaterials.MOONSTONE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.PERIDOT_PLATE);
+							  output.accept(RerMaterials.PERIDOT_LARGE_PLATE);
+							  output.accept(RerMaterials.PERIDOT_ROD);
+							  output.accept(RerMaterials.PERIDOT_WIRE);
+							  output.accept(RerMaterials.PERIDOT_GEAR);
+							  output.accept(RerMaterials.PERIDOT_DUST);
+							  output.accept(RerMaterials.PERIDOT_TINY_DUST);
+							  output.accept(RerMaterials.PERIDOT_RING);
+							  output.accept(RerMaterials.PERIDOT_BOLT);
+							  output.accept(RerMaterials.PERIDOT_DOUBLE_GEM);
+							  output.accept(RerMaterials.PERIDOT_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_PERIDOT_ORE);
+							  output.accept(RerMaterials.PERIDOT_CHUNK);
+							  output.accept(RerMaterials.PERIDOT_CLUSTER);
+							  output.accept(RerMaterials.PERIDOT_CRYSTAL);
+							  output.accept(RerMaterials.PERIDOT_SHARD);
+							  output.accept(RerMaterials.PERIDOT_CLUMP);
+							  output.accept(RerMaterials.PERIDOT_DIRTY_DUST);
+
+							  output.accept(RerMaterials.PYROPE_PLATE);
+							  output.accept(RerMaterials.PYROPE_LARGE_PLATE);
+							  output.accept(RerMaterials.PYROPE_ROD);
+							  output.accept(RerMaterials.PYROPE_WIRE);
+							  output.accept(RerMaterials.PYROPE_GEAR);
+							  output.accept(RerMaterials.PYROPE_DUST);
+							  output.accept(RerMaterials.PYROPE_TINY_DUST);
+							  output.accept(RerMaterials.PYROPE_RING);
+							  output.accept(RerMaterials.PYROPE_BOLT);
+							  output.accept(RerMaterials.PYROPE_DOUBLE_GEM);
+							  output.accept(RerMaterials.PYROPE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_PYROPE_ORE);
+							  output.accept(RerMaterials.PYROPE_CHUNK);
+							  output.accept(RerMaterials.PYROPE_CLUSTER);
+							  output.accept(RerMaterials.PYROPE_CRYSTAL);
+							  output.accept(RerMaterials.PYROPE_SHARD);
+							  output.accept(RerMaterials.PYROPE_CLUMP);
+							  output.accept(RerMaterials.PYROPE_DIRTY_DUST);
 						 }).build());
 
 	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",

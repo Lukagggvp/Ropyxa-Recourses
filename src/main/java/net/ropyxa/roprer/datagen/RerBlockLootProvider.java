@@ -112,9 +112,64 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.RAW_TITANIUM_BLOCK.get(),
 				RerMaterialsBlocks.ZINC_BLOCK.get(),
 				RerMaterialsBlocks.RAW_ZINC_BLOCK.get(),
+				RerMaterialsBlocks.SAPPHIRE_BLOCK.get(),
+				RerMaterialsBlocks.SAPPHIRE_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.DIMENSIONAL_BLOCK.get(),
+				RerMaterialsBlocks.DIMENSIONAL_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.MOONSTONE_BLOCK.get(),
+				RerMaterialsBlocks.MOONSTONE_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.PERIDOT_BLOCK.get(),
+				RerMaterialsBlocks.PERIDOT_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.PYROPE_BLOCK.get(),
+				RerMaterialsBlocks.PYROPE_CLUSTER_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
+
+		  add(RerMaterialsBlocks.SAPPHIRE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.SAPPHIRE_ORE.get(), RerMaterials.SAPPHIRE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_SAPPHIRE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_SAPPHIRE_ORE.get(), RerMaterials.SAPPHIRE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_SAPPHIRE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_SAPPHIRE_ORE.get(), RerMaterials.SAPPHIRE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), RerMaterials.SAPPHIRE_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.DIMENSIONAL_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DIMENSIONAL_ORE.get(), RerMaterials.DIMENSIONAL_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_DIMENSIONAL_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_DIMENSIONAL_ORE.get(), RerMaterials.DIMENSIONAL_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_DIMENSIONAL_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_DIMENSIONAL_ORE.get(), RerMaterials.DIMENSIONAL_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_DIMENSIONAL_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_DIMENSIONAL_ORE.get(), RerMaterials.DIMENSIONAL_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.MOONSTONE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.MOONSTONE_ORE.get(), RerMaterials.MOONSTONE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_MOONSTONE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_MOONSTONE_ORE.get(), RerMaterials.MOONSTONE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_MOONSTONE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_MOONSTONE_ORE.get(), RerMaterials.MOONSTONE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_MOONSTONE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_MOONSTONE_ORE.get(), RerMaterials.MOONSTONE_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.PERIDOT_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.PERIDOT_ORE.get(), RerMaterials.PERIDOT_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_PERIDOT_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_PERIDOT_ORE.get(), RerMaterials.PERIDOT_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_PERIDOT_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_PERIDOT_ORE.get(), RerMaterials.PERIDOT_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_PERIDOT_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_PERIDOT_ORE.get(), RerMaterials.PERIDOT_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.PYROPE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.PYROPE_ORE.get(), RerMaterials.PYROPE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_PYROPE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_PYROPE_ORE.get(), RerMaterials.PYROPE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_PYROPE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_PYROPE_ORE.get(), RerMaterials.PYROPE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_PYROPE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_PYROPE_ORE.get(), RerMaterials.PYROPE_GEM.get(), 1, 2));
 
 			add(RerMaterialsBlocks.TIN_ORE.get(),
 					  block -> createOreDrop(RerMaterialsBlocks.TIN_ORE.get(), RerMaterials.RAW_TIN.get()));

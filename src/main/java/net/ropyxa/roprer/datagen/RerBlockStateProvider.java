@@ -172,6 +172,41 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.END_STONE_PLATINUM_ORE, "end_stone","platinum_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_PLATINUM_ORE, "deepslate","platinum_ore");
 
+		  blockWithItem(RerMaterialsBlocks.SAPPHIRE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.SAPPHIRE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.SAPPHIRE_ORE, "stone","sapphire_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_SAPPHIRE_ORE, "netherrack","sapphire_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_SAPPHIRE_ORE, "end_stone","sapphire_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_SAPPHIRE_ORE, "deepslate","sapphire_ore");
+
+		  blockWithItem(RerMaterialsBlocks.DIMENSIONAL_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.DIMENSIONAL_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.DIMENSIONAL_ORE, "stone","dimensional_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_DIMENSIONAL_ORE, "netherrack","dimensional_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_DIMENSIONAL_ORE, "end_stone","dimensional_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_DIMENSIONAL_ORE, "deepslate","dimensional_ore");
+
+		  blockWithItem(RerMaterialsBlocks.MOONSTONE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.MOONSTONE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.MOONSTONE_ORE, "stone","moonstone_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_MOONSTONE_ORE, "netherrack","moonstone_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_MOONSTONE_ORE, "end_stone","moonstone_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_MOONSTONE_ORE, "deepslate","moonstone_ore");
+
+		  blockWithItem(RerMaterialsBlocks.PERIDOT_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.PERIDOT_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.PERIDOT_ORE, "stone","peridot_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_PERIDOT_ORE, "netherrack","peridot_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_PERIDOT_ORE, "end_stone","peridot_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_PERIDOT_ORE, "deepslate","peridot_ore");
+
+		  blockWithItem(RerMaterialsBlocks.PYROPE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.PYROPE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.PYROPE_ORE, "stone","pyrope_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_PYROPE_ORE, "netherrack","pyrope_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_PYROPE_ORE, "end_stone","pyrope_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_PYROPE_ORE, "deepslate","pyrope_ore");
+
 		  blockWithItem(RerMaterialsBlocks.URANIUM_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.RAW_URANIUM_BLOCK);
 		  OreWithItem(RerMaterialsBlocks.URANIUM_ORE, "stone","uranium_ore");
