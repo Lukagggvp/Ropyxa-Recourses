@@ -3569,6 +3569,317 @@ public class RerMaterials {
 	 public static final DeferredItem<Item> PYROPE_RING = ITEMS.register("pyrope_ring",
 				() -> new Item(new Item.Properties()));
 
+	 public static final DeferredItem<Item> DIOPSIDE_GEM = ITEMS.register("diopside_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_FRAGMENT = ITEMS.register("diopside_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_CLUSTER_SHARD = ITEMS.register("diopside_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_PLATE = ITEMS.register("diopside_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_LARGE_PLATE = ITEMS.register("diopside_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_ROD = ITEMS.register("diopside_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_WIRE = ITEMS.register("diopside_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_GEAR = ITEMS.register("diopside_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_DUST = ITEMS.register("diopside_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_TINY_DUST = ITEMS.register("diopside_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_BOLT = ITEMS.register("diopside_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_DOUBLE_GEM = ITEMS.register("diopside_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_CURVED_PLATE = ITEMS.register("diopside_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_DIOPSIDE_ORE = ITEMS.register("crushed_diopside_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_CHUNK = ITEMS.register("diopside_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_CLUSTER = ITEMS.register("diopside_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_CRYSTAL = ITEMS.register("diopside_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_SHARD = ITEMS.register("diopside_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_CLUMP = ITEMS.register("diopside_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_DIRTY_DUST = ITEMS.register("diopside_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> DIOPSIDE_RING = ITEMS.register("diopside_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_GEM = ITEMS.register("sulfur_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_FRAGMENT = ITEMS.register("sulfur_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_CLUSTER_SHARD = ITEMS.register("sulfur_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_PLATE = ITEMS.register("sulfur_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_LARGE_PLATE = ITEMS.register("sulfur_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_ROD = ITEMS.register("sulfur_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_WIRE = ITEMS.register("sulfur_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_GEAR = ITEMS.register("sulfur_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_DUST = ITEMS.register("sulfur_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_TINY_DUST = ITEMS.register("sulfur_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_BOLT = ITEMS.register("sulfur_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_DOUBLE_GEM = ITEMS.register("sulfur_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_CURVED_PLATE = ITEMS.register("sulfur_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_SULFUR_ORE = ITEMS.register("crushed_sulfur_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_CHUNK = ITEMS.register("sulfur_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_CLUSTER = ITEMS.register("sulfur_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_CRYSTAL = ITEMS.register("sulfur_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_SHARD = ITEMS.register("sulfur_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_CLUMP = ITEMS.register("sulfur_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_DIRTY_DUST = ITEMS.register("sulfur_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> SULFUR_RING = ITEMS.register("sulfur_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_GEM = ITEMS.register("ruby_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_FRAGMENT = ITEMS.register("ruby_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_CLUSTER_SHARD = ITEMS.register("ruby_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_PLATE = ITEMS.register("ruby_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_LARGE_PLATE = ITEMS.register("ruby_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_ROD = ITEMS.register("ruby_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_WIRE = ITEMS.register("ruby_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_GEAR = ITEMS.register("ruby_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_DUST = ITEMS.register("ruby_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_TINY_DUST = ITEMS.register("ruby_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_BOLT = ITEMS.register("ruby_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_DOUBLE_GEM = ITEMS.register("ruby_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_CURVED_PLATE = ITEMS.register("ruby_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_RUBY_ORE = ITEMS.register("crushed_ruby_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_CHUNK = ITEMS.register("ruby_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_CLUSTER = ITEMS.register("ruby_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_CRYSTAL = ITEMS.register("ruby_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_SHARD = ITEMS.register("ruby_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_CLUMP = ITEMS.register("ruby_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_DIRTY_DUST = ITEMS.register("ruby_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RUBY_RING = ITEMS.register("ruby_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_GEM = ITEMS.register("potassium_nitrate_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_FRAGMENT = ITEMS.register("potassium_nitrate_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_CLUSTER_SHARD = ITEMS.register("potassium_nitrate_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_PLATE = ITEMS.register("potassium_nitrate_plate",           () -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_LARGE_PLATE = ITEMS.register("potassium_nitrate_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_ROD = ITEMS.register("potassium_nitrate_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_WIRE = ITEMS.register("potassium_nitrate_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_GEAR = ITEMS.register("potassium_nitrate_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_DUST = ITEMS.register("potassium_nitrate_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_TINY_DUST = ITEMS.register("potassium_nitrate_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_BOLT = ITEMS.register("potassium_nitrate_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_DOUBLE_GEM = ITEMS.register("potassium_nitrate_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_CURVED_PLATE = ITEMS.register("potassium_nitrate_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_POTASSIUM_NITRATE_ORE = ITEMS.register("crushed_potassium_nitrate_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_CHUNK = ITEMS.register("potassium_nitrate_chunk",           () -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_CLUSTER = ITEMS.register("potassium_nitrate_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_CRYSTAL = ITEMS.register("potassium_nitrate_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_SHARD = ITEMS.register("potassium_nitrate_shard",           () -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_CLUMP = ITEMS.register("potassium_nitrate_clump",           () -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_DIRTY_DUST = ITEMS.register("potassium_nitrate_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> POTASSIUM_NITRATE_RING = ITEMS.register("potassium_nitrate_ring",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_GEM = ITEMS.register("fluorite_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_FRAGMENT = ITEMS.register("fluorite_fragment",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_CLUSTER_SHARD = ITEMS.register("fluorite_cluster_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_PLATE = ITEMS.register("fluorite_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_LARGE_PLATE = ITEMS.register("fluorite_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_ROD = ITEMS.register("fluorite_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_WIRE = ITEMS.register("fluorite_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_GEAR = ITEMS.register("fluorite_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_DUST = ITEMS.register("fluorite_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_TINY_DUST = ITEMS.register("fluorite_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_BOLT = ITEMS.register("fluorite_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_DOUBLE_GEM = ITEMS.register("fluorite_double_gem",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_CURVED_PLATE = ITEMS.register("fluorite_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_FLUORITE_ORE = ITEMS.register("crushed_fluorite_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_CHUNK = ITEMS.register("fluorite_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_CLUSTER = ITEMS.register("fluorite_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_CRYSTAL = ITEMS.register("fluorite_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_SHARD = ITEMS.register("fluorite_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_CLUMP = ITEMS.register("fluorite_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_DIRTY_DUST = ITEMS.register("fluorite_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> FLUORITE_RING = ITEMS.register("fluorite_ring",
+				() -> new Item(new Item.Properties()));
+
 	 public static void register(IEventBus eventBus) {
 		  ITEMS.register(eventBus);
 	 }

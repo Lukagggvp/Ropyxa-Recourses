@@ -165,11 +165,71 @@ public class RerConfiguredFeatures {
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_PYROPE_ORE_KEY = registerKey("netherrack_pyrope_ore");
 	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_PYROPE_ORE_KEY = registerKey("end_stone_pyrope_ore");
 
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> DIOPSIDE_ORE_KEY = registerKey("diopside_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_DIOPSIDE_ORE_KEY = registerKey("netherrack_diopside_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_DIOPSIDE_ORE_KEY = registerKey("end_stone_diopside_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> SULFUR_ORE_KEY = registerKey("sulfur_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_SULFUR_ORE_KEY = registerKey("netherrack_sulfur_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_SULFUR_ORE_KEY = registerKey("end_stone_sulfur_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> RUBY_ORE_KEY = registerKey("ruby_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_RUBY_ORE_KEY = registerKey("netherrack_ruby_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_RUBY_ORE_KEY = registerKey("end_stone_ruby_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> POTASSIUM_NITRATE_ORE_KEY = registerKey("potassium_nitrate_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_POTASSIUM_NITRATE_ORE_KEY = registerKey("netherrack_potassium_nitrate_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_POTASSIUM_NITRATE_ORE_KEY = registerKey("end_stone_potassium_nitrate_ore");
+
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> FLUORITE_ORE_KEY = registerKey("fluorite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERRACK_FLUORITE_ORE_KEY = registerKey("netherrack_fluorite_ore");
+	 public static final ResourceKey<ConfiguredFeature<?, ?>> END_STONE_FLUORITE_ORE_KEY = registerKey("end_stone_fluorite_ore");
+
 	 public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 		  RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
 		  RuleTest netherrackReplaceables = new BlockMatchTest(Blocks.NETHERRACK);
 		  RuleTest end_stoneReplaceables = new BlockMatchTest(Blocks.END_STONE);
 		  RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+
+		  List<OreConfiguration.TargetBlockState> DiopsideOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.DIOPSIDE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_DIOPSIDE_ORE.get().defaultBlockState()));
+
+		  register(context, DIOPSIDE_ORE_KEY, Feature.ORE, new OreConfiguration(DiopsideOre, 9));
+		  register(context, NETHERRACK_DIOPSIDE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_DIOPSIDE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_DIOPSIDE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_DIOPSIDE_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> SulfurOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.SULFUR_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_SULFUR_ORE.get().defaultBlockState()));
+
+		  register(context, SULFUR_ORE_KEY, Feature.ORE, new OreConfiguration(SulfurOre, 9));
+		  register(context, NETHERRACK_SULFUR_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_SULFUR_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_SULFUR_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_SULFUR_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> RubyOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.RUBY_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState()));
+
+		  register(context, RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(RubyOre, 9));
+		  register(context, NETHERRACK_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_RUBY_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_RUBY_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> Potassium_nitrateOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.POTASSIUM_NITRATE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_POTASSIUM_NITRATE_ORE.get().defaultBlockState()));
+
+		  register(context, POTASSIUM_NITRATE_ORE_KEY, Feature.ORE, new OreConfiguration(Potassium_nitrateOre, 9));
+		  register(context, NETHERRACK_POTASSIUM_NITRATE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_POTASSIUM_NITRATE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_POTASSIUM_NITRATE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_POTASSIUM_NITRATE_ORE.get().defaultBlockState(), 9));
+
+		  List<OreConfiguration.TargetBlockState> FluoriteOre = List.of(
+					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.FLUORITE_ORE.get().defaultBlockState()),
+					 OreConfiguration.target(deepslateReplaceables, RerMaterialsBlocks.DEEPSLATE_FLUORITE_ORE.get().defaultBlockState()));
+
+		  register(context, FLUORITE_ORE_KEY, Feature.ORE, new OreConfiguration(FluoriteOre, 9));
+		  register(context, NETHERRACK_FLUORITE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables, RerMaterialsBlocks.NETHERRACK_FLUORITE_ORE.get().defaultBlockState(), 9));
+		  register(context, END_STONE_FLUORITE_ORE_KEY, Feature.ORE, new OreConfiguration(end_stoneReplaceables, RerMaterialsBlocks.END_STONE_FLUORITE_ORE.get().defaultBlockState(), 9));
 
 		  List<OreConfiguration.TargetBlockState> SapphireOre = List.of(
 					 OreConfiguration.target(stoneReplaceables, RerMaterialsBlocks.SAPPHIRE_ORE.get().defaultBlockState()),

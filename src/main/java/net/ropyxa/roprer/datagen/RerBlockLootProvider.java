@@ -122,9 +122,64 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.PERIDOT_CLUSTER_BLOCK.get(),
 				RerMaterialsBlocks.PYROPE_BLOCK.get(),
 				RerMaterialsBlocks.PYROPE_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.DIOPSIDE_BLOCK.get(),
+				RerMaterialsBlocks.DIOPSIDE_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.SULFUR_BLOCK.get(),
+				RerMaterialsBlocks.SULFUR_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.RUBY_BLOCK.get(),
+				RerMaterialsBlocks.RUBY_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.POTASSIUM_NITRATE_BLOCK.get(),
+				RerMaterialsBlocks.POTASSIUM_NITRATE_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.FLUORITE_BLOCK.get(),
+				RerMaterialsBlocks.FLUORITE_CLUSTER_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
+
+		  add(RerMaterialsBlocks.DIOPSIDE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DIOPSIDE_ORE.get(), RerMaterials.DIOPSIDE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_DIOPSIDE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_DIOPSIDE_ORE.get(), RerMaterials.DIOPSIDE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_DIOPSIDE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_DIOPSIDE_ORE.get(), RerMaterials.DIOPSIDE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_DIOPSIDE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_DIOPSIDE_ORE.get(), RerMaterials.DIOPSIDE_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.SULFUR_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.SULFUR_ORE.get(), RerMaterials.SULFUR_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_SULFUR_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_SULFUR_ORE.get(), RerMaterials.SULFUR_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_SULFUR_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_SULFUR_ORE.get(), RerMaterials.SULFUR_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_SULFUR_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_SULFUR_ORE.get(), RerMaterials.SULFUR_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.RUBY_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.RUBY_ORE.get(), RerMaterials.RUBY_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_RUBY_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_RUBY_ORE.get(), RerMaterials.RUBY_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_RUBY_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_RUBY_ORE.get(), RerMaterials.RUBY_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_RUBY_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_RUBY_ORE.get(), RerMaterials.RUBY_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.POTASSIUM_NITRATE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.POTASSIUM_NITRATE_ORE.get(), RerMaterials.POTASSIUM_NITRATE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_POTASSIUM_NITRATE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_POTASSIUM_NITRATE_ORE.get(), RerMaterials.POTASSIUM_NITRATE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_POTASSIUM_NITRATE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_POTASSIUM_NITRATE_ORE.get(), RerMaterials.POTASSIUM_NITRATE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_POTASSIUM_NITRATE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_POTASSIUM_NITRATE_ORE.get(), RerMaterials.POTASSIUM_NITRATE_GEM.get(), 1, 2));
+
+		  add(RerMaterialsBlocks.FLUORITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.FLUORITE_ORE.get(), RerMaterials.FLUORITE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.NETHERRACK_FLUORITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.NETHERRACK_FLUORITE_ORE.get(), RerMaterials.FLUORITE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.END_STONE_FLUORITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.END_STONE_FLUORITE_ORE.get(), RerMaterials.FLUORITE_GEM.get(), 1, 2));
+		  add(RerMaterialsBlocks.DEEPSLATE_FLUORITE_ORE.get(), block -> createMultipleOreDrops(
+					 RerMaterialsBlocks.DEEPSLATE_FLUORITE_ORE.get(), RerMaterials.FLUORITE_GEM.get(), 1, 2));
 
 		  add(RerMaterialsBlocks.SAPPHIRE_ORE.get(), block -> createMultipleOreDrops(
 					 RerMaterialsBlocks.SAPPHIRE_ORE.get(), RerMaterials.SAPPHIRE_GEM.get(), 1, 2));

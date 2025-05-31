@@ -297,6 +297,41 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.NETHERRACK_ARCANE_ORE, "netherrack","arcane_ore");
 		  OreWithItem(RerMaterialsBlocks.END_STONE_ARCANE_ORE, "end_stone","arcane_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_ARCANE_ORE, "deepslate","arcane_ore");
+
+		  blockWithItem(RerMaterialsBlocks.DIOPSIDE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.DIOPSIDE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.DIOPSIDE_ORE, "stone","diopside_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_DIOPSIDE_ORE, "netherrack","diopside_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_DIOPSIDE_ORE, "end_stone","diopside_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_DIOPSIDE_ORE, "deepslate","diopside_ore");
+
+		  blockWithItem(RerMaterialsBlocks.SULFUR_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.SULFUR_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.SULFUR_ORE, "stone","sulfur_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_SULFUR_ORE, "netherrack","sulfur_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_SULFUR_ORE, "end_stone","sulfur_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_SULFUR_ORE, "deepslate","sulfur_ore");
+
+		  blockWithItem(RerMaterialsBlocks.RUBY_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RUBY_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.RUBY_ORE, "stone","ruby_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_RUBY_ORE, "netherrack","ruby_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_RUBY_ORE, "end_stone","ruby_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_RUBY_ORE, "deepslate","ruby_ore");
+
+		  blockWithItem(RerMaterialsBlocks.POTASSIUM_NITRATE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.POTASSIUM_NITRATE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.POTASSIUM_NITRATE_ORE, "stone","potassium_nitrate_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_POTASSIUM_NITRATE_ORE, "netherrack","potassium_nitrate_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_POTASSIUM_NITRATE_ORE, "end_stone","potassium_nitrate_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_POTASSIUM_NITRATE_ORE, "deepslate","potassium_nitrate_ore");
+
+		  blockWithItem(RerMaterialsBlocks.FLUORITE_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.FLUORITE_CLUSTER_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.FLUORITE_ORE, "stone","fluorite_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_FLUORITE_ORE, "netherrack","fluorite_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_FLUORITE_ORE, "end_stone","fluorite_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_FLUORITE_ORE, "deepslate","fluorite_ore");
 	 }
 
 	 private void blockWithItem(DeferredBlock<?> deferredBlock) {

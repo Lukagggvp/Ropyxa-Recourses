@@ -392,6 +392,56 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.PYROPE_BLOCK);
 							  output.accept(RerMaterials.PYROPE_GEM);
 							  output.accept(RerMaterials.PYROPE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.DIOPSIDE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_DIOPSIDE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_DIOPSIDE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_DIOPSIDE_ORE);
+							  output.accept(RerMaterialsBlocks.DIOPSIDE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.DIOPSIDE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.DIOPSIDE_BLOCK);
+							  output.accept(RerMaterials.DIOPSIDE_GEM);
+							  output.accept(RerMaterials.DIOPSIDE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.SULFUR_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_SULFUR_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_SULFUR_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_SULFUR_ORE);
+							  output.accept(RerMaterialsBlocks.SULFUR_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.SULFUR_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.SULFUR_BLOCK);
+							  output.accept(RerMaterials.SULFUR_GEM);
+							  output.accept(RerMaterials.SULFUR_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.RUBY_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_RUBY_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_RUBY_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_RUBY_ORE);
+							  output.accept(RerMaterialsBlocks.RUBY_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.RUBY_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.RUBY_BLOCK);
+							  output.accept(RerMaterials.RUBY_GEM);
+							  output.accept(RerMaterials.RUBY_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.POTASSIUM_NITRATE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_POTASSIUM_NITRATE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_POTASSIUM_NITRATE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_POTASSIUM_NITRATE_ORE);
+							  output.accept(RerMaterialsBlocks.POTASSIUM_NITRATE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.POTASSIUM_NITRATE_BLOCK);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_GEM);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.FLUORITE_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_FLUORITE_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_FLUORITE_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_FLUORITE_ORE);
+							  output.accept(RerMaterialsBlocks.FLUORITE_CLUSTER_BLOCK);
+							  output.accept(RerMaterials.FLUORITE_CLUSTER_SHARD);
+							  output.accept(RerMaterialsBlocks.FLUORITE_BLOCK);
+							  output.accept(RerMaterials.FLUORITE_GEM);
+							  output.accept(RerMaterials.FLUORITE_FRAGMENT);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -1083,6 +1133,101 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.PYROPE_SHARD);
 							  output.accept(RerMaterials.PYROPE_CLUMP);
 							  output.accept(RerMaterials.PYROPE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.DIOPSIDE_PLATE);
+							  output.accept(RerMaterials.DIOPSIDE_LARGE_PLATE);
+							  output.accept(RerMaterials.DIOPSIDE_ROD);
+							  output.accept(RerMaterials.DIOPSIDE_WIRE);
+							  output.accept(RerMaterials.DIOPSIDE_GEAR);
+							  output.accept(RerMaterials.DIOPSIDE_DUST);
+							  output.accept(RerMaterials.DIOPSIDE_TINY_DUST);
+							  output.accept(RerMaterials.DIOPSIDE_RING);
+							  output.accept(RerMaterials.DIOPSIDE_BOLT);
+							  output.accept(RerMaterials.DIOPSIDE_DOUBLE_GEM);
+							  output.accept(RerMaterials.DIOPSIDE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_DIOPSIDE_ORE);
+							  output.accept(RerMaterials.DIOPSIDE_CHUNK);
+							  output.accept(RerMaterials.DIOPSIDE_CLUSTER);
+							  output.accept(RerMaterials.DIOPSIDE_CRYSTAL);
+							  output.accept(RerMaterials.DIOPSIDE_SHARD);
+							  output.accept(RerMaterials.DIOPSIDE_CLUMP);
+							  output.accept(RerMaterials.DIOPSIDE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.SULFUR_PLATE);
+							  output.accept(RerMaterials.SULFUR_LARGE_PLATE);
+							  output.accept(RerMaterials.SULFUR_ROD);
+							  output.accept(RerMaterials.SULFUR_WIRE);
+							  output.accept(RerMaterials.SULFUR_GEAR);
+							  output.accept(RerMaterials.SULFUR_DUST);
+							  output.accept(RerMaterials.SULFUR_TINY_DUST);
+							  output.accept(RerMaterials.SULFUR_RING);
+							  output.accept(RerMaterials.SULFUR_BOLT);
+							  output.accept(RerMaterials.SULFUR_DOUBLE_GEM);
+							  output.accept(RerMaterials.SULFUR_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_SULFUR_ORE);
+							  output.accept(RerMaterials.SULFUR_CHUNK);
+							  output.accept(RerMaterials.SULFUR_CLUSTER);
+							  output.accept(RerMaterials.SULFUR_CRYSTAL);
+							  output.accept(RerMaterials.SULFUR_SHARD);
+							  output.accept(RerMaterials.SULFUR_CLUMP);
+							  output.accept(RerMaterials.SULFUR_DIRTY_DUST);
+
+							  output.accept(RerMaterials.RUBY_PLATE);
+							  output.accept(RerMaterials.RUBY_LARGE_PLATE);
+							  output.accept(RerMaterials.RUBY_ROD);
+							  output.accept(RerMaterials.RUBY_WIRE);
+							  output.accept(RerMaterials.RUBY_GEAR);
+							  output.accept(RerMaterials.RUBY_DUST);
+							  output.accept(RerMaterials.RUBY_TINY_DUST);
+							  output.accept(RerMaterials.RUBY_RING);
+							  output.accept(RerMaterials.RUBY_BOLT);
+							  output.accept(RerMaterials.RUBY_DOUBLE_GEM);
+							  output.accept(RerMaterials.RUBY_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_RUBY_ORE);
+							  output.accept(RerMaterials.RUBY_CHUNK);
+							  output.accept(RerMaterials.RUBY_CLUSTER);
+							  output.accept(RerMaterials.RUBY_CRYSTAL);
+							  output.accept(RerMaterials.RUBY_SHARD);
+							  output.accept(RerMaterials.RUBY_CLUMP);
+							  output.accept(RerMaterials.RUBY_DIRTY_DUST);
+
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_PLATE);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_LARGE_PLATE);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_ROD);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_WIRE);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_GEAR);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_DUST);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_TINY_DUST);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_RING);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_BOLT);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_DOUBLE_GEM);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_POTASSIUM_NITRATE_ORE);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_CHUNK);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_CLUSTER);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_CRYSTAL);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_SHARD);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_CLUMP);
+							  output.accept(RerMaterials.POTASSIUM_NITRATE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.FLUORITE_PLATE);
+							  output.accept(RerMaterials.FLUORITE_LARGE_PLATE);
+							  output.accept(RerMaterials.FLUORITE_ROD);
+							  output.accept(RerMaterials.FLUORITE_WIRE);
+							  output.accept(RerMaterials.FLUORITE_GEAR);
+							  output.accept(RerMaterials.FLUORITE_DUST);
+							  output.accept(RerMaterials.FLUORITE_TINY_DUST);
+							  output.accept(RerMaterials.FLUORITE_RING);
+							  output.accept(RerMaterials.FLUORITE_BOLT);
+							  output.accept(RerMaterials.FLUORITE_DOUBLE_GEM);
+							  output.accept(RerMaterials.FLUORITE_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_FLUORITE_ORE);
+							  output.accept(RerMaterials.FLUORITE_CHUNK);
+							  output.accept(RerMaterials.FLUORITE_CLUSTER);
+							  output.accept(RerMaterials.FLUORITE_CRYSTAL);
+							  output.accept(RerMaterials.FLUORITE_SHARD);
+							  output.accept(RerMaterials.FLUORITE_CLUMP);
+							  output.accept(RerMaterials.FLUORITE_DIRTY_DUST);
 						 }).build());
 
 	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",
