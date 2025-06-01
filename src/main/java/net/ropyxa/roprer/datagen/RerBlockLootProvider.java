@@ -132,9 +132,20 @@ public class RerBlockLootProvider extends BlockLootSubProvider {
 				RerMaterialsBlocks.POTASSIUM_NITRATE_CLUSTER_BLOCK.get(),
 				RerMaterialsBlocks.FLUORITE_BLOCK.get(),
 				RerMaterialsBlocks.FLUORITE_CLUSTER_BLOCK.get(),
+				RerMaterialsBlocks.CLOGGRUM_BLOCK.get(),
+				RerMaterialsBlocks.RAW_CLOGGRUM_BLOCK.get(),
 				RerMaterialsBlocks.APATITE_CLUSTER_BLOCK.get());
 
 		   SELF_DROP_BLOCKS.forEach(this::dropSelf);
+
+		  add(RerMaterialsBlocks.CLOGGRUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.CLOGGRUM_ORE.get(), RerMaterials.RAW_CLOGGRUM.get()));
+		  add(RerMaterialsBlocks.NETHERRACK_CLOGGRUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.NETHERRACK_CLOGGRUM_ORE.get(), RerMaterials.RAW_CLOGGRUM.get()));
+		  add(RerMaterialsBlocks.END_STONE_CLOGGRUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.END_STONE_CLOGGRUM_ORE.get(), RerMaterials.RAW_CLOGGRUM.get()));
+		  add(RerMaterialsBlocks.DEEPSLATE_CLOGGRUM_ORE.get(),
+					 block -> createOreDrop(RerMaterialsBlocks.DEEPSLATE_CLOGGRUM_ORE.get(), RerMaterials.RAW_CLOGGRUM.get()));
 
 		  add(RerMaterialsBlocks.DIOPSIDE_ORE.get(), block -> createMultipleOreDrops(
 					 RerMaterialsBlocks.DIOPSIDE_ORE.get(), RerMaterials.DIOPSIDE_GEM.get(), 1, 2));

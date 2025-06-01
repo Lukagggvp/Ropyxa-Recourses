@@ -305,6 +305,13 @@ public class RerBlockStateProvider extends BlockStateProvider {
 		  OreWithItem(RerMaterialsBlocks.END_STONE_DIOPSIDE_ORE, "end_stone","diopside_ore");
 		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_DIOPSIDE_ORE, "deepslate","diopside_ore");
 
+		  blockWithItem(RerMaterialsBlocks.CLOGGRUM_BLOCK);
+		  blockWithItem(RerMaterialsBlocks.RAW_CLOGGRUM_BLOCK);
+		  OreWithItem(RerMaterialsBlocks.CLOGGRUM_ORE, "stone","cloggrum_ore");
+		  OreWithItem(RerMaterialsBlocks.NETHERRACK_CLOGGRUM_ORE, "netherrack","cloggrum_ore");
+		  OreWithItem(RerMaterialsBlocks.END_STONE_CLOGGRUM_ORE, "end_stone","cloggrum_ore");
+		  OreWithItem(RerMaterialsBlocks.DEEPSLATE_CLOGGRUM_ORE, "deepslate","cloggrum_ore");
+
 		  blockWithItem(RerMaterialsBlocks.SULFUR_BLOCK);
 		  blockWithItem(RerMaterialsBlocks.SULFUR_CLUSTER_BLOCK);
 		  OreWithItem(RerMaterialsBlocks.SULFUR_ORE, "stone","sulfur_ore");

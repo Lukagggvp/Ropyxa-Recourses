@@ -178,9 +178,23 @@ public class RerBiomeModifiers {
 	 public static final ResourceKey<BiomeModifier> NETHERRACK_FLUORITE_ORE_ADD = registerKey("netherrack_fluorite_ore_add");
 	 public static final ResourceKey<BiomeModifier> END_STONE_FLUORITE_ORE_ADD = registerKey("end_stone_fluorite_ore_add");
 
+	 public static final ResourceKey<BiomeModifier> CLOGGRUM_ORE_ADD = registerKey("cloggrum_ore_add");
+	 public static final ResourceKey<BiomeModifier> NETHERRACK_CLOGGRUM_ORE_ADD = registerKey("netherrack_cloggrum_ore_add");
+	 public static final ResourceKey<BiomeModifier> END_STONE_CLOGGRUM_ORE_ADD = registerKey("end_stone_cloggrum_ore_add");
+
 	 public static void bootstrap(BootstrapContext<BiomeModifier> context) {
 		  var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
 		  var biomes = context.lookup(Registries.BIOME);
+
+		  context.register(CLOGGRUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.CLOGGRUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(NETHERRACK_CLOGGRUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_NETHER), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.NETHERRACK_CLOGGRUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
+		  context.register(END_STONE_CLOGGRUM_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_END), HolderSet.direct(placedFeatures.getOrThrow(
+					 RerPlacedFeatures.END_STONE_CLOGGRUM_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));
+
 
 		  context.register(DIOPSIDE_ORE_ADD, new BiomeModifiers.AddFeaturesBiomeModifier(biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(
 					 RerPlacedFeatures.DIOPSIDE_ORE_PLACED_KEY)), GenerationStep.Decoration.UNDERGROUND_ORES));

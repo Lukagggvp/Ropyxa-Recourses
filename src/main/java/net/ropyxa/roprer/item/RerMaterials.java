@@ -3880,6 +3880,69 @@ public class RerMaterials {
 	 public static final DeferredItem<Item> FLUORITE_RING = ITEMS.register("fluorite_ring",
 				() -> new Item(new Item.Properties()));
 
+	 public static final DeferredItem<Item> CLOGGRUM_INGOT = ITEMS.register("cloggrum_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_NUGGET = ITEMS.register("cloggrum_nugget",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> RAW_CLOGGRUM = ITEMS.register("raw_cloggrum",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_PLATE = ITEMS.register("cloggrum_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_LARGE_PLATE = ITEMS.register("cloggrum_large_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_ROD = ITEMS.register("cloggrum_rod",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_WIRE = ITEMS.register("cloggrum_wire",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_GEAR = ITEMS.register("cloggrum_gear",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_DUST = ITEMS.register("cloggrum_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_TINY_DUST = ITEMS.register("cloggrum_tiny_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_BOLT = ITEMS.register("cloggrum_bolt",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_DOUBLE_INGOT = ITEMS.register("cloggrum_double_ingot",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_CURVED_PLATE = ITEMS.register("cloggrum_curved_plate",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CRUSHED_CLOGGRUM_ORE = ITEMS.register("crushed_cloggrum_ore",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_CHUNK = ITEMS.register("cloggrum_chunk",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_CLUSTER = ITEMS.register("cloggrum_cluster",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_CRYSTAL = ITEMS.register("cloggrum_crystal",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_SHARD = ITEMS.register("cloggrum_shard",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_CLUMP = ITEMS.register("cloggrum_clump",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_DIRTY_DUST = ITEMS.register("cloggrum_dirty_dust",
+				() -> new Item(new Item.Properties()));
+
+	 public static final DeferredItem<Item> CLOGGRUM_RING = ITEMS.register("cloggrum_ring",
+				() -> new Item(new Item.Properties()));
+
 	 public static void register(IEventBus eventBus) {
 		  ITEMS.register(eventBus);
 	 }

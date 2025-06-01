@@ -1301,6 +1301,28 @@ public class RerItemModelProvider extends ItemModelProvider {
 		  basicItem(RerMaterials.SULFUR_DIRTY_DUST.get());
 		  basicItem(RerMaterials.SULFUR_RING.get());
 
+		  basicItem(RerMaterials.CLOGGRUM_INGOT.get());
+		  basicItem(RerMaterials.CLOGGRUM_NUGGET.get());
+		  basicItem(RerMaterials.RAW_CLOGGRUM.get());
+		  basicItem(RerMaterials.CLOGGRUM_PLATE.get());
+		  basicItem(RerMaterials.CLOGGRUM_LARGE_PLATE.get());
+		  basicItem(RerMaterials.CLOGGRUM_ROD.get());
+		  basicItem(RerMaterials.CLOGGRUM_WIRE.get());
+		  basicItem(RerMaterials.CLOGGRUM_GEAR.get());
+		  basicItem(RerMaterials.CLOGGRUM_DUST.get());
+		  basicItem(RerMaterials.CLOGGRUM_TINY_DUST.get());
+		  basicItem(RerMaterials.CLOGGRUM_BOLT.get());
+		  basicItem(RerMaterials.CLOGGRUM_DOUBLE_INGOT.get());
+		  basicItem(RerMaterials.CLOGGRUM_CURVED_PLATE.get());
+		  basicItem(RerMaterials.CRUSHED_CLOGGRUM_ORE.get());
+		  basicItem(RerMaterials.CLOGGRUM_CHUNK.get());
+		  basicItem(RerMaterials.CLOGGRUM_CLUSTER.get());
+		  basicItem(RerMaterials.CLOGGRUM_CRYSTAL.get());
+		  basicItem(RerMaterials.CLOGGRUM_SHARD.get());
+		  basicItem(RerMaterials.CLOGGRUM_CLUMP.get());
+		  basicItem(RerMaterials.CLOGGRUM_DIRTY_DUST.get());
+		  basicItem(RerMaterials.CLOGGRUM_RING.get());
+
 		  basicItem(RerMaterials.RUBY_GEM.get());
 		  basicItem(RerMaterials.RUBY_FRAGMENT.get());
 		  basicItem(RerMaterials.RUBY_CLUSTER_SHARD.get());

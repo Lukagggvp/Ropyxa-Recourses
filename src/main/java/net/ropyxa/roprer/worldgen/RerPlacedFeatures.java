@@ -181,8 +181,22 @@ public class RerPlacedFeatures {
 	 public static final ResourceKey<PlacedFeature> NETHERRACK_FLUORITE_ORE_PLACED_KEY = registerKey("netherrack_fluorite_ore_placed");
 	 public static final ResourceKey<PlacedFeature> END_STONE_FLUORITE_ORE_PLACED_KEY = registerKey("end_stone_fluorite_ore_placed");
 
+	 public static final ResourceKey<PlacedFeature> CLOGGRUM_ORE_PLACED_KEY = registerKey("cloggrum_ore_placed");
+	 public static final ResourceKey<PlacedFeature> NETHERRACK_CLOGGRUM_ORE_PLACED_KEY = registerKey("netherrack_cloggrum_ore_placed");
+	 public static final ResourceKey<PlacedFeature> END_STONE_CLOGGRUM_ORE_PLACED_KEY = registerKey("end_stone_cloggrum_ore_placed");
+
 	 public static void bootstrap(BootstrapContext<PlacedFeature> context) {
 		  var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+
+		  register(context, CLOGGRUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.CLOGGRUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor
+								.absolute(MIN_Y_OVERWORLD.get()), VerticalAnchor.absolute(MAX_Y_OVERWORLD.get()))));
+		  register(context, NETHERRACK_CLOGGRUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.NETHERRACK_CLOGGRUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_NETHER.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_NETHER.get()), VerticalAnchor.absolute(MAX_Y_NETHER.get()))));
+		  register(context, END_STONE_CLOGGRUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.END_STONE_CLOGGRUM_ORE_KEY),
+					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_END.get(), HeightRangePlacement.uniform(VerticalAnchor
+								.absolute(MIN_Y_END.get()), VerticalAnchor.absolute(MAX_Y_END.get()))));
 
 		  register(context, DIOPSIDE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(RerConfiguredFeatures.DIOPSIDE_ORE_KEY),
 					 RerOrePlacement.commonOrePlacement(VEINS_PER_CHUNK_OVERWORLD.get(), HeightRangePlacement.triangle(VerticalAnchor

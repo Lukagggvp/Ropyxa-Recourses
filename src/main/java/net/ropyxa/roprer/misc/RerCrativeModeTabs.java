@@ -442,6 +442,16 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterialsBlocks.FLUORITE_BLOCK);
 							  output.accept(RerMaterials.FLUORITE_GEM);
 							  output.accept(RerMaterials.FLUORITE_FRAGMENT);
+
+							  output.accept(RerMaterialsBlocks.CLOGGRUM_ORE);
+							  output.accept(RerMaterialsBlocks.NETHERRACK_CLOGGRUM_ORE);
+							  output.accept(RerMaterialsBlocks.END_STONE_CLOGGRUM_ORE);
+							  output.accept(RerMaterialsBlocks.DEEPSLATE_CLOGGRUM_ORE);
+							  output.accept(RerMaterialsBlocks.RAW_CLOGGRUM_BLOCK);
+							  output.accept(RerMaterials.RAW_CLOGGRUM);
+							  output.accept(RerMaterialsBlocks.CLOGGRUM_BLOCK);
+							  output.accept(RerMaterials.CLOGGRUM_INGOT);
+							  output.accept(RerMaterials.CLOGGRUM_NUGGET);
 						 }).build());
 
 	public static final Supplier<CreativeModeTab> RER_DETAILS_TAB = CREATIVE_MODE_TAB.register("rer_details_tab",
@@ -1228,6 +1238,25 @@ public class RerCrativeModeTabs {
 							  output.accept(RerMaterials.FLUORITE_SHARD);
 							  output.accept(RerMaterials.FLUORITE_CLUMP);
 							  output.accept(RerMaterials.FLUORITE_DIRTY_DUST);
+
+							  output.accept(RerMaterials.CLOGGRUM_PLATE);
+							  output.accept(RerMaterials.CLOGGRUM_LARGE_PLATE);
+							  output.accept(RerMaterials.CLOGGRUM_ROD);
+							  output.accept(RerMaterials.CLOGGRUM_WIRE);
+							  output.accept(RerMaterials.CLOGGRUM_GEAR);
+							  output.accept(RerMaterials.CLOGGRUM_DUST);
+							  output.accept(RerMaterials.CLOGGRUM_TINY_DUST);
+							  output.accept(RerMaterials.CLOGGRUM_RING);
+							  output.accept(RerMaterials.CLOGGRUM_BOLT);
+							  output.accept(RerMaterials.CLOGGRUM_DOUBLE_INGOT);
+							  output.accept(RerMaterials.CLOGGRUM_CURVED_PLATE);
+							  output.accept(RerMaterials.CRUSHED_CLOGGRUM_ORE);
+							  output.accept(RerMaterials.CLOGGRUM_CHUNK);
+							  output.accept(RerMaterials.CLOGGRUM_CLUSTER);
+							  output.accept(RerMaterials.CLOGGRUM_CRYSTAL);
+							  output.accept(RerMaterials.CLOGGRUM_SHARD);
+							  output.accept(RerMaterials.CLOGGRUM_CLUMP);
+							  output.accept(RerMaterials.CLOGGRUM_DIRTY_DUST);
 						 }).build());
 
 	 public static final Supplier<CreativeModeTab> RER_ALLOYS_TAB = CREATIVE_MODE_TAB.register("rer_alloys_tab",

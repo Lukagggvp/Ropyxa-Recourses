@@ -4997,6 +4997,209 @@ public class RerItemTagProvider extends ItemTagsProvider {
 					 .add(RerMaterialsBlocks.DEEPSLATE_FLUORITE_ORE.get().asItem());
 	 }
 
+	 private void Cloggrum(HolderLookup.Provider provider) {
+		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
+					 .add(RerMaterials.CLOGGRUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots")))
+					 .add(RerMaterials.CLOGGRUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets")))
+					 .add(RerMaterials.CLOGGRUM_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "nuggets/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_NUGGET.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials")))
+					 .add(RerMaterials.RAW_CLOGGRUM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "raw_materials/cloggrum")))
+					 .add(RerMaterials.RAW_CLOGGRUM.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates")))
+					 .add(RerMaterials.CLOGGRUM_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "plates/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates")))
+					 .add(RerMaterials.CLOGGRUM_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "large_plates/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_LARGE_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods")))
+					 .add(RerMaterials.CLOGGRUM_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rods/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_ROD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires")))
+					 .add(RerMaterials.CLOGGRUM_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "wires/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_WIRE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears")))
+					 .add(RerMaterials.CLOGGRUM_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "gears/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_GEAR.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts")))
+					 .add(RerMaterials.CLOGGRUM_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dusts/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts")))
+					 .add(RerMaterials.CLOGGRUM_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tiny_dusts/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_TINY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts")))
+					 .add(RerMaterials.CLOGGRUM_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "bolts/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_BOLT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots")))
+					 .add(RerMaterials.CLOGGRUM_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "double_ingots/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_DOUBLE_INGOT.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates")))
+					 .add(RerMaterials.CLOGGRUM_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "curved_plates/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_CURVED_PLATE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores")))
+					 .add(RerMaterials.CRUSHED_CLOGGRUM_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crushed_ores/cloggrum")))
+					 .add(RerMaterials.CRUSHED_CLOGGRUM_ORE.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks")))
+					 .add(RerMaterials.CLOGGRUM_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "chunks/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_CHUNK.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters")))
+					 .add(RerMaterials.CLOGGRUM_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clusters/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_CLUSTER.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals")))
+					 .add(RerMaterials.CLOGGRUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crystals/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals")))
+					 .add(RerMaterials.CLOGGRUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "crystals/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_CRYSTAL.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards")))
+					 .add(RerMaterials.CLOGGRUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "shards/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards")))
+					 .add(RerMaterials.CLOGGRUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "shards/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_SHARD.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps")))
+					 .add(RerMaterials.CLOGGRUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "clumps/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps")))
+					 .add(RerMaterials.CLOGGRUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "clumps/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_CLUMP.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts")))
+					 .add(RerMaterials.CLOGGRUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "dirty_dusts/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts")))
+					 .add(RerMaterials.CLOGGRUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("mekanism", "dirty_dusts/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_DIRTY_DUST.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings")))
+					 .add(RerMaterials.CLOGGRUM_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "rings/cloggrum")))
+					 .add(RerMaterials.CLOGGRUM_RING.get());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.CLOGGRUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/cloggrum")))
+					 .add(RerMaterialsBlocks.CLOGGRUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks")))
+					 .add(RerMaterialsBlocks.RAW_CLOGGRUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "storage_blocks/raw_cloggrum")))
+					 .add(RerMaterialsBlocks.RAW_CLOGGRUM_BLOCK.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.END_STONE_CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CLOGGRUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/cloggrum")))
+					 .add(RerMaterialsBlocks.CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/cloggrum")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/cloggrum")))
+					 .add(RerMaterialsBlocks.END_STONE_CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores/cloggrum")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CLOGGRUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.END_STONE_CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ore_rates/singular")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CLOGGRUM_ORE.get().asItem());
+
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/stone")))
+					 .add(RerMaterialsBlocks.CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/netherrack")))
+					 .add(RerMaterialsBlocks.NETHERRACK_CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/end_stone")))
+					 .add(RerMaterialsBlocks.END_STONE_CLOGGRUM_ORE.get().asItem());
+		  tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ores_in_ground/deepslate")))
+					 .add(RerMaterialsBlocks.DEEPSLATE_CLOGGRUM_ORE.get().asItem());
+	 }
+
 	 @Override
 	 protected void addTags(HolderLookup.Provider provider) {
 		  Falsite_Horizonite_Iesnium_Tungsten_Ventium(provider);
@@ -5004,6 +5207,7 @@ public class RerItemTagProvider extends ItemTagsProvider {
 		  Platinum_Uranium_Silver_Titanium_Zinc(provider);
 		  Dimensional_Moonstone_Peridot_Pyrope_Sapphire(provider);
 		  Diopside_Fluorite_Potassium_Ruby_Sulfur(provider);
+		  Cloggrum(provider);
 		  tag(ItemTags.BEACON_PAYMENT_ITEMS)
 					 .add(RerMaterials.TIN_INGOT.get())
 					 .add(RerMaterials.APATITE_GEM.get())

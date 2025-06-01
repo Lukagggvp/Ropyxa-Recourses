@@ -5839,5 +5839,103 @@ public class RerRecipeProvider extends RecipeProvider implements IConditionBuild
 		  oreSmelting(recipeOutput, FLUORITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.FLUORITE_GEM.get(), 0.2f, 200, "fluorite");
 
 		  oreBlasting(recipeOutput, FLUORITE_SMELTABLES, RecipeCategory.MISC, RerMaterials.FLUORITE_GEM.get(), 0.2f, 100, "fluorite");
+
+		  List<ItemLike> CLOGGRUM_SMELTABLES = List.of(
+					 RerMaterials.RAW_CLOGGRUM,
+					 RerMaterialsBlocks.CLOGGRUM_ORE,
+					 RerMaterialsBlocks.NETHERRACK_CLOGGRUM_ORE,
+					 RerMaterialsBlocks.END_STONE_CLOGGRUM_ORE,
+					 RerMaterialsBlocks.DEEPSLATE_CLOGGRUM_ORE,
+					 RerMaterials.CLOGGRUM_DUST);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CLOGGRUM_GEAR.get())
+					 .pattern(" A ")
+					 .pattern("ABA")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CLOGGRUM_BOLT.get())
+					 .define('B', RerMaterials.CLOGGRUM_RING.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CLOGGRUM_RING.get(), 2)
+					 .pattern("BAB")
+					 .pattern("A A")
+					 .pattern("BAB")
+					 .define('A', RerMaterials.CLOGGRUM_ROD.get())
+					 .define('B', RerMaterials.CLOGGRUM_BOLT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CLOGGRUM_ROD.get(), 2)
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CLOGGRUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RerMaterials.CLOGGRUM_DOUBLE_INGOT.get())
+					 .pattern(" A ")
+					 .pattern(" A ")
+					 .define('A', RerMaterials.CLOGGRUM_INGOT.get())
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CLOGGRUM_BOLT.get(), 2)
+					 .requires(RerMaterials.CLOGGRUM_ROD)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CLOGGRUM_TINY_DUST.get(), 9)
+					 .requires(RerMaterials.CLOGGRUM_DUST)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CLOGGRUM_DUST.get())
+					 .requires(RerMaterials.CLOGGRUM_TINY_DUST, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CLOGGRUM_LARGE_PLATE.get())
+					 .requires(RerMaterials.CLOGGRUM_PLATE, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CLOGGRUM_CLUSTER.get())
+					 .requires(RerMaterials.CLOGGRUM_CHUNK, 4)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.RAW_CLOGGRUM.get(), 9)
+					 .requires(RerMaterialsBlocks.RAW_CLOGGRUM_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.CLOGGRUM_BLOCK.get(), 1)
+					 .requires(RerMaterials.CLOGGRUM_INGOT, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterialsBlocks.RAW_CLOGGRUM_BLOCK.get(), 1)                .requires(RerMaterials.RAW_CLOGGRUM, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CLOGGRUM_INGOT.get())
+					 .requires(RerMaterials.CLOGGRUM_NUGGET, 9)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput, "roprer:cloggrum_ingot_from_nugget");
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CLOGGRUM_NUGGET.get(), 9)
+					 .requires(RerMaterials.CLOGGRUM_INGOT)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RerMaterials.CLOGGRUM_INGOT.get(), 9)
+					 .requires(RerMaterialsBlocks.CLOGGRUM_BLOCK)
+					 .unlockedBy("has_raw", has(RerMaterials.RAW_CLOGGRUM))
+					 .save(recipeOutput);
+
+		  oreSmelting(recipeOutput, CLOGGRUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.CLOGGRUM_INGOT.get(), 0.2f, 200, "cloggrum");
+		  oreBlasting(recipeOutput, CLOGGRUM_SMELTABLES, RecipeCategory.MISC, RerMaterials.CLOGGRUM_INGOT.get(), 0.2f, 100, "cloggrum");
 	 }
 }
