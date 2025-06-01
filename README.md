@@ -23,7 +23,6 @@ Due to the complexity of the new fluid API (seriously, it's 10x harder), I chose
 
 ## 📜 Currently available materials:
 (All from EE and EE kubejs script)
-*
 Metals:
 Tin, Aluminum, Iridium, Lead, Nickel, Osmium, Utherium, Thallasium, Falsite, Platinum, Uranium, Silver, Titanium, Zinc, Horizonite, Iesnium, Tungsten, Ventium, Nebu, Regalium, Froststeel, CLoggrum
 
@@ -32,5 +31,3 @@ Apatite, Cinnabar, Carminite, Certus Quartz, Charged Certus Quartz, Charoite, Aq
 
 Alloys:
 Brass, Bronze, Cast Iron, Steel, Soul Steel, Lumium, Electrum, Enderium, Fierite, Signalum, Invar, Graphite, Constantan, Refined Obsidian, Refined Glowstone, Orichalcum, Rose Gold, Knightmetal, Sky, Ironwood, Tainted Gold, Infused Iron
-*
-
